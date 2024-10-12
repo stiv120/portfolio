@@ -1,0 +1,38 @@
+.brand-name {
+  font-size: 2rem; /* Tamaño moderado */
+  font-weight: 700;
+  color: #fff; /* Blanco al inicio */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  animation: pulse 2s infinite; /* Animación de pulso */
+  transition: transform 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+/* Animación de pulso */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.brand-name:hover {
+  transform: scale(1.1); /* Efecto de ampliación al pasar el mouse */
+  color: var(--secondary-color); /* Cambia al color secundario en hover */
+}
+
+@media (max-width: 768px) {
+  .brand-name {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+}

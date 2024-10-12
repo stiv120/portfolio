@@ -1,0 +1,154 @@
+@media (max-width: 768px) {
+  nav {
+    position: relative;
+    top: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  }
+  .skill-item {
+    font-size: 12px;
+  }
+  .skill-item i {
+    font-size: 1.5rem;
+  }
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.skill-item p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.skill-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.skill-item i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.skill-item i.fab.fa-js-square {
+  color: #f7df1e;
+}
+.skill-item i.fab.fa-php {
+  color: #777bb4;
+}
+.skill-item i.fab.fa-python {
+  color: #306998;
+}
+.skill-item i.fab.fa-java {
+  color: #007396;
+}
+
+.skill-item i.fas.fa-database {
+  color: #f29111;
+}
+.skill-item i.fas.fa-leaf {
+  color: #47a248;
+}
+.skill-item i.fas.fa-code {
+  color: #b8b8b8;
+}
+
+.skill-item i.fab.fa-laravel {
+  color: #ff2d20;
+}
+.skill-item i.fab.fa-symfony {
+  color: #000000;
+}
+.skill-item i.fab.fa-angular {
+  color: #dd0031;
+}
+.skill-item i.fab.fa-vuejs {
+  color: #4fc08d;
+}
+.skill-item i.fab.fa-node-js {
+  color: #339933;
+}
+.skill-item i.fas.fa-server {
+  color: #e34f26;
+}
+.skill-item i.fab.fa-react {
+  color: #61dafb;
+}
+.skill-item i.fab.fa-bootstrap {
+  color: #563d7c;
+}
+.skill-item i.fab.fa-git {
+  color: #f05032;
+}
+.skill-item i.fab.fa-docker {
+  color: #2496ed;
+}
+.skill-item i.fab.fa-aws {
+  color: #ff9900;
+}
+.skill-item i.fas.fa-code-branch {
+  color: #5b5b5b;
+}
+
+.skill-item i.fas.fa-vial {
+  color: #8e44ad;
+}
+.skill-item i.fas.fa-sitemap {
+  color: #2ecc71;
+}
+.skill-item i.fas.fa-balance-scale {
+  color: #2e86c1;
+}
+
+.skill-item i.fas.fa-file-alt {
+  color: #3498db;
+}
+.skill-item i.fas.fa-project-diagram {
+  color: #f39c12;
+}
+
+.skill-item i.fas.fa-cogs {
+  color: #2c3e50;
+}
+.skill-item i.fas.fa-building {
+  color: #34495e;
+}
+
+.skill-item:hover i {
+  transform: scale(1.1);
+}

@@ -1,0 +1,45 @@
+.contact-float {
+  position: fixed;
+  bottom: calc(20px + 50px);
+  right: 20px;
+  background-color: transparent;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
+  z-index: 1000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 95px;
+}
+
+.contact-float ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-float li {
+  margin-bottom: 10px;
+}
+
+.contact-float a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-float i {
+  font-size: 24px;
+  color: #333;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  animation: pulse 2s infinite;
+}
+
+.contact-float:hover {
+  transform: scale(1.05);
+}

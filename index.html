@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Javier Stiven Chávez Gallego</title>
+    <link rel="stylesheet" href="public/css/principal.css" />
+    <link rel="stylesheet" href="public/css/menu.css" />
+    <link rel="stylesheet" href="public/css/cards.css" />
+    <link rel="stylesheet" href="public/css/skills.css" />
+    <link rel="stylesheet" href="public/css/contact.css" />
+    <link rel="stylesheet" href="public/css/brand-name.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <button id="menu-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <span class="brand-name">Stiven Chávez</span>
+      <ul id="menu" class="menu-closed">
+        <li><a href="#" onclick="showTab('about')">Sobre mí</a></li>
+        <li><a href="#" onclick="showTab('skills')">Habilidades</a></li>
+        <li><a href="#" onclick="showTab('experience')">Experiencia</a></li>
+        <li><a href="#" onclick="showTab('education')">Formación</a></li>
+        <li><a href="#" onclick="showTab('projects')">Proyectos</a></li>
+        <li>
+          <a href="#" class="submenu-toggle">Contacto</a>
+          <ul class="submenu text-left">
+            <li>
+              <a
+                href="https://linkedin.com/in/javierstivenchavez"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i> linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/stiv120" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </li>
+            <li>
+              <a href="mailto:gallegostiven340@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i> Email
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Sección Sobre mí -->
+    <section id="about" class="tab-content">
+      <br />
+      <div class="text-center">
+        <h1>Javier Stiven Chávez Gallego</h1>
+        <p>Ingeniero de Sistemas | Desarrollador Full Stack</p>
+        <img
+          src="public/images/photo.jpeg"
+          alt="Foto de Javier Stiven"
+          class="profile-pic"
+        />
+      </div>
+      <div class="container">
+        <h2 class="text-center">Sobre mí</h2>
+        <div class="container">
+          <p class="text-justify">
+            Ingeniero de sistemas con más de 6 años de experiencia en el
+            desarrollo y diseño de aplicaciones web, utilizando tecnologías
+            modernas, con la capacidad de desarrollar aplicaciones a la medida y
+            a la vez adaptarme al mantenimiento de código en proyectos ya
+            desarrollados. Soy una persona orientada a resultados, apasionado
+            por los desafíos del mundo del desarrollo, con gran empatía y
+            aptitud para el trabajo en equipo. Me caracterizo por ser
+            propositivo, en pro de aportar soluciones tecnológicas eficientes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="tab-content container">
+      <br />
+      <h2>Habilidades</h2>
+      <div class="cards-container">
+        <div class="row">
+          <!-- Lenguajes -->
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Lenguajes</h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-php"></i>
+                    <p>PHP</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bases de Datos -->
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Bases de Datos</h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>MySQL</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>Oracle</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>SQL Server</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>PostgreSQL</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-leaf"></i>
+                    <p>MongoDB</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <p>ORM Eloquent</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks y Herramientas -->
+          <div class="col-sm-12 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Frameworks y Herramientas</h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="fab fa-laravel"></i>
+                    <p>Laravel</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-symfony"></i>
+                    <p>Symfony</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-angular"></i>
+                    <p>Angular</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-vuejs"></i>
+                    <p>Vue.js</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <p>Node.js</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-server"></i>
+                    <p>Express.js</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <p>React.js</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-git"></i>
+                    <p>Git</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-docker"></i>
+                    <p>Docker</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-aws"></i>
+                    <p>AWS</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-code-branch"></i>
+                    <p>Microservicios</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pruebas Unitarias -->
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Pruebas Unitarias</h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="fas fa-vial"></i>
+                    <p>PHP Unit</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-vial"></i>
+                    <p>Jest</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Metodologías de Trabajo -->
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Metodologías de Trabajo</h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="fas fa-sitemap"></i>
+                    <p>Scrum</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <p>Código limpio</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <p>Principios SOLID</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Documentación -->
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Documentación y UML</h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="fas fa-file-alt"></i>
+                    <p>Documentar requerimientos</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <p>UML</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Patrones de Diseño y Arquitectura -->
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Patrones de Diseño y Arquitectura</h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="fas fa-cogs"></i>
+                    <p>Patrones de diseño</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-building"></i>
+                    <p>Arquitectura</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experience" class="tab-content">
+      <br />
+      <div class="container">
+        <h2>Experiencia</h2>
+        <div class="card">
+          <h3>Co-líder de Desarrollo de Software</h3>
+          <p>
+            <strong>Empresa:</strong> Samsara Med (Medicina Funcional) | Junio
+            2023 - Actual
+          </p>
+          <p>
+            Co-liderar y participar en todo el ciclo de vida del desarrollo de
+            un software a la medida para el sector de la salud, en PHP, bajo el
+            framework Laravel y empleando MySQL, HTML, CSS3, jQuery, Node.js,
+            entre otras tecnologías.
+          </p>
+          <p><strong>Funciones:</strong></p>
+          <ul>
+            <li>Análisis y levantamiento de requisitos.</li>
+            <li>Diseño general del sistema.</li>
+            <li>Desarrollo e implementación.</li>
+            <li>Validaciones y pruebas.</li>
+            <li>Mantenimiento y soporte del código.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Desarrollador de software</h3>
+          <p>
+            <strong>Empresa:</strong> Universidad Santiago de Cali | Abril 2018
+            - Diciembre 2023
+          </p>
+          <ul>
+            <li>
+              Implementé mejoras en el Sistema de Información Para el
+              Aseguramiento de la Calidad (SIPAC), optimizando la eficiencia en
+              un 40% y facilitando el seguimiento académico.
+            </li>
+            <li>
+              Desarrollé una aplicación de pagos en línea, integrando métodos de
+              pago con Place to Pay, mejorando la experiencia del usuario y la
+              seguridad de las transacciones.
+            </li>
+            <li>
+              Lideré la actualización del Sistema de Información de Prácticas y
+              Pasantías Universitarias (SIPPU), mejorando la tasa de colocación
+              de estudiantes en prácticas.
+            </li>
+            <li>
+              Contribuí al Sistema de Investigaciones (DGI), facilitando la
+              colaboración en proyectos de investigación.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Formación -->
+    <section id="education" class="tab-content">
+      <br />
+      <h2>Formación Profesional</h2>
+      <div class="cards-container card-projects">
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Ingeniería de Sistemas</h3>
+                <p>Corporación Universitaria Remington | Fin 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Tecnología en Análisis y Desarrollo de Sistemas de Información
+                </h3>
+                <p>SENA | 2016 - 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2>Formación Complementaria</h2>
+      <div class="cards-container card-projects">
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Buenas prácticas para la escritura de código
+                </h3>
+                <p>Platzi | 20 h, 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Bootcamp backend .NET</h3>
+                <p>WWCode Medellín y Perficient Latam | Jul - Sep 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Curso de Introducción a la Ingeniería Social: Técnicas,
+                  Ataques y Pretexting
+                </h3>
+                <p>Platzi | Dic 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Aprende a crear paquetes reutilizables para Laravel PHP
+                </h3>
+                <p>Udemy | Oct 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Scrum Fundamentals Certified</h3>
+                <p>ScrumStudy | Jun 22, 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Esp. Tecnológica en Gestión y Seguridad de Bases de Datos (SQL
+                  Server, Oracle y MongoDB)
+                </h3>
+                <p>SENA | 6 meses, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects" class="tab-content container">
+      <br />
+      <h2>Proyectos en los que he colaborado</h2>
+      <div class="cards-container card-projects">
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="public/images/mobi.png" alt="Samsara mobi" />
+                <h3 class="card-title">Samsara MoBi</h3>
+                <p>
+                  Software hecho a la medida para el sector de la salud, en la
+                  cual se gestionan la agenda de cada paciente, su línea de
+                  tiempo, reportes detallados de cada historia clínica y
+                  generación de rips. <br />
+                  Está hecho en PHP y JavaScript, bajo el framework Laravel y
+                  empleando MySQL cómo gestor de base de datos, HTML, CSS3, Git,
+                  Bootstrap 5, JQuery, Node.js, Patrones de diseño y
+                  Arquitectura, Arquitectura limpia, clean code y principios
+                  SOLID, entre otros.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="public/images/SIPAC.png" alt="SIPAC" />
+                <h3>
+                  Sistema de Información para el Aseguramiento de la Calidad
+                  (SIPAC)
+                </h3>
+                <p>
+                  Sistema de Información hecha para la Universidad Santiago de
+                  Cali, entre la cual se destacan módulos cómo Evaluación de
+                  desempeño de docentes y administrativos, certificados y
+                  permisos laborales para el departamento de gestión humana, el
+                  sistema de información SIPPU para prácticas y pasantías
+                  universitarias y el sistema general de Investigaciones, DGI.
+                  <br />
+                  Está hecho en PHP y JavaScript, bajo el framework Laravel y
+                  empleando Oracle cómo gestor de base de datos, HTML, CSS3,
+                  Bootstrap 5, JQuery, Node.js, Docker, Git, entre otros.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="public/images/apps.png" alt="APPS" />
+                <h3>Aplicación de Pagos en línea (APPS)</h3>
+                <p>
+                  Aplicación de pagos en línea, en la cual se integran los
+                  métodos de pagos por medio de la plataforma place to pay, para
+                  el proceso de matrículas académicas en la Universidad Santiago
+                  de Cali.
+                  <br />
+                  Está hecho en PHP y JavaScript, bajo el framework Laravel y
+                  empleando Oracle cómo gestor de base de datos, HTML, CSS3,
+                  Bootstrap 5, JQuery, Node.js, Docker, Git, entre otros.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2>Proyectos personales</h2>
+      <div class="cards-container card-projects">
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="public/images/api-gestion-eventos.png" alt="APPS" />
+                <h3>Api de geolocalización - React con PHP</h3>
+                <p>
+                  El proyecto es una app hecha con React.js para el frontend que
+                  consume una API de OpenWheater para mostrar la humedad de las
+                  ciudades que el usuario seleccione, a su vez se muestra la
+                  ciudad seleccionada en un mapa mediante la librería leaflet,
+                  se almacena un historial de consultas en una base de datos
+                  MySQL mediante una API hecha en PHP como backend.
+                  <br />
+                  <a href="https://react-app-stiven.vercel.app/" target="_blank"
+                    >Ver más..</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="public/images/api-gestion-eventos.png" alt="APPS" />
+                <h3>Api de gestión de eventos</h3>
+                <p>
+                  API RESTful hecha en nodejs con docker para una plataforma de
+                  gestión de eventos. Esta plataforma permitirá a los usuarios
+                  crear, promocionar y gestionar eventos de manera efectiva. Los
+                  usuarios podrán registrarse para asistir a eventos al igual
+                  que ver detalles sobre los eventos como información detallada
+                  o lugares cercanos.
+                  <br />
+                  <a
+                    href="https://github.com/stiv120/gestion-eventos"
+                    target="_blank"
+                    >Ver más..</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <div class="contact-float">
+      <ul>
+        <li>
+          <a href="https://linkedin.com/in/javierstivenchavez" target="_blank">
+            <i class="fab fa-linkedin" style="color: #0072b1"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/stiv120" target="_blank">
+            <i class="fab fa-github" style="color: #333"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:gallegostiven340@gmail.com" target="_blank">
+            <i class="fas fa-envelope" style="color: #db4437"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Javier Stiven Chávez Gallego</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="public/js/scripts.js"></script>
+  </body>
+</html>

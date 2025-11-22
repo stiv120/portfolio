@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Hexagon background -->
+  <polygon points="100,15 175,60 175,140 100,185 25,140 25,60" fill="#6db33f"/>
+  <!-- Power symbol (circle with vertical line extending upward) -->
+  <circle cx="100" cy="110" r="32" fill="none" stroke="white" stroke-width="7" stroke-linecap="round"/>
+  <line x1="100" y1="110" x2="100" y2="70" stroke="white" stroke-width="7" stroke-linecap="round"/>
+</svg>

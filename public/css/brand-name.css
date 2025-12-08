@@ -1,14 +1,14 @@
 .brand-name {
-  font-size: 2rem; /* Tamaño moderado */
+  font-size: 2rem; /* Moderate size */
   font-weight: 700;
-  color: #fff; /* Blanco al inicio */
+  color: #fff; /* White initially */
   text-transform: uppercase;
   letter-spacing: 3px;
-  animation: pulse 2s infinite; /* Animación de pulso */
-  transition: transform 0.3s ease, color 0.3s ease; /* Transición suave */
+  animation: pulse 2s infinite; /* Pulse animation */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
-/* Animación de pulso */
+/* Pulse animation */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -22,8 +22,8 @@
 }
 
 .brand-name:hover {
-  transform: scale(1.1); /* Efecto de ampliación al pasar el mouse */
-  color: var(--secondary-color); /* Cambia al color secundario en hover */
+  transform: scale(1.1); /* Scale effect on hover */
+  color: var(--secondary-color); /* Changes to secondary color on hover */
 }
 
 @media (max-width: 768px) {

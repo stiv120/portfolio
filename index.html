@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="public/css/skills.css" />
     <link rel="stylesheet" href="public/css/contact.css" />
     <link rel="stylesheet" href="public/css/brand-name.css" />
+    <link rel="stylesheet" href="public/css/language-selector.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -32,14 +33,54 @@
         <i class="fas fa-bars"></i>
       </button>
       <span class="brand-name">Stiven Chávez</span>
+      <div class="language-selector">
+        <button class="language-selector-button" type="button">
+          <img
+            src="https://flagcdn.com/w40/co.png"
+            alt="Colombia"
+            id="current-flag"
+          />
+          <span id="current-lang">ES</span>
+        </button>
+        <div class="language-selector-dropdown">
+          <a href="#" class="language-option active" data-lang="es">
+            <img src="https://flagcdn.com/w40/co.png" alt="Colombia" />
+            <span data-i18n="spanishLabel">Español</span>
+          </a>
+          <a href="#" class="language-option" data-lang="en">
+            <img src="https://flagcdn.com/w40/us.png" alt="United States" />
+            <span data-i18n="englishLabel">Inglés</span>
+          </a>
+        </div>
+      </div>
       <ul id="menu" class="menu-closed">
-        <li><a href="#" onclick="showTab('about')">Sobre mí</a></li>
-        <li><a href="#" onclick="showTab('skills')">Habilidades</a></li>
-        <li><a href="#" onclick="showTab('experience')">Experiencia</a></li>
-        <li><a href="#" onclick="showTab('education')">Formación</a></li>
-        <li><a href="#" onclick="showTab('projects')">Proyectos</a></li>
         <li>
-          <a href="#" class="submenu-toggle">Contacto</a>
+          <a href="#" onclick="showTab('about')" data-i18n="navAbout"
+            >Sobre mí</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showTab('skills')" data-i18n="navSkills"
+            >Habilidades</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showTab('experience')" data-i18n="navExperience"
+            >Experiencia</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showTab('education')" data-i18n="navEducation"
+            >Formación</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showTab('projects')" data-i18n="navProjects"
+            >Proyectos</a
+          >
+        </li>
+        <li>
+          <a href="#" class="submenu-toggle" data-i18n="navContact">Contacto</a>
           <ul class="submenu text-left">
             <li>
               <a
@@ -68,10 +109,16 @@
     <section id="about" class="tab-content">
       <br />
       <div class="text-center">
-        <h1>Javier Stiven Chávez Gallego</h1>
-        <p>Ingeniero de Sistemas</p>
-        <p><i class="fas fa-map-marker-alt"></i> Santiago de Cali, Colombia</p>
-        <p><i class="fas fa-phone"></i> +57 3178477487</p>
+        <h1 data-i18n="title">Javier Stiven Chávez Gallego</h1>
+        <p data-i18n="subtitle">Ingeniero de Sistemas</p>
+        <p>
+          <i class="fas fa-map-marker-alt"></i>
+          <span data-i18n="location">Santiago de Cali, Colombia</span>
+        </p>
+        <p>
+          <i class="fas fa-phone"></i>
+          <span data-i18n="phone">+57 3178477487</span>
+        </p>
         <img
           src="public/images/photo.jpeg"
           alt="Foto de Javier Stiven"
@@ -79,9 +126,9 @@
         />
       </div>
       <div class="container">
-        <h2 class="text-center">Sobre mí</h2>
+        <h2 class="text-center" data-i18n="aboutTitle">Sobre mí</h2>
         <div class="container">
-          <p class="text-justify">
+          <p class="text-justify" data-i18n="aboutText">
             Cuento con más de 7 años de experiencia en el desarrollo y diseño de
             aplicaciones web, utilizando tecnologías modernas, también cuento
             con la capacidad de desarrollar aplicaciones a la medida y a la vez
@@ -97,14 +144,14 @@
 
     <section id="skills" class="tab-content container">
       <br />
-      <h2>Habilidades</h2>
+      <h2 data-i18n="skillsTitle">Habilidades</h2>
       <div class="cards-container">
         <div class="row">
           <!-- Lenguajes -->
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Lenguajes</h3>
+                <h3 class="card-title" data-i18n="languages">Lenguajes</h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="fab fa-js-square"></i>
@@ -135,7 +182,7 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Bases de Datos</h3>
+                <h3 class="card-title" data-i18n="databases">Bases de Datos</h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="fas fa-database"></i>
@@ -170,7 +217,9 @@
           <div class="col-sm-12 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Frameworks y Herramientas</h3>
+                <h3 class="card-title" data-i18n="frameworks">
+                  Frameworks y Herramientas
+                </h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="fab fa-laravel"></i>
@@ -310,7 +359,9 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Pruebas Unitarias</h3>
+                <h3 class="card-title" data-i18n="unitTesting">
+                  Pruebas Unitarias
+                </h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="fas fa-vial"></i>
@@ -333,7 +384,9 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Metodologías de Trabajo</h3>
+                <h3 class="card-title" data-i18n="methodologies">
+                  Metodologías de Trabajo
+                </h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="fas fa-sitemap"></i>
@@ -341,15 +394,15 @@
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-code"></i>
-                    <p>Código limpio</p>
+                    <p data-i18n="cleanCode">Código limpio</p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-balance-scale"></i>
-                    <p>Principios SOLID</p>
+                    <p data-i18n="solidPrinciples">Principios SOLID</p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-search"></i>
-                    <p>Code review</p>
+                    <p data-i18n="codeReview">Code review</p>
                   </div>
                 </div>
               </div>
@@ -360,11 +413,15 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Documentación y UML</h3>
+                <h3 class="card-title" data-i18n="documentation">
+                  Documentación y UML
+                </h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="fas fa-file-alt"></i>
-                    <p>Documentar requerimientos</p>
+                    <p data-i18n="documentRequirements">
+                      Documentar requerimientos
+                    </p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-project-diagram"></i>
@@ -379,19 +436,23 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Patrones de Diseño y Arquitectura</h3>
+                <h3 class="card-title" data-i18n="patterns">
+                  Patrones de Diseño y Arquitectura
+                </h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="fas fa-cogs"></i>
-                    <p>Patrones de diseño</p>
+                    <p data-i18n="designPatterns">Patrones de diseño</p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-building"></i>
-                    <p>Arquitectura</p>
+                    <p data-i18n="architecture">Arquitectura</p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-hexagon"></i>
-                    <p>Arquitectura hexagonal</p>
+                    <p data-i18n="hexagonalArchitecture">
+                      Arquitectura hexagonal
+                    </p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-broom"></i>
@@ -409,7 +470,7 @@
     <section id="experience" class="tab-content">
       <br />
       <div class="container">
-        <h2>Experiencia</h2>
+        <h2 data-i18n="experienceTitle">Experiencia</h2>
         <div class="card">
           <img
             src="public/images/triko-logo.png"
@@ -422,15 +483,19 @@
             "
             onerror="this.style.display='none';"
           />
-          <h3>Backend developer senior</h3>
-          <p><strong>Empresa:</strong> Triko | Noviembre 2024 - Actual</p>
+          <h3 data-i18n="trikoTitle">Backend developer senior</h3>
+          <p>
+            <strong data-i18n="company">Empresa:</strong>
+            <span data-i18n="trikoCompany">Triko</span> |
+            <span data-i18n="trikoDate">Noviembre 2024 - Actual</span>
+          </p>
           <ul class="text-justify">
-            <li>
+            <li data-i18n="trikoDesc1">
               Desarrollar e implementar funcionalidades al aplicativo TRIKO APP,
               por medio de microservicio desarrollados en PHP con Laravel, .NET,
               ASP .NET Core web API, AWS, Docker, entre otros.
             </li>
-            <li>
+            <li data-i18n="trikoDesc2">
               Implementar integraciones bancarias de alta disponibilidad por
               medio de APIs RESTful y microservicios en Java con Spring Boot.
             </li>
@@ -448,19 +513,20 @@
             "
             onerror="this.style.display='none';"
           />
-          <h3>Backend developer</h3>
+          <h3 data-i18n="merqueoTitle">Backend developer</h3>
           <p>
-            <strong>Empresa:</strong> Merqueo S.A.S | Noviembre 2024 - Julio
-            2025
+            <strong data-i18n="company">Empresa:</strong>
+            <span data-i18n="merqueoCompany">Merqueo S.A.S</span> |
+            <span data-i18n="merqueoDate">Noviembre 2024 - Julio 2025</span>
           </p>
           <ul class="text-justify">
-            <li>
+            <li data-i18n="merqueoDesc1">
               Desarrollar e implementar funcionalidades en diferentes proyectos,
               bajo PHP con Laravel, Go, Java con Spring Boot, .NET, ASP .NET
               Core web API, AWS (Lambda, S3, EC2), BD: MySQL y DynamoDB, front
               (Vue.js) desde el S.O Linux.
             </li>
-            <li>
+            <li data-i18n="merqueoDesc2">
               Integrar requisitos en el proyecto dashboard (para los operativos)
               y en el proyecto Web-front (para los clientes) facilitando los
               procesos de los involucrados.
@@ -479,23 +545,30 @@
             "
             onerror="this.style.display='none';"
           />
-          <h3>Co-líder de Desarrollo de Software</h3>
+          <h3 data-i18n="samsaraTitle">Co-líder de Desarrollo de Software</h3>
           <p>
-            <strong>Empresa:</strong> Samsara Med (Medicina Funcional) | Jun
-            2023 - Nov 2024
+            <strong data-i18n="company">Empresa:</strong>
+            <span data-i18n="samsaraCompany"
+              >Samsara Med (Medicina Funcional)</span
+            >
+            | <span data-i18n="samsaraDate">Jun 2023 - Nov 2024</span>
           </p>
-          <p class="text-justify">
+          <p class="text-justify" data-i18n="samsaraDesc">
             Co-liderar y participar en todo el ciclo de vida del desarrollo de
             un software a la medida para el sector de la salud, en PHP, bajo el
             framework Laravel, Java con Spring Boot, .NET, ASP .NET Core web
             API, entre otras tecnologías.
           </p>
-          <p><strong>Funciones:</strong></p>
+          <p><strong data-i18n="functions">Funciones:</strong></p>
           <ul class="text-justify">
-            <li>Análisis y levantamiento de requisitos.</li>
-            <li>Diseño general del sistema.</li>
-            <li>Desarrollo e implementación.</li>
-            <li>Validaciones, pruebas, mantenimiento y soporte del código.</li>
+            <li data-i18n="samsaraFunc1">
+              Análisis y levantamiento de requisitos.
+            </li>
+            <li data-i18n="samsaraFunc2">Diseño general del sistema.</li>
+            <li data-i18n="samsaraFunc3">Desarrollo e implementación.</li>
+            <li data-i18n="samsaraFunc4">
+              Validaciones, pruebas, mantenimiento y soporte del código.
+            </li>
           </ul>
         </div>
         <div class="card">
@@ -510,27 +583,30 @@
             "
             onerror="this.style.display='none';"
           />
-          <h3>Desarrollador de software</h3>
+          <h3 data-i18n="uscTitle">Desarrollador de software</h3>
           <p>
-            <strong>Empresa:</strong> Universidad Santiago de Cali | Abril 2018
-            - Diciembre 2023
+            <strong data-i18n="company">Empresa:</strong>
+            <span data-i18n="uscCompany">Universidad Santiago de Cali</span> |
+            <span data-i18n="uscDate">Abril 2018 - Diciembre 2023</span>
           </p>
           <p>
-            <strong>Tecnologías:</strong> PHP Laravel, Java con Spring Boot,
-            .NET, ASP .NET Core web API, HTML, CSS3, Javascript, Docker,
-            Node.js, Oracle y GitLab
+            <strong data-i18n="technologies">Tecnologías:</strong>
+            <span data-i18n="uscTech"
+              >PHP Laravel, Java con Spring Boot, .NET, ASP .NET Core web API,
+              HTML, CSS3, Javascript, Docker, Node.js, Oracle y GitLab</span
+            >
           </p>
           <ul class="text-justify">
-            <li>
+            <li data-i18n="uscDesc1">
               Implementar mejoras en el Sistema de Información Para el
               Aseguramiento de la Calidad (SIPAC) optimizando la eficiencia en
               un 40% y facilitando el seguimiento académico.
             </li>
-            <li>
+            <li data-i18n="uscDesc2">
               Desarrollar una aplicación de pagos en línea, integrando métodos
               de pago por medio de Place to pay.
             </li>
-            <li>
+            <li data-i18n="uscDesc3">
               Liderar y desarrollar la actualización del Sistema de Información
               de Prácticas y Pasantías Universitarias (SIPPU).
             </li>
@@ -542,7 +618,7 @@
     <!-- Sección Formación -->
     <section id="education" class="tab-content">
       <br />
-      <h2>Formación Profesional</h2>
+      <h2 data-i18n="professionalEducation">Formación Profesional</h2>
       <div class="cards-container card-projects">
         <div class="row">
           <div class="col-sm-6 mb-3">
@@ -559,8 +635,15 @@
                   "
                   onerror="this.style.display='none';"
                 />
-                <h3 class="card-title">Ingeniería de Sistemas</h3>
-                <p>Corporación Universitaria Remington | Fin 2023</p>
+                <h3 class="card-title" data-i18n="systemsEngineering">
+                  Ingeniería de Sistemas
+                </h3>
+                <p>
+                  <span data-i18n="remington"
+                    >Corporación Universitaria Remington</span
+                  >
+                  | <span data-i18n="end2023">Fin 2023</span>
+                </p>
               </div>
             </div>
           </div>
@@ -577,16 +660,19 @@
                     object-fit: contain;
                   "
                 />
-                <h3 class="card-title">
+                <h3 class="card-title" data-i18n="technologyAnalysis">
                   Tecnología en Análisis y Desarrollo de Sistemas de Información
                 </h3>
-                <p>SENA | 2016 - 2018</p>
+                <p>
+                  <span data-i18n="sena">SENA</span> |
+                  <span data-i18n="senaDate">2016 - 2018</span>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2>Formación Complementaria</h2>
+      <h2 data-i18n="complementaryEducation">Formación Complementaria</h2>
       <div class="cards-container card-projects">
         <div class="row">
           <div class="col-sm-6 mb-3">
@@ -603,10 +689,13 @@
                   "
                   onerror="this.style.display='none';"
                 />
-                <h3 class="card-title">
+                <h3 class="card-title" data-i18n="dataStructures">
                   Curso Práctico de Estructuras de Datos y Algoritmos
                 </h3>
-                <p>Platzi | 20 h, 2025</p>
+                <p>
+                  <span data-i18n="platzi">Platzi</span> |
+                  <span data-i18n="hours2025">20 h, 2025</span>
+                </p>
               </div>
             </div>
           </div>
@@ -624,8 +713,11 @@
                   "
                   onerror="this.style.display='none';"
                 />
-                <h3 class="card-title">Curso de Go</h3>
-                <p>Platzi | 20 h, 2025</p>
+                <h3 class="card-title" data-i18n="goCourse">Curso de Go</h3>
+                <p>
+                  <span data-i18n="platzi">Platzi</span> |
+                  <span data-i18n="hours2025">20 h, 2025</span>
+                </p>
               </div>
             </div>
           </div>
@@ -643,10 +735,13 @@
                   "
                   onerror="this.style.display='none';"
                 />
-                <h3 class="card-title">
+                <h3 class="card-title" data-i18n="goodPractices">
                   Buenas prácticas para la escritura de código
                 </h3>
-                <p>Platzi | 20 h, 2024</p>
+                <p>
+                  <span data-i18n="platzi">Platzi</span> |
+                  <span data-i18n="hours2024">20 h, 2024</span>
+                </p>
               </div>
             </div>
           </div>
@@ -664,8 +759,15 @@
                   "
                   onerror="this.style.display='none';"
                 />
-                <h3 class="card-title">Bootcamp backend .NET</h3>
-                <p>WWCode Medellín y Perficient Latam | Jul - Sep 2023</p>
+                <h3 class="card-title" data-i18n="dotnetBootcamp">
+                  Bootcamp backend .NET
+                </h3>
+                <p>
+                  <span data-i18n="wwcode"
+                    >WWCode Medellín y Perficient Latam</span
+                  >
+                  | <span data-i18n="bootcampDate">Jul - Sep 2023</span>
+                </p>
               </div>
             </div>
           </div>
@@ -683,10 +785,13 @@
                   "
                   onerror="this.style.display='none';"
                 />
-                <h3 class="card-title">
+                <h3 class="card-title" data-i18n="laravelPackages">
                   Aprende a crear paquetes reutilizables para Laravel PHP
                 </h3>
-                <p>Udemy | Oct 2021</p>
+                <p>
+                  <span data-i18n="udemy">Udemy</span> |
+                  <span data-i18n="udemyDate">Oct 2021</span>
+                </p>
               </div>
             </div>
           </div>
@@ -704,8 +809,13 @@
                   "
                   onerror="this.style.display='none';"
                 />
-                <h3 class="card-title">Scrum Fundamentals Certified</h3>
-                <p>ScrumStudy | Jun 22, 2020</p>
+                <h3 class="card-title" data-i18n="scrumFundamentals">
+                  Scrum Fundamentals Certified
+                </h3>
+                <p>
+                  <span data-i18n="scrumstudy">ScrumStudy</span> |
+                  <span data-i18n="scrumDate">Jun 22, 2020</span>
+                </p>
               </div>
             </div>
           </div>
@@ -722,24 +832,27 @@
                     object-fit: contain;
                   "
                 />
-                <h3 class="card-title">
+                <h3 class="card-title" data-i18n="dbSpecialization">
                   Esp. Tecnológica en Gestión y Seguridad de Bases de Datos (SQL
                   Server, Oracle y MongoDB)
                 </h3>
-                <p>SENA | 6 meses, 2019</p>
+                <p>
+                  <span data-i18n="sena">SENA</span> |
+                  <span data-i18n="senaMonths">6 meses, 2019</span>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2>Idiomas</h2>
+      <h2 data-i18n="languagesTitle">Idiomas</h2>
       <div class="cards-container card-projects">
         <div class="row">
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title">Inglés</h3>
-                <p>Intermedio</p>
+                <h3 class="card-title" data-i18n="english">Inglés</h3>
+                <p data-i18n="intermediate">Intermedio</p>
               </div>
             </div>
           </div>
@@ -750,15 +863,15 @@
     <!-- Sección Proyectos -->
     <section id="projects" class="tab-content container">
       <br />
-      <h2>Proyectos en los que he colaborado</h2>
+      <h2 data-i18n="projectsTitle">Proyectos en los que he colaborado</h2>
       <div class="cards-container card-projects">
         <div class="row">
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
                 <img src="public/images/Triko-App.png" alt="Triko App" />
-                <h3 class="card-title">TRIKO APP</h3>
-                <p class="text-justify">
+                <h3 class="card-title" data-i18n="trikoAppTitle">TRIKO APP</h3>
+                <p class="text-justify" data-i18n="trikoAppDesc">
                   Triko es el primer mercado de servicios con ofertas anónimas
                   que conecta clientes con proveedores de servicios locales
                   confiables. La plataforma opera en Estados Unidos a través de
@@ -768,10 +881,14 @@
                   tiempo real, y compartir información de contacto solo con el
                   postor favorito. Sin suscripciones ni necesidad de tarjeta de
                   crédito, priorizando transparencia, privacidad y seguridad.
-                  <br />
-                  <strong>Tecnologías:</strong> PHP con Laravel, Java con Spring
-                  Boot, .NET, ASP .NET Core web API, AWS (Lambda, S3, EC2),
-                  Docker, Microservicios, APIs RESTful.
+                </p>
+                <p class="text-justify">
+                  <strong data-i18n="techLabel">Tecnologías:</strong>
+                  <span data-i18n="trikoAppTech"
+                    >PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core
+                    web API, AWS (Lambda, S3, EC2), Docker, Microservicios, APIs
+                    RESTful.</span
+                  >
                 </p>
               </div>
             </div>
@@ -780,8 +897,10 @@
             <div class="card">
               <div class="card-body">
                 <img src="public/images/merqueo.jpg" alt="Merqueo" />
-                <h3 class="card-title">Merqueo</h3>
-                <p class="text-justify">
+                <h3 class="card-title" data-i18n="merqueoProjectTitle">
+                  Merqueo
+                </h3>
+                <p class="text-justify" data-i18n="merqueoProjectDesc">
                   Merqueo fue una empresa colombiana que operaba como
                   supermercado en línea, permitiendo a los usuarios realizar
                   compras de mercado a través de su página web y aplicación
@@ -794,10 +913,14 @@
                   México y Brasil. La aplicación móvil y página web incluían
                   dashboard operativo para gestión interna y web-front para
                   clientes.
-                  <br />
-                  <strong>Tecnologías:</strong> PHP con Laravel, Go, Java con
-                  Spring Boot, .NET, ASP .NET Core web API, Vue.js, AWS (Lambda,
-                  S3, EC2), MySQL, DynamoDB, Linux.
+                </p>
+                <p class="text-justify">
+                  <strong data-i18n="techLabel">Tecnologías:</strong>
+                  <span data-i18n="merqueoProjectTech"
+                    >PHP con Laravel, Go, Java con Spring Boot, .NET, ASP .NET
+                    Core web API, Vue.js, AWS (Lambda, S3, EC2), MySQL,
+                    DynamoDB, Linux.</span
+                  >
                 </p>
               </div>
             </div>
@@ -806,17 +929,23 @@
             <div class="card">
               <div class="card-body">
                 <img src="public/images/mobi.png" alt="Samsara mobi" />
-                <h3 class="card-title">Samsara MoBi</h3>
-                <p class="text-justify">
+                <h3 class="card-title" data-i18n="samsaraMobiTitle">
+                  Samsara MoBi
+                </h3>
+                <p class="text-justify" data-i18n="samsaraMobiDesc">
                   Software hecho a la medida para el sector de la salud, en la
                   cual se gestionan la agenda de cada paciente, su línea de
                   tiempo, reportes detallados de cada historia clínica y
-                  generación de rips. <br />
-                  <strong>Tecnologías:</strong> PHP con Laravel, Java con Spring
-                  Boot, .NET, ASP .NET Core web API, MySQL, HTML, CSS3, Git,
-                  Bootstrap 5, JQuery, Node.js, Patrones de diseño y
-                  Arquitectura, Arquitectura limpia, clean code y principios
-                  SOLID, entre otros.
+                  generación de rips.
+                </p>
+                <p class="text-justify">
+                  <strong data-i18n="techLabel">Tecnologías:</strong>
+                  <span data-i18n="samsaraMobiTech"
+                    >PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core
+                    web API, MySQL, HTML, CSS3, Git, Bootstrap 5, JQuery,
+                    Node.js, Patrones de diseño y Arquitectura, Arquitectura
+                    limpia, clean code y principios SOLID, entre otros.</span
+                  >
                 </p>
               </div>
             </div>
@@ -825,18 +954,19 @@
             <div class="card">
               <div class="card-body">
                 <img src="public/images/SIPAC.png" alt="SIPAC" />
-                <h3>
+                <h3 data-i18n="sipacTitle">
                   Sistema de Información para el Aseguramiento de la Calidad
                   (SIPAC)
                 </h3>
-                <p class="text-justify">
+                <p class="text-justify" data-i18n="sipacDesc">
                   Sistema de Información hecho para la Universidad Santiago de
                   Cali, entre la cual se destacan módulos cómo Evaluación de
                   desempeño de docentes y administrativos, certificados y
                   permisos laborales para el departamento de gestión humana, el
                   sistema de información SIPPU para prácticas y pasantías
                   universitarias y el sistema general de Investigaciones, DGI.
-                  <br />
+                </p>
+                <p class="text-justify" data-i18n="sipacTech">
                   Está hecho en PHP y JavaScript, bajo el framework Laravel y
                   empleando Oracle cómo gestor de base de datos, HTML, CSS3,
                   Bootstrap 5, JQuery, Node.js, Docker, Git, entre otros.
@@ -848,13 +978,16 @@
             <div class="card">
               <div class="card-body">
                 <img src="public/images/apps.png" alt="APPS" />
-                <h3>Aplicación de Pagos en línea (APPS)</h3>
-                <p class="text-justify">
+                <h3 data-i18n="appsTitle">
+                  Aplicación de Pagos en línea (APPS)
+                </h3>
+                <p class="text-justify" data-i18n="appsDesc">
                   Aplicación de pagos en línea, en la cual se integran los
                   métodos de pagos por medio de la plataforma place to pay, para
                   el proceso de matrículas académicas en la Universidad Santiago
                   de Cali.
-                  <br />
+                </p>
+                <p class="text-justify" data-i18n="appsTech">
                   Está hecho en PHP y JavaScript, bajo el framework Laravel y
                   empleando Oracle cómo gestor de base de datos, HTML, CSS3,
                   Bootstrap 5, JQuery, Node.js, Docker, Git, entre otros.
@@ -864,23 +997,29 @@
           </div>
         </div>
       </div>
-      <h2>Proyectos personales</h2>
+      <h2 data-i18n="personalProjects">Proyectos personales</h2>
       <div class="cards-container card-projects">
         <div class="row">
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
                 <img src="public/images/react-app.png" alt="APPS" />
-                <h3>App de geolocalización - React con PHP</h3>
-                <p class="text-justify">
+                <h3 data-i18n="geolocationTitle">
+                  App de geolocalización - React con PHP
+                </h3>
+                <p class="text-justify" data-i18n="geolocationDesc">
                   El proyecto es una app hecha con React.js para el frontend que
                   consume una API de OpenWheater para mostrar la humedad de las
                   ciudades que el usuario seleccione, a su vez se muestra la
                   ciudad seleccionada en un mapa mediante la librería leaflet,
                   se almacena un historial de consultas en una base de datos
                   MySQL mediante una API hecha en PHP como backend.
-                  <br />
-                  <a href="https://react-app-stiven.vercel.app/" target="_blank"
+                </p>
+                <p>
+                  <a
+                    href="https://react-app-stiven.vercel.app/"
+                    target="_blank"
+                    data-i18n="seeMore"
                     >Ver más..</a
                   >
                 </p>
@@ -891,18 +1030,20 @@
             <div class="card">
               <div class="card-body">
                 <img src="public/images/api-gestion-eventos.png" alt="APPS" />
-                <h3>Api de gestión de eventos</h3>
-                <p class="text-justify">
+                <h3 data-i18n="eventsApiTitle">Api de gestión de eventos</h3>
+                <p class="text-justify" data-i18n="eventsApiDesc">
                   API RESTful hecha en nodejs con docker para una plataforma de
                   gestión de eventos. Esta plataforma permitirá a los usuarios
                   crear, promocionar y gestionar eventos de manera efectiva. Los
                   usuarios podrán registrarse para asistir a eventos al igual
                   que ver detalles sobre los eventos como información detallada
                   o lugares cercanos.
-                  <br />
+                </p>
+                <p>
                   <a
                     href="https://github.com/stiv120/gestion-eventos"
                     target="_blank"
+                    data-i18n="seeMore"
                     >Ver más..</a
                   >
                 </p>
@@ -943,6 +1084,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="public/js/translations.js"></script>
     <script src="public/js/scripts.js"></script>
   </body>
 </html>

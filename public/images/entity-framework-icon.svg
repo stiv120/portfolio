@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Stylized blue "N" logo - larger and more prominent -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0078D4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#005A9E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0078D4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Left vertical bar of N -->
+  <path d="M 15 10 L 15 75 L 30 75 L 30 40 L 55 75 L 55 10 L 40 10 L 40 45 L 15 10 Z" fill="url(#blueGradient)"/>
+  
+  <!-- Right vertical bar of N -->
+  <path d="M 60 10 L 60 75 L 75 75 L 75 10 Z" fill="url(#blueGradient)"/>
+  
+  <!-- Diagonal bar of N with depth -->
+  <path d="M 30 40 L 40 45 L 55 75 L 60 75 L 50 50 L 40 40 L 30 40 Z" fill="url(#blueGradient)" opacity="0.9"/>
+</svg>

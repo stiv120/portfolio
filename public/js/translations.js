@@ -49,7 +49,7 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "Noviembre 2024 - Actual",
     trikoDesc1:
-      "Desarrollar e implementar funcionalidades al aplicativo TRIKO APP, por medio de microservicio desarrollados en PHP con Laravel, .NET, ASP .NET Core web API, AWS, Docker, entre otros.",
+      "Desarrollar e implementar funcionalidades al aplicativo TRIKO APP, por medio de microservicio desarrollados en PHP con Laravel, Go, .NET, ASP .NET Core web API, AWS, Docker, entre otros.",
     trikoDesc2:
       "Implementar integraciones bancarias de alta disponibilidad por medio de APIs RESTful y microservicios en Java con Spring Boot.",
 
@@ -67,7 +67,7 @@ const translations = {
     samsaraCompany: "Samsara Med (Medicina Funcional)",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-liderar y participar en todo el ciclo de vida del desarrollo de un software a la medida para el sector de la salud, en PHP, bajo el framework Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, entre otras tecnologías.",
+      "Co-liderar y participar en todo el ciclo de vida del desarrollo de un software a la medida para el sector de la salud, en PHP, bajo el framework Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, entre otras tecnologías.",
     samsaraFunc1: "Análisis y levantamiento de requisitos.",
     samsaraFunc2: "Diseño general del sistema.",
     samsaraFunc3: "Desarrollo e implementación.",
@@ -79,7 +79,7 @@ const translations = {
     uscDate: "Abril 2018 - Diciembre 2023",
     current: "Actual",
     uscTech:
-      "PHP Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, HTML, CSS3, Javascript, Docker, Node.js, Oracle y GitLab",
+      "PHP Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, HTML, CSS3, Javascript, Docker, Node.js, Oracle y GitLab",
     uscDesc1:
       "Implementar mejoras en el Sistema de Información Para el Aseguramiento de la Calidad (SIPAC) optimizando la eficiencia en un 40% y facilitando el seguimiento académico.",
     uscDesc2:
@@ -221,7 +221,7 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "November 2024 - Current",
     trikoDesc1:
-      "Develop and implement functionalities for the TRIKO APP application, through microservices developed in PHP with Laravel, .NET, ASP .NET Core web API, AWS, Docker, among others.",
+      "Develop and implement functionalities for the TRIKO APP application, through microservices developed in PHP with Laravel, Go, .NET, ASP .NET Core web API, AWS, Docker, among others.",
     trikoDesc2:
       "Implement high-availability banking integrations through RESTful APIs and microservices in Java with Spring Boot.",
 
@@ -239,7 +239,7 @@ const translations = {
     samsaraCompany: "Samsara Med (Functional Medicine)",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-lead and participate in the entire software development lifecycle for a custom software for the health sector, in PHP, using the Laravel framework, Java with Spring Boot, .NET, ASP .NET Core web API, among other technologies.",
+      "Co-lead and participate in the entire software development lifecycle for a custom software for the health sector, in PHP, using the Laravel framework, Go, Java with Spring Boot, .NET, ASP .NET Core web API, among other technologies.",
     samsaraFunc1: "Requirements analysis and gathering.",
     samsaraFunc2: "General system design.",
     samsaraFunc3: "Development and implementation.",
@@ -250,7 +250,7 @@ const translations = {
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "April 2018 - December 2023",
     uscTech:
-      "PHP Laravel, Java with Spring Boot, .NET, ASP .NET Core web API, HTML, CSS3, Javascript, Docker, Node.js, Oracle and GitLab",
+      "PHP Laravel, Go, Java with Spring Boot, .NET, ASP .NET Core web API, HTML, CSS3, Javascript, Docker, Node.js, Oracle and GitLab",
     uscDesc1:
       "Implement improvements in the Quality Assurance Information System (SIPAC), optimizing efficiency by 40% and facilitating academic monitoring.",
     uscDesc2:

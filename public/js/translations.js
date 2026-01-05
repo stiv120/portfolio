@@ -50,18 +50,18 @@ const translations = {
     trikoDate: "Nov 2024 - Nov 2025",
     trikoDesc1:
       "Desarrollé e implementé funcionalidades para la aplicación TRIKO APP utilizando arquitectura de microservicios con PHP (Laravel), .NET, Go, AWS y Docker.",
+    trikoDesc2:
+      "Implementé integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios usando Java con Spring Boot.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Implementé integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios usando Java con Spring Boot.",
-    merqueoDesc2:
       "Desarrollé funcionalidades en múltiples proyectos usando PHP (Laravel), Go, Java (Spring Boot), AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
-    merqueoDesc3:
+    merqueoDesc2:
       "Integré requisitos para dashboards internos y proyectos web-front, optimizando procesos operativos y orientados al cliente.",
-    merqueoDesc4:
+    merqueoDesc3:
       "Implementé funcionalidad front-end usando Vue.js en entornos Linux.",
 
     // Samsara

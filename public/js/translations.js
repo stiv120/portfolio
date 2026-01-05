@@ -45,47 +45,52 @@ const translations = {
     technologies: "Tecnologías",
 
     // Triko
-    trikoTitle: "Backend developer senior",
+    trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Noviembre 2024 - Actual",
+    trikoDate: "Nov 2024 - Nov 2025",
     trikoDesc1:
-      "Desarrollar e implementar funcionalidades al aplicativo TRIKO APP, por medio de microservicio desarrollados en PHP con Laravel, Go, .NET, ASP .NET Core web API, AWS, Docker, entre otros.",
+      "Developed and implemented functionalities for the TRIKO APP using microservices built in PHP with Laravel, .NET, Go, AWS, Docker and Others.",
     trikoDesc2:
-      "Implementar integraciones bancarias de alta disponibilidad por medio de APIs RESTful y microservicios en Java con Spring Boot.",
+      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
 
     // Merqueo
-    merqueoTitle: "Backend developer",
-    merqueoCompany: "Merqueo S.A.S",
-    merqueoDate: "Noviembre 2024 - Julio 2025",
+    merqueoTitle: "Backend Developer",
+    merqueoCompany: "Merqueo",
+    merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Desarrollar e implementar funcionalidades en diferentes proyectos, bajo PHP con Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, AWS (Lambda, S3, EC2), BD: MySQL y DynamoDB, front (Vue.js) desde el S.O Linux.",
+      "Developed functionalities for various projects using PHP with Laravel, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
     merqueoDesc2:
-      "Integrar requisitos en el proyecto dashboard (para los operativos) y en el proyecto Web-front (para los clientes) facilitando los procesos de los involucrados.",
+      "Integrated requirements for internal dashboards and web-front projects, optimizing operational and client processes.",
+    merqueoDesc3:
+      "Implemented front-end functionalities using Vue.js on Linux environments.",
 
     // Samsara
-    samsaraTitle: "Co-líder de Desarrollo de Software",
-    samsaraCompany: "Samsara Med (Medicina Funcional)",
+    samsaraTitle: "Software Development Co-leader",
+    samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-liderar y participar en todo el ciclo de vida del desarrollo de un software a la medida para el sector de la salud, en PHP, bajo el framework Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, entre otras tecnologías.",
-    samsaraFunc1: "Análisis y levantamiento de requisitos.",
-    samsaraFunc2: "Diseño general del sistema.",
-    samsaraFunc3: "Desarrollo e implementación.",
-    samsaraFunc4: "Validaciones, pruebas, mantenimiento y soporte del código.",
+      "Co-lead and participate in the entire life cycle of the development of a custom software for the health sector, in PHP, under the Laravel framework using MySQL, HTML, CSS3, JQuery, Node.js, .NET, Go, among other technologies.",
+    samsaraFunc1: "Analysis and gathering of requirements.",
+    samsaraFunc2: "Overall system design.",
+    samsaraFunc3: "Development and implementation.",
+    samsaraFunc4: "Validations and tests.",
+    samsaraFunc5: "Code maintenance and support.",
 
     // USC
-    uscTitle: "Desarrollador de software",
+    uscTitle: "Software Developer",
     uscCompany: "Universidad Santiago de Cali",
-    uscDate: "Abril 2018 - Diciembre 2023",
-    current: "Actual",
+    uscDate: "Apr 2018 - Dec 2023",
+    current: "Current",
     uscTech:
-      "PHP Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, HTML, CSS3, Javascript, Docker, Node.js, Oracle y GitLab",
+      "PHP Laravel, Go, .NET, HTML, CSS3, Javascript, Docker, Node.js, Oracle and GitLab",
     uscDesc1:
-      "Implementar mejoras en el Sistema de Información Para el Aseguramiento de la Calidad (SIPAC) optimizando la eficiencia en un 40% y facilitando el seguimiento académico.",
+      "Implement improvements in the Information System for Quality Assurance (SIPAC) optimizing efficiency by 40% and facilitating academic monitoring.",
     uscDesc2:
-      "Desarrollar una aplicación de pagos en línea, integrando métodos de pago por medio de Place to pay.",
+      "Develop an online payment application, integrating payment methods through Place to pay as an e-commerce solution, improving user experience and transaction security.",
     uscDesc3:
-      "Liderar y desarrollar la actualización del Sistema de Información de Prácticas y Pasantías Universitarias (SIPPU).",
+      "Lead and develop the upgrade of the University Internship and Practicum Information System (SIPPU), including real-time tracking functionalities and customized reports, increasing the placement rate of students in internships.",
+    uscDesc4:
+      "Contributed to the development of the Research System (DGI), implementing modules for research project management and facilitating collaboration between faculty and students, improving productivity and knowledge generation.",
 
     // Education section
     professionalEducation: "Formación Profesional",
@@ -95,31 +100,34 @@ const translations = {
     intermediate: "Intermedio",
 
     // Education items
-    systemsEngineering: "Ingeniería de Sistemas",
+    systemsEngineering: "Systems Engineering",
     remington: "Corporación Universitaria Remington",
-    end2023: "Fin 2023",
+    remingtonDate: "Apr 2021 - Jun 2023",
     technologyAnalysis:
-      "Tecnología en Análisis y Desarrollo de Sistemas de Información",
-    sena: "SENA",
-    senaDate: "2016 - 2018",
-    dataStructures: "Curso Práctico de Estructuras de Datos y Algoritmos",
-    goCourse: "Curso de Go",
-    goodPractices: "Buenas prácticas para la escritura de código",
+      "Information Systems Analysis and Development Technologist",
+    sena: "SENA (Servicio Nacional de Aprendizaje)",
+    senaDate: "Sep 2016 - Sep 2018",
+    dataStructures: "Practical Course on Data Structures and Algorithms",
+    goCourse: "Go Programming Course",
+    awsCourse: "Introduction to AWS: Fundamentals of Cloud Computing",
+    goodPractices: "Best practices for code writing",
     platzi: "Platzi",
-    hours2025: "20 h, 2025",
-    hours2024: "20 h, 2024",
+    hours2025: "Jul 2025",
+    hours2024: "Dec 2023",
     dotnetBootcamp: "Bootcamp backend .NET",
     wwcode: "WWCode Medellín y Perficient Latam",
     bootcampDate: "Jul - Sep 2023",
-    laravelPackages: "Aprende a crear paquetes reutilizables para Laravel PHP",
+    laravelPackages: "Learn how to create reusable packages for Laravel PHP",
+    laravelIntro: "Laravel 8 Introduction Course",
+    laravelIntroDate: "10h, 2020",
     udemy: "Udemy",
     udemyDate: "Oct 2021",
     scrumFundamentals: "Scrum Fundamentals Certified",
     scrumstudy: "ScrumStudy",
     scrumDate: "Jun 22, 2020",
     dbSpecialization:
-      "Esp. Tecnológica en Gestión y Seguridad de Bases de Datos (SQL Server, Oracle y MongoDB)",
-    senaMonths: "6 meses, 2019",
+      "Technological Specialization in Database Management and Security (SQL Server, Oracle and MongoDB)",
+    senaMonths: "Six months, 2019",
 
     // Projects section
     projectsTitle: "Proyectos en los que he colaborado",
@@ -219,44 +227,49 @@ const translations = {
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "November 2024 - Current",
+    trikoDate: "Nov 2024 - Nov 2025",
     trikoDesc1:
-      "Develop and implement functionalities for the TRIKO APP application, through microservices developed in PHP with Laravel, Go, .NET, ASP .NET Core web API, AWS, Docker, among others.",
+      "Developed and implemented functionalities for the TRIKO APP using microservices built in PHP with Laravel, .NET, Go, AWS, Docker and Others.",
     trikoDesc2:
-      "Implement high-availability banking integrations through RESTful APIs and microservices in Java with Spring Boot.",
+      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
-    merqueoCompany: "Merqueo S.A.S",
-    merqueoDate: "November 2024 - July 2025",
+    merqueoCompany: "Merqueo",
+    merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Develop and implement functionalities in different projects, using PHP with Laravel, Go, Java with Spring Boot, .NET, ASP .NET Core web API, AWS (Lambda, S3, EC2), DB: MySQL and DynamoDB, front (Vue.js) from Linux OS.",
+      "Developed functionalities for various projects using PHP with Laravel, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
     merqueoDesc2:
-      "Integrate requirements into the dashboard project (for operations) and the Web-front project (for clients) facilitating processes for stakeholders.",
+      "Integrated requirements for internal dashboards and web-front projects, optimizing operational and client processes.",
+    merqueoDesc3:
+      "Implemented front-end functionalities using Vue.js on Linux environments.",
 
     // Samsara
     samsaraTitle: "Software Development Co-leader",
-    samsaraCompany: "Samsara Med (Functional Medicine)",
+    samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-lead and participate in the entire software development lifecycle for a custom software for the health sector, in PHP, using the Laravel framework, Go, Java with Spring Boot, .NET, ASP .NET Core web API, among other technologies.",
-    samsaraFunc1: "Requirements analysis and gathering.",
-    samsaraFunc2: "General system design.",
+      "Co-lead and participate in the entire life cycle of the development of a custom software for the health sector, in PHP, under the Laravel framework using MySQL, HTML, CSS3, JQuery, Node.js, .NET, Go, among other technologies.",
+    samsaraFunc1: "Analysis and gathering of requirements.",
+    samsaraFunc2: "Overall system design.",
     samsaraFunc3: "Development and implementation.",
-    samsaraFunc4: "Validations, testing, maintenance and code support.",
+    samsaraFunc4: "Validations and tests.",
+    samsaraFunc5: "Code maintenance and support.",
 
     // USC
     uscTitle: "Software Developer",
     uscCompany: "Universidad Santiago de Cali",
-    uscDate: "April 2018 - December 2023",
+    uscDate: "Apr 2018 - Dec 2023",
     uscTech:
-      "PHP Laravel, Go, Java with Spring Boot, .NET, ASP .NET Core web API, HTML, CSS3, Javascript, Docker, Node.js, Oracle and GitLab",
+      "PHP Laravel, Go, .NET, HTML, CSS3, Javascript, Docker, Node.js, Oracle and GitLab",
     uscDesc1:
-      "Implement improvements in the Quality Assurance Information System (SIPAC), optimizing efficiency by 40% and facilitating academic monitoring.",
+      "Implement improvements in the Information System for Quality Assurance (SIPAC) optimizing efficiency by 40% and facilitating academic monitoring.",
     uscDesc2:
-      "Develop an online payment application, integrating payment methods through Place to pay.",
+      "Develop an online payment application, integrating payment methods through Place to pay as an e-commerce solution, improving user experience and transaction security.",
     uscDesc3:
-      "Lead and develop the update of the University Internships and Practices Information System (SIPPU).",
+      "Lead and develop the upgrade of the University Internship and Practicum Information System (SIPPU), including real-time tracking functionalities and customized reports, increasing the placement rate of students in internships.",
+    uscDesc4:
+      "Contributed to the development of the Research System (DGI), implementing modules for research project management and facilitating collaboration between faculty and students, improving productivity and knowledge generation.",
 
     // Education section
     professionalEducation: "Professional Education",
@@ -268,21 +281,24 @@ const translations = {
     // Education items
     systemsEngineering: "Systems Engineering",
     remington: "Corporación Universitaria Remington",
-    end2023: "End 2023",
+    remingtonDate: "Apr 2021 - Jun 2023",
     technologyAnalysis:
-      "Technology in Analysis and Development of Information Systems",
-    sena: "SENA",
-    senaDate: "2016 - 2018",
+      "Information Systems Analysis and Development Technologist",
+    sena: "SENA (Servicio Nacional de Aprendizaje)",
+    senaDate: "Sep 2016 - Sep 2018",
     dataStructures: "Practical Course on Data Structures and Algorithms",
-    goCourse: "Go Course",
-    goodPractices: "Good practices for code writing",
+    goCourse: "Go Programming Course",
+    awsCourse: "Introduction to AWS: Fundamentals of Cloud Computing",
+    goodPractices: "Best practices for code writing",
     platzi: "Platzi",
-    hours2025: "20 h, 2025",
-    hours2024: "20 h, 2024",
+    hours2025: "Jul 2025",
+    hours2024: "Dec 2023",
     dotnetBootcamp: ".NET Backend Bootcamp",
     wwcode: "WWCode Medellín and Perficient Latam",
     bootcampDate: "Jul - Sep 2023",
-    laravelPackages: "Learn to create reusable packages for Laravel PHP",
+    laravelPackages: "Learn how to create reusable packages for Laravel PHP",
+    laravelIntro: "Laravel 8 Introduction Course",
+    laravelIntroDate: "10h, 2020",
     udemy: "Udemy",
     udemyDate: "Oct 2021",
     scrumFundamentals: "Scrum Fundamentals Certified",
@@ -290,7 +306,7 @@ const translations = {
     scrumDate: "Jun 22, 2020",
     dbSpecialization:
       "Technological Specialization in Database Management and Security (SQL Server, Oracle and MongoDB)",
-    senaMonths: "6 months, 2019",
+    senaMonths: "Six months, 2019",
 
     // Projects section
     projectsTitle: "Projects I have collaborated on",

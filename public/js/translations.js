@@ -231,19 +231,19 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "Nov 2024 - Nov 2025",
     trikoDesc1:
-      "Developed and implemented features for the TRIKO APP using microservices architecture built with PHP (Laravel), .NET, Go, AWS, and Docker.",
+      "Developed and implemented features for the TRIKO APP using microservices architecture with PHP (Laravel), .NET, Go, AWS, and Docker.",
+    trikoDesc2:
+      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
-    merqueoDesc2:
       "Developed features across multiple projects using PHP (Laravel), Go, Java (Spring Boot), AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
-    merqueoDesc3:
+    merqueoDesc2:
       "Integrated requirements for internal dashboards and web-front projects, optimizing operational and client-facing processes.",
-    merqueoDesc4:
+    merqueoDesc3:
       "Implemented front-end functionality using Vue.js in Linux environments.",
 
     // Samsara

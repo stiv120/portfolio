@@ -82,7 +82,7 @@ document.addEventListener("click", (event) => {
 });
 
 // Language Translation System
-let currentLanguage = "es";
+let currentLanguage = "en";
 
 // Detect browser language or load from localStorage
 function getInitialLanguage() {
@@ -91,7 +91,12 @@ function getInitialLanguage() {
     return savedLanguage;
   }
   const browserLang = navigator.language || navigator.userLanguage;
-  return browserLang.startsWith("en") ? "en" : "es";
+  // Default to English, or use browser language if it's Spanish
+  if (browserLang.startsWith("es")) {
+    return "es";
+  }
+  // Default to English for all other languages
+  return "en";
 }
 
 // Apply translations

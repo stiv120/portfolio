@@ -18,7 +18,7 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Cuento con más de 7 años de experiencia en el desarrollo y diseño de aplicaciones web, utilizando tecnologías modernas, también cuento con la capacidad de desarrollar aplicaciones a la medida y a la vez adaptarme al mantenimiento de código en proyectos ya desarrollados. Soy orientado a resultados, apasionado por los desafíos del mundo del desarrollo, con gran empatía y aptitud para el trabajo en equipo. Me caracterizo por ser propositivo, en pro de aportar soluciones tecnológicas eficientes.",
+      "Cuento con más de 8 años de experiencia en el desarrollo y diseño de aplicaciones web, utilizando tecnologías modernas, también cuento con la capacidad de desarrollar aplicaciones a la medida y a la vez adaptarme al mantenimiento de código en proyectos ya desarrollados. Soy orientado a resultados, apasionado por los desafíos del mundo del desarrollo, con gran empatía y aptitud para el trabajo en equipo. Me caracterizo por ser propositivo, en pro de aportar soluciones tecnológicas eficientes.",
 
     // Skills section
     skillsTitle: "Habilidades",
@@ -190,7 +190,7 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
-      "I have more than 7 years of experience in web application development and design, using modern technologies. I also have the ability to develop custom applications and adapt to maintaining code in already developed projects. I am results-oriented, passionate about development challenges, with great empathy and aptitude for teamwork. I am characterized by being proactive, in favor of contributing efficient technological solutions.",
+      "I have more than 8 years of experience in web application development and design, using modern technologies. I also have the ability to develop custom applications and adapt to maintaining code in already developed projects. I am results-oriented, passionate about development challenges, with great empathy and aptitude for teamwork. I am characterized by being proactive, in favor of contributing efficient technological solutions.",
 
     // Skills section
     skillsTitle: "Skills",

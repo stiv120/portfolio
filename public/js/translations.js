@@ -231,45 +231,45 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "Nov 2024 - Nov 2025",
     trikoDesc1:
-      "Developed and implemented functionalities for the TRIKO APP using microservices built in PHP with Laravel, .NET, Go, AWS, Docker and Others.",
-    trikoDesc2:
-      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
+      "Developed and implemented features for the TRIKO APP using microservices architecture built with PHP (Laravel), .NET, Go, AWS, and Docker.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Developed functionalities for various projects using PHP with Laravel, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
+      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
     merqueoDesc2:
-      "Integrated requirements for internal dashboards and web-front projects, optimizing operational and client processes.",
+      "Developed features across multiple projects using PHP (Laravel), Go, Java (Spring Boot), AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
     merqueoDesc3:
-      "Implemented front-end functionalities using Vue.js on Linux environments.",
+      "Integrated requirements for internal dashboards and web-front projects, optimizing operational and client-facing processes.",
+    merqueoDesc4:
+      "Implemented front-end functionality using Vue.js in Linux environments.",
 
     // Samsara
     samsaraTitle: "Software Development Co-leader",
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-lead and participate in the entire life cycle of the development of a custom software for the health sector, in PHP, under the Laravel framework using MySQL, HTML, CSS3, JQuery, Node.js, .NET, Go, among other technologies.",
-    samsaraFunc1: "Analysis and gathering of requirements.",
-    samsaraFunc2: "Overall system design.",
-    samsaraFunc3: "Development and implementation.",
-    samsaraFunc4: "Validations and tests.",
-    samsaraFunc5: "Code maintenance and support.",
+      "Co-led the full software development lifecycle for a custom healthcare sector application using PHP (Laravel), MySQL, HTML, CSS3, jQuery, Node.js, .NET, and Go.",
+    samsaraFunc1: "Conducted requirements analysis and gathering.",
+    samsaraFunc2: "Designed overall system architecture.",
+    samsaraFunc3: "Developed and implemented core functionality.",
+    samsaraFunc4: "Performed validation and testing.",
+    samsaraFunc5: "Provided ongoing code maintenance and support.",
 
     // USC
     uscTitle: "Software Developer",
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "Apr 2018 - Dec 2023",
     uscTech:
-      "PHP Laravel, Go, .NET, HTML, CSS3, Javascript, Docker, Node.js, Oracle and GitLab",
+      "PHP Laravel, Go, .NET, HTML, CSS3, JavaScript, Docker, Node.js, Oracle and GitLab",
     uscDesc1:
-      "Implement improvements in the Information System for Quality Assurance (SIPAC) optimizing efficiency by 40% and facilitating academic monitoring.",
+      "Implemented improvements to the Quality Assurance Information System (SIPAC), optimizing efficiency by 40% and facilitating academic monitoring.",
     uscDesc2:
-      "Develop an online payment application, integrating payment methods through Place to pay as an e-commerce solution, improving user experience and transaction security.",
+      "Developed an online payment application integrating payment methods through PlaceToPay as an e-commerce solution, improving user experience and transaction security.",
     uscDesc3:
-      "Lead and develop the upgrade of the University Internship and Practicum Information System (SIPPU), including real-time tracking functionalities and customized reports, increasing the placement rate of students in internships.",
+      "Led the upgrade of the University Internship and Practicum Information System (SIPPU), including real-time tracking functionality and customized reporting, increasing student internship placement rates.",
     uscDesc4:
       "Contributed to the development of the Research System (DGI), implementing modules for research project management and facilitating collaboration between faculty and students, improving productivity and knowledge generation.",
 
@@ -293,7 +293,7 @@ const translations = {
     dataStructures: "Practical Course on Data Structures and Algorithms",
     goCourse: "Go Programming Course",
     awsCourse: "Introduction to AWS: Fundamentals of Cloud Computing",
-    goodPractices: "Best practices for code writing",
+    goodPractices: "Best Practices for Code Writing",
     platzi: "Platzi",
     hours2025: "Jul 2025",
     hours2024: "Dec 2023",
@@ -316,7 +316,7 @@ const translations = {
     projectsTitle: "Projects I have collaborated on",
     personalProjects: "Personal Projects",
     techLabel: "Technologies:",
-    seeMore: "See more..",
+    seeMore: "See more...",
 
     // Triko App project
     trikoAppTitle: "TRIKO APP",
@@ -328,38 +328,38 @@ const translations = {
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "Merqueo was a Colombian company that operated as an online supermarket, allowing users to make grocery purchases through its website and mobile application. The platform allowed selecting products, scheduling delivery times and choosing payment methods. The company managed its supply chain directly, storing products in its own distribution centers and making deliveries without intermediaries, offering competitive prices and optimizing delivery times. It operated in cities in Colombia, Mexico and Brazil. The mobile application and website included an operational dashboard for internal management and web-front for customers.",
+      "Merqueo was a Colombian company that operated as an online supermarket, enabling users to make grocery purchases through its website and mobile application. The platform enabled product selection, delivery time scheduling, and payment method selection. The company managed its supply chain directly, storing products in its own distribution centers and making deliveries without intermediaries, offering competitive prices and optimizing delivery times. It operated in cities across Colombia, Mexico, and Brazil. The mobile application and website included an operational dashboard for internal management and a web-front for customers.",
     merqueoProjectTech:
-      "PHP with Laravel, Go, Java with Spring Boot, .NET, ASP .NET Core web API, Vue.js, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Linux.",
+      "PHP with Laravel, Go, Java with Spring Boot, .NET, ASP.NET Core Web API, Vue.js, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Linux.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
-      "Custom-made software for the health sector, which manages each patient's schedule, their timeline, detailed reports of each medical record and RIPS generation.",
+      "Custom healthcare software that manages patient schedules, timelines, detailed medical record reports, and RIPS (Registro Individual de Prestación de Servicios) generation.",
     samsaraMobiTech:
-      "PHP with Laravel, Java with Spring Boot, .NET, ASP .NET Core web API, MySQL, HTML, CSS3, Git, Bootstrap 5, JQuery, Node.js, Design Patterns and Architecture, Clean Architecture, clean code and SOLID principles, among others.",
+      "PHP with Laravel, Java with Spring Boot, .NET, ASP.NET Core Web API, MySQL, HTML, CSS3, Git, Bootstrap 5, jQuery, Node.js, Design Patterns and Architecture, Clean Architecture, clean code and SOLID principles, among others.",
 
     // SIPAC project
     sipacTitle: "Quality Assurance Information System (SIPAC)",
     sipacDesc:
-      "Information System made for Universidad Santiago de Cali, which includes modules such as Performance evaluation of teachers and administrators, certificates and work permits for the human resources department, the SIPPU information system for university internships and practices and the general Research system, DGI.",
+      "Information system developed for Universidad Santiago de Cali, which includes modules such as performance evaluation of teachers and administrators, certificates and work permits for the human resources department, the SIPPU information system for university internships and practices, and the general Research system (DGI).",
     sipacTech:
-      "It is made in PHP and JavaScript, using the Laravel framework and using Oracle as the database manager, HTML, CSS3, Bootstrap 5, JQuery, Node.js, Docker, Git, among others.",
+      "Built with PHP and JavaScript using the Laravel framework, with Oracle as the database manager, HTML, CSS3, Bootstrap 5, jQuery, Node.js, Docker, Git, among others.",
 
     // APPS project
     appsTitle: "Online Payment Application (APPS)",
     appsDesc:
-      "Online payment application, which integrates payment methods through the place to pay platform, for the academic enrollment process at Universidad Santiago de Cali.",
+      "Online payment application that integrates payment methods through the PlaceToPay platform for the academic enrollment process at Universidad Santiago de Cali.",
     appsTech:
-      "It is made in PHP and JavaScript, using the Laravel framework and using Oracle as the database manager, HTML, CSS3, Bootstrap 5, JQuery, Node.js, Docker, Git, among others.",
+      "Built with PHP and JavaScript using the Laravel framework, with Oracle as the database manager, HTML, CSS3, Bootstrap 5, jQuery, Node.js, Docker, Git, among others.",
 
     // Personal projects
     geolocationTitle: "Geolocation App - React with PHP",
     geolocationDesc:
-      "The project is an app made with React.js for the frontend that consumes an OpenWeather API to show the humidity of the cities that the user selects, the selected city is also shown on a map using the leaflet library, a query history is stored in a MySQL database through an API made in PHP as backend.",
+      "A React.js frontend application that consumes the OpenWeather API to display humidity data for user-selected cities. The selected city is displayed on an interactive map using the Leaflet library. Query history is stored in a MySQL database through a PHP backend API.",
 
     eventsApiTitle: "Event Management API",
     eventsApiDesc:
-      "RESTful API made in nodejs with docker for an event management platform. This platform will allow users to create, promote and manage events effectively. Users will be able to register to attend events as well as view details about events such as detailed information or nearby places.",
+      "RESTful API built with Node.js and Docker for an event management platform. This platform enables users to create, promote, and manage events effectively. Users can register to attend events and view event details including comprehensive information and nearby locations.",
   },
 };

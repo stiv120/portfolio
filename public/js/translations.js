@@ -14,11 +14,11 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle: "Ingeniero de Sistemas",
-    location: "Santiago de Cali, Colombia",
+    location: "Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Cuento con más de 8 años de experiencia en el desarrollo y diseño de aplicaciones web, utilizando tecnologías modernas, también cuento con la capacidad de desarrollar aplicaciones a la medida y a la vez adaptarme al mantenimiento de código en proyectos ya desarrollados. Soy orientado a resultados, apasionado por los desafíos del mundo del desarrollo, con gran empatía y aptitud para el trabajo en equipo. Me caracterizo por ser propositivo, en pro de aportar soluciones tecnológicas eficientes.",
+      "Ingeniero de software orientado a resultados con más de 8 años de experiencia desarrollando y diseñando aplicaciones web utilizando tecnologías modernas. Capacidad comprobada para construir aplicaciones personalizadas desde cero y mantener bases de código existentes. Apasionado por resolver desafíos complejos de desarrollo con gran empatía y habilidades excepcionales de trabajo en equipo. Solucionador proactivo de problemas enfocado en entregar soluciones tecnológicas eficientes y escalables.",
 
     // Skills section
     skillsTitle: "Habilidades",
@@ -49,48 +49,48 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "Nov 2024 - Nov 2025",
     trikoDesc1:
-      "Developed and implemented functionalities for the TRIKO APP using microservices built in PHP with Laravel, .NET, Go, AWS, Docker and Others.",
-    trikoDesc2:
-      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
+      "Desarrollé e implementé funcionalidades para la aplicación TRIKO APP utilizando arquitectura de microservicios con PHP (Laravel), .NET, Go, AWS y Docker.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Developed functionalities for various projects using PHP with Laravel, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
+      "Implementé integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios usando Java con Spring Boot.",
     merqueoDesc2:
-      "Integrated requirements for internal dashboards and web-front projects, optimizing operational and client processes.",
+      "Desarrollé funcionalidades en múltiples proyectos usando PHP (Laravel), Go, Java (Spring Boot), AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
     merqueoDesc3:
-      "Implemented front-end functionalities using Vue.js on Linux environments.",
+      "Integré requisitos para dashboards internos y proyectos web-front, optimizando procesos operativos y orientados al cliente.",
+    merqueoDesc4:
+      "Implementé funcionalidad front-end usando Vue.js en entornos Linux.",
 
     // Samsara
-    samsaraTitle: "Software Development Co-leader",
+    samsaraTitle: "Co-líder de Desarrollo de Software",
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-lead and participate in the entire life cycle of the development of a custom software for the health sector, in PHP, under the Laravel framework using MySQL, HTML, CSS3, JQuery, Node.js, .NET, Go, among other technologies.",
-    samsaraFunc1: "Analysis and gathering of requirements.",
-    samsaraFunc2: "Overall system design.",
-    samsaraFunc3: "Development and implementation.",
-    samsaraFunc4: "Validations and tests.",
-    samsaraFunc5: "Code maintenance and support.",
+      "Co-lideré el ciclo completo de desarrollo de software para una aplicación personalizada del sector de la salud usando PHP (Laravel), MySQL, HTML, CSS3, jQuery, Node.js, .NET y Go.",
+    samsaraFunc1: "Realicé análisis y recopilación de requisitos.",
+    samsaraFunc2: "Diseñé la arquitectura general del sistema.",
+    samsaraFunc3: "Desarrollé e implementé la funcionalidad principal.",
+    samsaraFunc4: "Realicé validación y pruebas.",
+    samsaraFunc5: "Proporcioné mantenimiento continuo y soporte del código.",
 
     // USC
-    uscTitle: "Software Developer",
+    uscTitle: "Desarrollador de Software",
     uscCompany: "Universidad Santiago de Cali",
-    uscDate: "Apr 2018 - Dec 2023",
-    current: "Current",
+    uscDate: "Abr 2018 - Dic 2023",
+    current: "Actual",
     uscTech:
-      "PHP Laravel, Go, .NET, HTML, CSS3, Javascript, Docker, Node.js, Oracle and GitLab",
+      "PHP Laravel, Go, .NET, HTML, CSS3, Javascript, Docker, Node.js, Oracle y GitLab",
     uscDesc1:
-      "Implement improvements in the Information System for Quality Assurance (SIPAC) optimizing efficiency by 40% and facilitating academic monitoring.",
+      "Implementé mejoras en el Sistema de Información para el Aseguramiento de la Calidad (SIPAC), optimizando la eficiencia en un 40% y facilitando el seguimiento académico.",
     uscDesc2:
-      "Develop an online payment application, integrating payment methods through Place to pay as an e-commerce solution, improving user experience and transaction security.",
+      "Desarrollé una aplicación de pagos en línea integrando métodos de pago a través de PlaceToPay como solución de comercio electrónico, mejorando la experiencia del usuario y la seguridad de las transacciones.",
     uscDesc3:
-      "Lead and develop the upgrade of the University Internship and Practicum Information System (SIPPU), including real-time tracking functionalities and customized reports, increasing the placement rate of students in internships.",
+      "Lideré la actualización del Sistema de Información de Prácticas y Pasantías Universitarias (SIPPU), incluyendo funcionalidad de seguimiento en tiempo real e informes personalizados, aumentando las tasas de colocación de estudiantes en pasantías.",
     uscDesc4:
-      "Contributed to the development of the Research System (DGI), implementing modules for research project management and facilitating collaboration between faculty and students, improving productivity and knowledge generation.",
+      "Contribuí al desarrollo del Sistema de Investigación (DGI), implementando módulos para la gestión de proyectos de investigación y facilitando la colaboración entre profesores y estudiantes, mejorando la productividad y la generación de conocimiento.",
 
     // Education section
     professionalEducation: "Formación Profesional",
@@ -98,36 +98,38 @@ const translations = {
     languagesTitle: "Idiomas",
     english: "Inglés",
     intermediate: "Intermedio",
+    spanish: "Español",
+    native: "Nativo",
 
     // Education items
-    systemsEngineering: "Systems Engineering",
+    systemsEngineering: "Ingeniería de Sistemas",
     remington: "Corporación Universitaria Remington",
-    remingtonDate: "Apr 2021 - Jun 2023",
+    remingtonDate: "Abr 2021 - Jun 2023",
     technologyAnalysis:
-      "Information Systems Analysis and Development Technologist",
+      "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
     sena: "SENA (Servicio Nacional de Aprendizaje)",
     senaDate: "Sep 2016 - Sep 2018",
-    dataStructures: "Practical Course on Data Structures and Algorithms",
-    goCourse: "Go Programming Course",
-    awsCourse: "Introduction to AWS: Fundamentals of Cloud Computing",
-    goodPractices: "Best practices for code writing",
+    dataStructures: "Curso Práctico de Estructuras de Datos y Algoritmos",
+    goCourse: "Curso de Programación en Go",
+    awsCourse: "Introducción a AWS: Fundamentos de Computación en la Nube",
+    goodPractices: "Buenas prácticas para la escritura de código",
     platzi: "Platzi",
     hours2025: "Jul 2025",
-    hours2024: "Dec 2023",
+    hours2024: "Dic 2023",
     dotnetBootcamp: "Bootcamp backend .NET",
     wwcode: "WWCode Medellín y Perficient Latam",
     bootcampDate: "Jul - Sep 2023",
-    laravelPackages: "Learn how to create reusable packages for Laravel PHP",
-    laravelIntro: "Laravel 8 Introduction Course",
+    laravelPackages: "Aprende a crear paquetes reutilizables para Laravel PHP",
+    laravelIntro: "Curso de Introducción a Laravel 8",
     laravelIntroDate: "10h, 2020",
     udemy: "Udemy",
     udemyDate: "Oct 2021",
     scrumFundamentals: "Scrum Fundamentals Certified",
     scrumstudy: "ScrumStudy",
-    scrumDate: "Jun 22, 2020",
+    scrumDate: "22 Jun 2020",
     dbSpecialization:
-      "Technological Specialization in Database Management and Security (SQL Server, Oracle and MongoDB)",
-    senaMonths: "Six months, 2019",
+      "Especialización Tecnológica en Gestión y Seguridad de Bases de Datos (SQL Server, Oracle y MongoDB)",
+    senaMonths: "Seis meses, 2019",
 
     // Projects section
     projectsTitle: "Proyectos en los que he colaborado",
@@ -194,11 +196,11 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle: "Systems Engineer",
-    location: "Santiago de Cali, Colombia",
+    location: "Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
-      "I have more than 8 years of experience in web application development and design, using modern technologies. I also have the ability to develop custom applications and adapt to maintaining code in already developed projects. I am results-oriented, passionate about development challenges, with great empathy and aptitude for teamwork. I am characterized by being proactive, in favor of contributing efficient technological solutions.",
+      "Results-driven software engineer with over 8 years of experience developing and designing web applications using modern technologies. Proven ability to build custom applications from scratch and maintain existing codebases. Passionate about solving complex development challenges with strong empathy and exceptional teamwork skills. Proactive problem-solver focused on delivering efficient, scalable technological solutions.",
 
     // Skills section
     skillsTitle: "Skills",
@@ -277,6 +279,8 @@ const translations = {
     languagesTitle: "Languages",
     english: "English",
     intermediate: "Intermediate",
+    spanish: "Spanish",
+    native: "Native",
 
     // Education items
     systemsEngineering: "Systems Engineering",

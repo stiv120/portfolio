@@ -18,7 +18,7 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Ingeniero de software orientado a resultados con más de 8 años de experiencia desarrollando y diseñando aplicaciones web utilizando tecnologías modernas. Capacidad comprobada para construir aplicaciones personalizadas desde cero y mantener bases de código existentes. Apasionado por resolver desafíos complejos de desarrollo con gran empatía y habilidades excepcionales de trabajo en equipo. Solucionador proactivo de problemas enfocado en entregar soluciones tecnológicas eficientes y escalables.",
+      "Cuento con más de 8 años de experiencia en el desarrollo y diseño de aplicaciones web, utilizando tecnologías modernas. También cuento con la capacidad de desarrollar aplicaciones a la medida y adaptarme al mantenimiento de código en proyectos ya desarrollados. Soy orientado a resultados, apasionado por los desafíos del mundo del desarrollo, con gran empatía y aptitud para el trabajo en equipo. Me caracterizo por ser propositivo, en pro de aportar soluciones tecnológicas eficientes.",
 
     // Skills section
     skillsTitle: "Habilidades",
@@ -49,7 +49,7 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "Nov 2024 - Nov 2025",
     trikoDesc1:
-      "Desarrollé e implementé funcionalidades para la aplicación TRIKO APP utilizando arquitectura de microservicios con PHP (Laravel), .NET, Go, AWS y Docker.",
+      "Desarrollé e implementé funcionalidades para la aplicación TRIKO APP mediante microservicios en PHP con Laravel, .NET, ASP .NET Core web API, AWS, Docker, entre otros.",
     trikoDesc2:
       "Implementé integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios usando Java con Spring Boot.",
 
@@ -58,7 +58,7 @@ const translations = {
     merqueoCompany: "Merqueo",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Desarrollé funcionalidades en múltiples proyectos usando PHP (Laravel), Go, Java (Spring Boot), AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
+      "Desarrollé e implementé funcionalidades en diferentes proyectos con PHP (Laravel), Java (Spring Boot), .NET, ASP .NET Core web API, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB y front (Vue.js) en Linux.",
     merqueoDesc2:
       "Integré requisitos para dashboards internos y proyectos web-front, optimizando procesos operativos y orientados al cliente.",
     merqueoDesc3:
@@ -69,7 +69,7 @@ const translations = {
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-lideré el ciclo completo de desarrollo de software para una aplicación personalizada del sector de la salud usando PHP (Laravel), MySQL, HTML, CSS3, jQuery, Node.js, .NET y Go.",
+      "Co-lideré el ciclo completo de desarrollo de software para una aplicación personalizada del sector de la salud en PHP (Laravel), .NET, ASP .NET Core web API, Java con Spring Boot, MySQL, HTML, CSS3, jQuery, Node.js, entre otras tecnologías.",
     samsaraFunc1: "Realicé análisis y recopilación de requisitos.",
     samsaraFunc2: "Diseñé la arquitectura general del sistema.",
     samsaraFunc3: "Desarrollé e implementé la funcionalidad principal.",
@@ -114,8 +114,8 @@ const translations = {
     awsCourse: "Introducción a AWS: Fundamentos de Computación en la Nube",
     goodPractices: "Buenas prácticas para la escritura de código",
     platzi: "Platzi",
-    hours2025: "Jul 2025",
-    hours2024: "Dic 2023",
+    hours2025: "20 h, Jul 2025",
+    hours2024: "20 h, Dic 2023",
     dotnetBootcamp: "Bootcamp backend .NET",
     wwcode: "WWCode Medellín y Perficient Latam",
     bootcampDate: "Jul - Sep 2023",
@@ -251,7 +251,7 @@ const translations = {
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-led the full software development lifecycle for a custom healthcare sector application using PHP (Laravel), MySQL, HTML, CSS3, jQuery, Node.js, .NET, and Go.",
+      "Co-led the full software development lifecycle for a custom healthcare sector application using PHP (Laravel), .NET, ASP .NET Core web API, Java with Spring Boot, MySQL, HTML, CSS3, jQuery, Node.js, among other technologies.",
     samsaraFunc1: "Conducted requirements analysis and gathering.",
     samsaraFunc2: "Designed overall system architecture.",
     samsaraFunc3: "Developed and implemented core functionality.",
@@ -263,7 +263,7 @@ const translations = {
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "Apr 2018 - Dec 2023",
     uscTech:
-      "PHP Laravel, Go, .NET, HTML, CSS3, JavaScript, Docker, Node.js, Oracle and GitLab",
+      "PHP Laravel, .NET, ASP .NET Core web API, Java with Spring Boot, Go, HTML, CSS3, JavaScript, Docker, Node.js, Oracle and GitLab",
     uscDesc1:
       "Implemented improvements to the Quality Assurance Information System (SIPAC), optimizing efficiency by 40% and facilitating academic monitoring.",
     uscDesc2:

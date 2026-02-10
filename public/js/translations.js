@@ -142,21 +142,21 @@ const translations = {
     trikoAppDesc:
       "Triko es el primer mercado de servicios con ofertas anónimas que conecta clientes con proveedores de servicios locales confiables. La plataforma opera en Estados Unidos a través de su aplicación móvil para Android e IOS, permitiendo publicar solicitudes de servicio gratis, recibir múltiples ofertas de proveedores verificados mediante un sistema tipo subasta en tiempo real, y compartir información de contacto solo con el postor favorito. Sin suscripciones ni necesidad de tarjeta de crédito, priorizando transparencia, privacidad y seguridad.",
     trikoAppTech:
-      "PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, AWS (Lambda, S3, EC2), Docker, Microservicios, APIs RESTful.",
+      "PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, C#, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Docker, Microservicios, APIs RESTful, JWT, ORM Eloquent, Entity Framework, Git, CI/CD, Arquitectura hexagonal, Clean Architecture.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
       "Merqueo fue una empresa colombiana que operaba como supermercado en línea, permitiendo a los usuarios realizar compras de mercado a través de su página web y aplicación móvil. La plataforma permitía seleccionar productos, programar horarios de entrega y elegir métodos de pago. La compañía gestionaba directamente su cadena de suministro, almacenando productos en sus propios centros de distribución y realizando entregas sin intermediarios, ofreciendo precios competitivos y optimizando tiempos de entrega. Operó en ciudades de Colombia, México y Brasil. La aplicación móvil y página web incluían dashboard operativo para gestión interna y web-front para clientes.",
     merqueoProjectTech:
-      "PHP con Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, Vue.js, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Linux.",
+      "PHP con Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, C#, Vue.js, JavaScript, AWS (Lambda, S3, EC2), MySQL, DynamoDB, ORM Eloquent, Docker, JWT, Git, CI/CD, Linux.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
       "Software hecho a la medida para el sector de la salud, en la cual se gestionan la agenda de cada paciente, su línea de tiempo, reportes detallados de cada historia clínica y generación de rips.",
     samsaraMobiTech:
-      "PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, MySQL, HTML, CSS3, Git, Bootstrap 5, JQuery, Node.js, Patrones de diseño y Arquitectura, Arquitectura limpia, clean code y principios SOLID, entre otros.",
+      "PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, C#, MySQL, HTML, CSS3, JavaScript, Git, Bootstrap, jQuery, Node.js, Express.js, ORM Eloquent, Arquitectura hexagonal, Clean Architecture, Patrones de diseño, Clean code, Principios SOLID, PHP Unit, Jest.",
 
     // SIPAC project
     sipacTitle:
@@ -164,23 +164,27 @@ const translations = {
     sipacDesc:
       "Sistema de Información hecho para la Universidad Santiago de Cali, entre la cual se destacan módulos cómo Evaluación de desempeño de docentes y administrativos, certificados y permisos laborales para el departamento de gestión humana, el sistema de información SIPPU para prácticas y pasantías universitarias y el sistema general de Investigaciones, DGI.",
     sipacTech:
-      "Está hecho en PHP y JavaScript, bajo el framework Laravel y empleando Oracle cómo gestor de base de datos, HTML, CSS3, Bootstrap 5, JQuery, Node.js, Docker, Git, entre otros.",
+      "Tecnologías: PHP, JavaScript, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab.",
 
     // APPS project
     appsTitle: "Aplicación de Pagos en línea (APPS)",
     appsDesc:
       "Aplicación de pagos en línea, en la cual se integran los métodos de pagos por medio de la plataforma place to pay, para el proceso de matrículas académicas en la Universidad Santiago de Cali.",
     appsTech:
-      "Está hecho en PHP y JavaScript, bajo el framework Laravel y empleando Oracle cómo gestor de base de datos, HTML, CSS3, Bootstrap 5, JQuery, Node.js, Docker, Git, entre otros.",
+      "Tecnologías: PHP, JavaScript, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab.",
 
     // Personal projects
     geolocationTitle: "App de geolocalización - React con PHP",
     geolocationDesc:
       "El proyecto es una app hecha con React.js para el frontend que consume una API de OpenWheater para mostrar la humedad de las ciudades que el usuario seleccione, a su vez se muestra la ciudad seleccionada en un mapa mediante la librería leaflet, se almacena un historial de consultas en una base de datos MySQL mediante una API hecha en PHP como backend.",
+    geolocationTech:
+      "React.js, PHP, Laravel, MySQL, JavaScript, Bootstrap, Leaflet, JSON, OpenWeather API.",
 
     eventsApiTitle: "API de gestión de eventos",
     eventsApiDesc:
       "API RESTful hecha en nodejs con docker para una plataforma de gestión de eventos. Esta plataforma permitirá a los usuarios crear, promocionar y gestionar eventos de manera efectiva. Los usuarios podrán registrarse para asistir a eventos al igual que ver detalles sobre los eventos como información detallada o lugares cercanos.",
+    eventsApiTech:
+      "Node.js, Express.js, JavaScript, Docker, JSON, Jest, MySQL.",
   },
   en: {
     // Navbar
@@ -323,43 +327,47 @@ const translations = {
     trikoAppDesc:
       "Triko is the first anonymous service marketplace that connects customers with trusted local service providers. The platform operates in the United States through its mobile application for Android and iOS, allowing users to post free service requests, receive multiple offers from verified providers through a real-time auction system, and share contact information only with the preferred bidder. No subscriptions or credit card required, prioritizing transparency, privacy and security.",
     trikoAppTech:
-      "PHP with Laravel, Java with Spring Boot, .NET, ASP .NET Core web API, AWS (Lambda, S3, EC2), Docker, Microservices, RESTful APIs.",
+      "PHP with Laravel, Java with Spring Boot, .NET, ASP .NET Core web API, C#, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Docker, Microservices, RESTful APIs, JWT, ORM Eloquent, Entity Framework, Git, CI/CD, Hexagonal Architecture, Clean Architecture.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
       "Merqueo was a Colombian company that operated as an online supermarket, enabling users to make grocery purchases through its website and mobile application. The platform enabled product selection, delivery time scheduling, and payment method selection. The company managed its supply chain directly, storing products in its own distribution centers and making deliveries without intermediaries, offering competitive prices and optimizing delivery times. It operated in cities across Colombia, Mexico, and Brazil. The mobile application and website included an operational dashboard for internal management and a web-front for customers.",
     merqueoProjectTech:
-      "PHP with Laravel, Go, Java with Spring Boot, .NET, ASP.NET Core Web API, Vue.js, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Linux.",
+      "PHP with Laravel, Go, Java with Spring Boot, .NET, ASP.NET Core Web API, C#, Vue.js, JavaScript, AWS (Lambda, S3, EC2), MySQL, DynamoDB, ORM Eloquent, Docker, JWT, Git, CI/CD, Linux.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
       "Custom healthcare software that manages patient schedules, timelines, detailed medical record reports, and RIPS (Registro Individual de Prestación de Servicios) generation.",
     samsaraMobiTech:
-      "PHP with Laravel, Java with Spring Boot, .NET, ASP.NET Core Web API, MySQL, HTML, CSS3, Git, Bootstrap 5, jQuery, Node.js, Design Patterns and Architecture, Clean Architecture, clean code and SOLID principles, among others.",
+      "PHP with Laravel, Java with Spring Boot, .NET, ASP.NET Core Web API, C#, MySQL, HTML, CSS3, JavaScript, Git, Bootstrap, jQuery, Node.js, Express.js, ORM Eloquent, Hexagonal Architecture, Clean Architecture, Design Patterns, Clean code, SOLID principles, PHP Unit, Jest.",
 
     // SIPAC project
     sipacTitle: "Quality Assurance Information System (SIPAC)",
     sipacDesc:
       "Information system developed for Universidad Santiago de Cali, which includes modules such as performance evaluation of teachers and administrators, certificates and work permits for the human resources department, the SIPPU information system for university internships and practices, and the general Research system (DGI).",
     sipacTech:
-      "Built with PHP and JavaScript using the Laravel framework, with Oracle as the database manager, HTML, CSS3, Bootstrap 5, jQuery, Node.js, Docker, Git, among others.",
+      "Technologies: PHP, JavaScript, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab.",
 
     // APPS project
     appsTitle: "Online Payment Application (APPS)",
     appsDesc:
       "Online payment application that integrates payment methods through the PlaceToPay platform for the academic enrollment process at Universidad Santiago de Cali.",
     appsTech:
-      "Built with PHP and JavaScript using the Laravel framework, with Oracle as the database manager, HTML, CSS3, Bootstrap 5, jQuery, Node.js, Docker, Git, among others.",
+      "Technologies: PHP, JavaScript, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab.",
 
     // Personal projects
     geolocationTitle: "Geolocation App - React with PHP",
     geolocationDesc:
       "A React.js frontend application that consumes the OpenWeather API to display humidity data for user-selected cities. The selected city is displayed on an interactive map using the Leaflet library. Query history is stored in a MySQL database through a PHP backend API.",
+    geolocationTech:
+      "React.js, PHP, Laravel, MySQL, JavaScript, Bootstrap, Leaflet, JSON, OpenWeather API.",
 
     eventsApiTitle: "Event Management API",
     eventsApiDesc:
       "RESTful API built with Node.js and Docker for an event management platform. This platform enables users to create, promote, and manage events effectively. Users can register to attend events and view event details including comprehensive information and nearby locations.",
+    eventsApiTech:
+      "Node.js, Express.js, JavaScript, Docker, JSON, Jest, MySQL.",
   },
 };

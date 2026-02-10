@@ -47,50 +47,39 @@ const translations = {
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Actual",
+    trikoDate: "2024 - Actual",
     trikoDesc1:
-      "Desarrollé e implementé funcionalidades para la aplicación TRIKO APP mediante microservicios en PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, AWS, Docker, entre otros.",
+      "Desarrollar e implementar funcionalidades al aplicativo TRIKO APP, por medio de microservicios desarrollados en .NET, Angular, AWS, Docker, Bitbucket.",
     trikoDesc2:
-      "Implementé integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios usando Java con Spring Boot.",
+      "Implementar integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios utilizando Java con Spring Boot.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
-    merqueoDate: "Nov 2024 - Jul 2025",
+    merqueoDate: "2024 - 2025",
     merqueoDesc1:
-      "Desarrollé e implementé funcionalidades en diferentes proyectos con PHP (Laravel), Java (Spring Boot), .NET, ASP .NET Core web API, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB y front (Vue.js) en Linux.",
+      "Desarrollar funcionalidades para diversos proyectos utilizando .NET, Go, Java con Spring Boot, AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
     merqueoDesc2:
-      "Integré requisitos para dashboards internos y proyectos web-front, optimizando procesos operativos y orientados al cliente.",
-    merqueoDesc3:
-      "Implementé funcionalidad front-end usando Vue.js en entornos Linux.",
+      "Integrar requerimientos para dashboards internos y proyectos web-front, optimizando procesos operativos y de atención al cliente.",
 
     // Samsara
-    samsaraTitle: "Co-líder de Desarrollo de Software",
+    samsaraTitle: "Co-líder de desarrollo de software",
     samsaraCompany: "Samsara Med",
-    samsaraDate: "Jun 2023 - Nov 2024",
+    samsaraDate: "2023 - 2024",
     samsaraDesc:
-      "Co-lideré el ciclo completo de desarrollo de software para una aplicación personalizada del sector de la salud en PHP (Laravel), .NET, ASP .NET Core web API, Java con Spring Boot, MySQL, HTML, CSS3, jQuery, Node.js, entre otras tecnologías.",
-    samsaraFunc1: "Realicé análisis y recopilación de requisitos.",
-    samsaraFunc2: "Diseñé la arquitectura general del sistema.",
-    samsaraFunc3: "Desarrollé e implementé la funcionalidad principal.",
-    samsaraFunc4: "Realicé validación y pruebas.",
-    samsaraFunc5: "Proporcioné mantenimiento continuo y soporte del código.",
+      "Co-liderar y participar en todo el ciclo de vida del desarrollo de un software personalizado para el sector salud, utilizando PHP con Laravel, MySQL, HTML, CSS3, jQuery, Node.js.",
 
     // USC
-    uscTitle: "Desarrollador de Software",
+    uscTitle: "Desarrollador de software",
     uscCompany: "Universidad Santiago de Cali",
-    uscDate: "Abr 2018 - Dic 2023",
+    uscDate: "2018 - 2023",
     current: "Actual",
     uscTech:
-      "PHP Laravel, .NET, ASP .NET Core web API, Java con Spring Boot, Go, HTML, CSS3, JavaScript, Docker, Node.js, Oracle y GitLab",
+      ".NET, PHP, Angular, JavaScript, Docker, Node.js, Oracle y GitLab",
     uscDesc1:
-      "Implementé mejoras en el Sistema de Información para el Aseguramiento de la Calidad (SIPAC), optimizando la eficiencia en un 40% y facilitando el seguimiento académico.",
+      "Implementar mejoras en el Sistema de Información para el Aseguramiento de la Calidad (SIPAC), optimizando su eficiencia en un 40% y facilitando el seguimiento académico.",
     uscDesc2:
-      "Desarrollé una aplicación de pagos en línea integrando métodos de pago a través de PlaceToPay como solución de comercio electrónico, mejorando la experiencia del usuario y la seguridad de las transacciones.",
-    uscDesc3:
-      "Lideré la actualización del Sistema de Información de Prácticas y Pasantías Universitarias (SIPPU), incluyendo funcionalidad de seguimiento en tiempo real e informes personalizados, aumentando las tasas de colocación de estudiantes en pasantías.",
-    uscDesc4:
-      "Contribuí al desarrollo del Sistema de Investigación (DGI), implementando módulos para la gestión de proyectos de investigación y facilitando la colaboración entre profesores y estudiantes, mejorando la productividad y la generación de conocimiento.",
+      "Liderar y desarrollar la actualización del Sistema de Información de Prácticas y Pasantías Universitarias (SIPPU), incorporando funcionalidades de seguimiento en tiempo real y reportes personalizados, incrementando la tasa de colocación de estudiantes en prácticas.",
 
     // Education section
     professionalEducation: "Formación Profesional",
@@ -104,32 +93,32 @@ const translations = {
     // Education items
     systemsEngineering: "Ingeniería de Sistemas",
     remington: "Corporación Universitaria Remington",
-    remingtonDate: "Abr 2021 - Jun 2023",
+    remingtonDate: "2021 - 2023",
     technologyAnalysis:
       "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
     sena: "SENA (Servicio Nacional de Aprendizaje)",
-    senaDate: "Sep 2016 - Sep 2018",
+    senaDate: "2016 - 2018",
     dataStructures: "Curso Práctico de Estructuras de Datos y Algoritmos",
     goCourse: "Curso de Programación en Go",
     awsCourse: "Introducción a AWS: Fundamentos de Computación en la Nube",
     goodPractices: "Buenas prácticas para la escritura de código",
     platzi: "Platzi",
-    hours2025: "20 h, Jul 2025",
-    hours2024: "20 h, 2024",
+    hours2025: "2025",
+    hours2024: "2024",
     dotnetBootcamp: "Bootcamp backend .NET",
     wwcode: "WWCode Medellín y Perficient Latam",
-    bootcampDate: "Jul - Sep 2023",
+    bootcampDate: "2023",
     laravelPackages: "Aprende a crear paquetes reutilizables para Laravel PHP",
     laravelIntro: "Curso de Introducción a Laravel 8",
-    laravelIntroDate: "10h, 2020",
+    laravelIntroDate: "2020",
     udemy: "Udemy",
-    udemyDate: "Oct 2021",
+    udemyDate: "2021",
     scrumFundamentals: "Scrum Fundamentals Certified",
     scrumstudy: "ScrumStudy",
-    scrumDate: "22 Jun 2020",
+    scrumDate: "2020",
     dbSpecialization:
       "Especialización Tecnológica en Gestión y Seguridad de Bases de Datos (SQL Server, Oracle y MongoDB)",
-    senaMonths: "Seis meses, 2019",
+    senaMonths: "2019",
 
     // Projects section
     projectsTitle: "Proyectos en los que he colaborado",
@@ -142,29 +131,29 @@ const translations = {
     trikoAppDesc:
       "Triko es el primer mercado de servicios con ofertas anónimas que conecta clientes con proveedores de servicios locales confiables. La plataforma opera en Estados Unidos a través de su aplicación móvil para Android e IOS, permitiendo publicar solicitudes de servicio gratis, recibir múltiples ofertas de proveedores verificados mediante un sistema tipo subasta en tiempo real, y compartir información de contacto solo con el postor favorito. Sin suscripciones ni necesidad de tarjeta de crédito, priorizando transparencia, privacidad y seguridad.",
     trikoAppTech:
-      "PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, C#, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Docker, Microservicios, APIs RESTful, JWT, ORM Eloquent, Entity Framework, Git, GitHub, GitLab, Gitflow, CI/CD, SonarQube, SonarLint, Moq, Scrum, Código limpio, Principios SOLID, Code review, Arquitectura hexagonal, Clean Architecture, JSON.",
+      ".NET, Angular, AWS, Docker, Bitbucket, Java con Spring Boot, Microservicios, APIs RESTful.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
       "Merqueo fue una empresa colombiana que operaba como supermercado en línea, permitiendo a los usuarios realizar compras de mercado a través de su página web y aplicación móvil. La plataforma permitía seleccionar productos, programar horarios de entrega y elegir métodos de pago. La compañía gestionaba directamente su cadena de suministro, almacenando productos en sus propios centros de distribución y realizando entregas sin intermediarios, ofreciendo precios competitivos y optimizando tiempos de entrega. Operó en ciudades de Colombia, México y Brasil. La aplicación móvil y página web incluían dashboard operativo para gestión interna y web-front para clientes.",
     merqueoProjectTech:
-      "PHP con Laravel, Go, Java con Spring Boot, .NET, ASP .NET Core web API, C#, Vue.js, JavaScript, AWS (Lambda, S3, EC2), MySQL, DynamoDB, ORM Eloquent, Docker, JWT, Git, GitHub, GitLab, Gitflow, CI/CD, SonarQube, SonarLint, Scrum, Código limpio, Principios SOLID, Code review, Linux, JSON.",
+      ".NET, Go, Java con Spring Boot, AWS (Lambda, S3, EC2), MySQL, DynamoDB.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
       "Software hecho a la medida para el sector de la salud, en la cual se gestionan la agenda de cada paciente, su línea de tiempo, reportes detallados de cada historia clínica y generación de rips.",
     samsaraMobiTech:
-      "PHP con Laravel, Java con Spring Boot, .NET, ASP .NET Core web API, C#, MySQL, HTML, CSS3, JavaScript, Git, GitHub, GitLab, Gitflow, Bootstrap, jQuery, Node.js, Express.js, ORM Eloquent, PHP Unit, Jest, Moq, Scrum, Código limpio, Principios SOLID, Code review, Patrones de diseño, Arquitectura hexagonal, Clean Architecture, JSON.",
+      "PHP con Laravel, MySQL, HTML, CSS3, jQuery, Node.js.",
 
     // SIPAC project
     sipacTitle:
       "Sistema de Información para el Aseguramiento de la Calidad (SIPAC)",
     sipacDesc:
-      "Sistema de Información hecho para la Universidad Santiago de Cali, entre la cual se destacan módulos cómo Evaluación de desempeño de docentes y administrativos, certificados y permisos laborales para el departamento de gestión humana, el sistema de información SIPPU para prácticas y pasantías universitarias y el sistema general de Investigaciones, DGI.",
+      "Sistema de Información hecho para la Universidad Santiago de Cali. Incluye mejoras que optimizan la eficiencia en un 40% y facilitan el seguimiento académico. Destacan el sistema de información SIPPU para prácticas y pasantías universitarias con seguimiento en tiempo real y reportes personalizados.",
     sipacTech:
-      "PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Código limpio, Principios SOLID, Code review, Documentación UML.",
+      ".NET, PHP, Angular, JavaScript, Docker, Node.js, Oracle, GitLab.",
 
     // APPS project
     appsTitle: "Aplicación de Pagos en línea (APPS)",
@@ -233,49 +222,38 @@ const translations = {
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Present",
+    trikoDate: "2024 - Present",
     trikoDesc1:
-      "Developed and implemented features for the TRIKO APP using microservices architecture with PHP (Laravel), Java (Spring Boot), .NET, Go, AWS, and Docker.",
+      "Develop and implement features for the TRIKO APP application through microservices built with .NET, Angular, AWS, Docker, and Bitbucket.",
     trikoDesc2:
-      "Implemented high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
+      "Implement high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
-    merqueoDate: "Nov 2024 - Jul 2025",
+    merqueoDate: "2024 - 2025",
     merqueoDesc1:
-      "Developed features across multiple projects using PHP (Laravel), Go, Java (Spring Boot), AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
+      "Develop features for various projects using .NET, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
     merqueoDesc2:
-      "Integrated requirements for internal dashboards and web-front projects, optimizing operational and client-facing processes.",
-    merqueoDesc3:
-      "Implemented front-end functionality using Vue.js in Linux environments.",
+      "Integrate requirements for internal dashboards and web-front projects, optimizing operational processes and customer service.",
 
     // Samsara
     samsaraTitle: "Software Development Co-leader",
     samsaraCompany: "Samsara Med",
-    samsaraDate: "Jun 2023 - Nov 2024",
+    samsaraDate: "2023 - 2024",
     samsaraDesc:
-      "Co-led the full software development lifecycle for a custom healthcare sector application using PHP (Laravel), .NET, ASP .NET Core web API, Java with Spring Boot, MySQL, HTML, CSS3, jQuery, Node.js, among other technologies.",
-    samsaraFunc1: "Conducted requirements analysis and gathering.",
-    samsaraFunc2: "Designed overall system architecture.",
-    samsaraFunc3: "Developed and implemented core functionality.",
-    samsaraFunc4: "Performed validation and testing.",
-    samsaraFunc5: "Provided ongoing code maintenance and support.",
+      "Co-lead and participate in the full software development lifecycle for custom healthcare sector software using PHP with Laravel, MySQL, HTML, CSS3, jQuery, and Node.js.",
 
     // USC
     uscTitle: "Software Developer",
     uscCompany: "Universidad Santiago de Cali",
-    uscDate: "Apr 2018 - Dec 2023",
+    uscDate: "2018 - 2023",
     uscTech:
-      "PHP Laravel, .NET, ASP .NET Core web API, Java with Spring Boot, Go, HTML, CSS3, JavaScript, Docker, Node.js, Oracle and GitLab",
+      ".NET, PHP, Angular, JavaScript, Docker, Node.js, Oracle and GitLab",
     uscDesc1:
-      "Implemented improvements to the Quality Assurance Information System (SIPAC), optimizing efficiency by 40% and facilitating academic monitoring.",
+      "Implement improvements to the Quality Assurance Information System (SIPAC), optimizing its efficiency by 40% and facilitating academic tracking.",
     uscDesc2:
-      "Developed an online payment application integrating payment methods through PlaceToPay as an e-commerce solution, improving user experience and transaction security.",
-    uscDesc3:
-      "Led the upgrade of the University Internship and Practicum Information System (SIPPU), including real-time tracking functionality and customized reporting, increasing student internship placement rates.",
-    uscDesc4:
-      "Contributed to the development of the Research System (DGI), implementing modules for research project management and facilitating collaboration between faculty and students, improving productivity and knowledge generation.",
+      "Lead and develop the update of the University Internships and Practices Information System (SIPPU), incorporating real-time tracking and customized reports, increasing the student placement rate in internships.",
 
     // Education section
     professionalEducation: "Professional Education",
@@ -289,32 +267,32 @@ const translations = {
     // Education items
     systemsEngineering: "Systems Engineering",
     remington: "Corporación Universitaria Remington",
-    remingtonDate: "Apr 2021 - Jun 2023",
+    remingtonDate: "2021 - 2023",
     technologyAnalysis:
       "Information Systems Analysis and Development Technologist",
     sena: "SENA (Servicio Nacional de Aprendizaje)",
-    senaDate: "Sep 2016 - Sep 2018",
+    senaDate: "2016 - 2018",
     dataStructures: "Practical Course on Data Structures and Algorithms",
     goCourse: "Go Programming Course",
     awsCourse: "Introduction to AWS: Fundamentals of Cloud Computing",
     goodPractices: "Best Practices for Code Writing",
     platzi: "Platzi",
-    hours2025: "20h, Jul 2025",
-    hours2024: "20h, 2024",
+    hours2025: "2025",
+    hours2024: "2024",
     dotnetBootcamp: ".NET Backend Bootcamp",
     wwcode: "WWCode Medellín and Perficient Latam",
-    bootcampDate: "Jul - Sep 2023",
+    bootcampDate: "2023",
     laravelPackages: "Learn how to create reusable packages for Laravel PHP",
     laravelIntro: "Laravel 8 Introduction Course",
-    laravelIntroDate: "10h, 2020",
+    laravelIntroDate: "2020",
     udemy: "Udemy",
-    udemyDate: "Oct 2021",
+    udemyDate: "2021",
     scrumFundamentals: "Scrum Fundamentals Certified",
     scrumstudy: "ScrumStudy",
-    scrumDate: "Jun 22, 2020",
+    scrumDate: "2020",
     dbSpecialization:
       "Technological Specialization in Database Management and Security (SQL Server, Oracle and MongoDB)",
-    senaMonths: "Six months, 2019",
+    senaMonths: "2019",
 
     // Projects section
     projectsTitle: "Projects I have collaborated on",
@@ -327,21 +305,21 @@ const translations = {
     trikoAppDesc:
       "Triko is the first anonymous service marketplace that connects customers with trusted local service providers. The platform operates in the United States through its mobile application for Android and iOS, allowing users to post free service requests, receive multiple offers from verified providers through a real-time auction system, and share contact information only with the preferred bidder. No subscriptions or credit card required, prioritizing transparency, privacy and security.",
     trikoAppTech:
-      "PHP with Laravel, Java with Spring Boot, .NET, ASP .NET Core web API, C#, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Docker, Microservices, RESTful APIs, JWT, ORM Eloquent, Entity Framework, Git, GitHub, GitLab, Gitflow, CI/CD, SonarQube, SonarLint, Moq, Scrum, Clean code, SOLID principles, Code review, Hexagonal Architecture, Clean Architecture, JSON.",
+      ".NET, Angular, AWS, Docker, Bitbucket, Java with Spring Boot, Microservices, RESTful APIs.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
       "Merqueo was a Colombian company that operated as an online supermarket, enabling users to make grocery purchases through its website and mobile application. The platform enabled product selection, delivery time scheduling, and payment method selection. The company managed its supply chain directly, storing products in its own distribution centers and making deliveries without intermediaries, offering competitive prices and optimizing delivery times. It operated in cities across Colombia, Mexico, and Brazil. The mobile application and website included an operational dashboard for internal management and a web-front for customers.",
     merqueoProjectTech:
-      "PHP with Laravel, Go, Java with Spring Boot, .NET, ASP.NET Core Web API, C#, Vue.js, JavaScript, AWS (Lambda, S3, EC2), MySQL, DynamoDB, ORM Eloquent, Docker, JWT, Git, GitHub, GitLab, Gitflow, CI/CD, SonarQube, SonarLint, Scrum, Clean code, SOLID principles, Code review, Linux, JSON.",
+      ".NET, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, DynamoDB.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
       "Custom healthcare software that manages patient schedules, timelines, detailed medical record reports, and RIPS (Registro Individual de Prestación de Servicios) generation.",
     samsaraMobiTech:
-      "PHP with Laravel, Java with Spring Boot, .NET, ASP.NET Core Web API, C#, MySQL, HTML, CSS3, JavaScript, Git, GitHub, GitLab, Gitflow, Bootstrap, jQuery, Node.js, Express.js, ORM Eloquent, PHP Unit, Jest, Moq, Scrum, Clean code, SOLID principles, Code review, Design Patterns, Hexagonal Architecture, Clean Architecture, JSON.",
+      "PHP with Laravel, MySQL, HTML, CSS3, jQuery, Node.js.",
 
     // SIPAC project
     sipacTitle: "Quality Assurance Information System (SIPAC)",

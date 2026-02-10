@@ -164,14 +164,14 @@ const translations = {
     sipacDesc:
       "Sistema de Información hecho para la Universidad Santiago de Cali, entre la cual se destacan módulos cómo Evaluación de desempeño de docentes y administrativos, certificados y permisos laborales para el departamento de gestión humana, el sistema de información SIPPU para prácticas y pasantías universitarias y el sistema general de Investigaciones, DGI.",
     sipacTech:
-      "Tecnologías: PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Código limpio, Principios SOLID, Code review, Documentación UML.",
+      "PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Código limpio, Principios SOLID, Code review, Documentación UML.",
 
     // APPS project
     appsTitle: "Aplicación de Pagos en línea (APPS)",
     appsDesc:
       "Aplicación de pagos en línea, en la cual se integran los métodos de pagos por medio de la plataforma place to pay, para el proceso de matrículas académicas en la Universidad Santiago de Cali.",
     appsTech:
-      "Tecnologías: PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Código limpio, Principios SOLID, Code review, Documentación UML.",
+      "PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Código limpio, Principios SOLID, Code review, Documentación UML.",
 
     // Personal projects
     geolocationTitle: "App de geolocalización - React con PHP",
@@ -348,14 +348,14 @@ const translations = {
     sipacDesc:
       "Information system developed for Universidad Santiago de Cali, which includes modules such as performance evaluation of teachers and administrators, certificates and work permits for the human resources department, the SIPPU information system for university internships and practices, and the general Research system (DGI).",
     sipacTech:
-      "Technologies: PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Clean code, SOLID principles, Code review, UML Documentation.",
+      "PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Clean code, SOLID principles, Code review, UML Documentation.",
 
     // APPS project
     appsTitle: "Online Payment Application (APPS)",
     appsDesc:
       "Online payment application that integrates payment methods through the PlaceToPay platform for the academic enrollment process at Universidad Santiago de Cali.",
     appsTech:
-      "Technologies: PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Clean code, SOLID principles, Code review, UML Documentation.",
+      "PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Clean code, SOLID principles, Code review, UML Documentation.",
 
     // Personal projects
     geolocationTitle: "Geolocation App - React with PHP",

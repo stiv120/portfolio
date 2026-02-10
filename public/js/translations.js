@@ -14,7 +14,7 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle: "Ingeniero de Sistemas",
-    location: "Cali, Colombia",
+    location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
@@ -47,7 +47,7 @@ const translations = {
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Nov 2025",
+    trikoDate: "Nov 2024 - Actual",
     trikoDesc1:
       "Desarrollé e implementé funcionalidades para la aplicación TRIKO APP mediante microservicios en PHP con Laravel, .NET, ASP .NET Core web API, AWS, Docker, entre otros.",
     trikoDesc2:
@@ -82,7 +82,7 @@ const translations = {
     uscDate: "Abr 2018 - Dic 2023",
     current: "Actual",
     uscTech:
-      "PHP Laravel, Go, .NET, HTML, CSS3, Javascript, Docker, Node.js, Oracle y GitLab",
+      "PHP Laravel, .NET, ASP .NET Core web API, Java con Spring Boot, Go, HTML, CSS3, JavaScript, Docker, Node.js, Oracle y GitLab",
     uscDesc1:
       "Implementé mejoras en el Sistema de Información para el Aseguramiento de la Calidad (SIPAC), optimizando la eficiencia en un 40% y facilitando el seguimiento académico.",
     uscDesc2:
@@ -115,7 +115,7 @@ const translations = {
     goodPractices: "Buenas prácticas para la escritura de código",
     platzi: "Platzi",
     hours2025: "20 h, Jul 2025",
-    hours2024: "20 h, Dic 2023",
+    hours2024: "20 h, 2024",
     dotnetBootcamp: "Bootcamp backend .NET",
     wwcode: "WWCode Medellín y Perficient Latam",
     bootcampDate: "Jul - Sep 2023",
@@ -196,7 +196,7 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle: "Systems Engineer",
-    location: "Cali, Colombia",
+    location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
@@ -229,7 +229,7 @@ const translations = {
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Nov 2025",
+    trikoDate: "Nov 2024 - Present",
     trikoDesc1:
       "Developed and implemented features for the TRIKO APP using microservices architecture with PHP (Laravel), .NET, Go, AWS, and Docker.",
     trikoDesc2:
@@ -295,8 +295,8 @@ const translations = {
     awsCourse: "Introduction to AWS: Fundamentals of Cloud Computing",
     goodPractices: "Best Practices for Code Writing",
     platzi: "Platzi",
-    hours2025: "Jul 2025",
-    hours2024: "Dec 2023",
+    hours2025: "20h, Jul 2025",
+    hours2024: "20h, 2024",
     dotnetBootcamp: ".NET Backend Bootcamp",
     wwcode: "WWCode Medellín and Perficient Latam",
     bootcampDate: "Jul - Sep 2023",

@@ -18,7 +18,7 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Cuento con más de 8 años de experiencia en el desarrollo y diseño de aplicaciones web, utilizando tecnologías modernas. También cuento con la capacidad de desarrollar aplicaciones a la medida y adaptarme al mantenimiento de código en proyectos ya desarrollados. Soy orientado a resultados, apasionado por los desafíos del mundo del desarrollo, con gran empatía y aptitud para el trabajo en equipo. Me caracterizo por ser propositivo, en pro de aportar soluciones tecnológicas eficientes.",
+      "Ingeniero de sistemas y desarrollador de software con más de 8 años de experiencia en el desarrollo y mantenimiento de aplicaciones web. He trabajado desarrollando APIs e integraciones y gestionando bases de datos relacionales. Tengo experiencia investigando y resolviendo problemas en sistemas en producción, analizando logs y corrigiendo errores para identificar la causa raíz y mejorar la estabilidad de las aplicaciones. Me caracterizo por aportar soluciones eficientes, escalables y adaptarme fácilmente a diferentes entornos tecnológicos.",
 
     // Skills section
     skillsTitle: "Habilidades",
@@ -49,16 +49,16 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "2024 - Actual",
     trikoDesc1:
-      "Desarrollar e implementar funcionalidades al aplicativo TRIKO APP, por medio de microservicios desarrollados en .NET, Angular, AWS, Docker, Bitbucket.",
+      "Desarrollar e implementar funcionalidades al aplicativo TRIKO APP, por medio de microservicios desarrollados en PHP con Laravel, AWS, Docker, Linux, APIS (REST / SOAP), Bitbucket, Sentry, Zendesk.",
     trikoDesc2:
-      "Implementar integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios utilizando Java con Spring Boot.",
+      "Implementar integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios utilizando Java con Spring Boot y soporte técnico.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "2024 - 2025",
     merqueoDesc1:
-      "Desarrollar funcionalidades para diversos proyectos utilizando .NET, Go, Java con Spring Boot, AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
+      "Desarrollar funcionalidades para diversos proyectos utilizando PHP con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
     merqueoDesc2:
       "Integrar requerimientos para dashboards internos y proyectos web-front, optimizando procesos operativos y de atención al cliente.",
 
@@ -67,7 +67,7 @@ const translations = {
     samsaraCompany: "Samsara Med",
     samsaraDate: "2023 - 2024",
     samsaraDesc:
-      "Co-liderar y participar en todo el ciclo de vida del desarrollo de un software personalizado para el sector salud, utilizando PHP con Laravel, MySQL, HTML, CSS3, jQuery, Node.js.",
+      "Co-liderar y participar en todo el ciclo de vida del desarrollo y soporte de un software personalizado para el sector salud, utilizando PHP con Laravel, Linux, APIS (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
 
     // USC
     uscTitle: "Desarrollador de software",
@@ -75,18 +75,18 @@ const translations = {
     uscDate: "2018 - 2023",
     current: "Actual",
     uscTech:
-      ".NET, PHP, Angular, JavaScript, Docker, Node.js, Oracle y GitLab",
+      "PHP con Laravel, APIS (REST / SOAP), JavaScript, Docker, Node.js, Oracle, GitLab, Sentry, Zendesk.",
     uscDesc1:
-      "Implementar mejoras en el Sistema de Información para el Aseguramiento de la Calidad (SIPAC), optimizando su eficiencia en un 40% y facilitando el seguimiento académico.",
+      "Implementar mejoras en el Sistema de Información para el Aseguramiento de la Calidad (SIPAC), optimizando su eficiencia en un 40% y facilitando el seguimiento académico y soporte técnico.",
     uscDesc2:
-      "Liderar y desarrollar la actualización del Sistema de Información de Prácticas y Pasantías Universitarias (SIPPU), incorporando funcionalidades de seguimiento en tiempo real y reportes personalizados, incrementando la tasa de colocación de estudiantes en prácticas.",
+      "Liderar y desarrollar la actualización del Sistema de Información de Prácticas y Pasantías Universitarias (SIPPU), incorporando funcionalidades de seguimiento en tiempo real y reportes personalizados, incrementando la tasa de colocación de estudiantes en prácticas y soporte técnico.",
 
     // Education section
     professionalEducation: "Formación Profesional",
     complementaryEducation: "Formación Complementaria",
     languagesTitle: "Idiomas",
     english: "Inglés",
-    intermediate: "Intermedio",
+    intermediate: "B1 (Intermedio) – Lectura técnica y comunicación.",
     spanish: "Español",
     native: "Nativo",
 
@@ -131,21 +131,21 @@ const translations = {
     trikoAppDesc:
       "Triko es el primer mercado de servicios con ofertas anónimas que conecta clientes con proveedores de servicios locales confiables. La plataforma opera en Estados Unidos a través de su aplicación móvil para Android e IOS, permitiendo publicar solicitudes de servicio gratis, recibir múltiples ofertas de proveedores verificados mediante un sistema tipo subasta en tiempo real, y compartir información de contacto solo con el postor favorito. Sin suscripciones ni necesidad de tarjeta de crédito, priorizando transparencia, privacidad y seguridad.",
     trikoAppTech:
-      ".NET, Angular, AWS, Docker, Bitbucket, Java con Spring Boot, Microservicios, APIs RESTful.",
+      "PHP con Laravel, AWS, Docker, Linux, APIs (REST / SOAP), Bitbucket, Sentry, Zendesk, Java con Spring Boot, Microservicios.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
       "Merqueo fue una empresa colombiana que operaba como supermercado en línea, permitiendo a los usuarios realizar compras de mercado a través de su página web y aplicación móvil. La plataforma permitía seleccionar productos, programar horarios de entrega y elegir métodos de pago. La compañía gestionaba directamente su cadena de suministro, almacenando productos en sus propios centros de distribución y realizando entregas sin intermediarios, ofreciendo precios competitivos y optimizando tiempos de entrega. Operó en ciudades de Colombia, México y Brasil. La aplicación móvil y página web incluían dashboard operativo para gestión interna y web-front para clientes.",
     merqueoProjectTech:
-      ".NET, Go, Java con Spring Boot, AWS (Lambda, S3, EC2), MySQL, DynamoDB.",
+      "PHP con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
       "Software hecho a la medida para el sector de la salud, en la cual se gestionan la agenda de cada paciente, su línea de tiempo, reportes detallados de cada historia clínica y generación de rips.",
     samsaraMobiTech:
-      "PHP con Laravel, MySQL, HTML, CSS3, jQuery, Node.js.",
+      "PHP con Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
 
     // SIPAC project
     sipacTitle:
@@ -193,7 +193,7 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
-      "Results-driven software engineer with over 8 years of experience developing and designing web applications using modern technologies. Proven ability to build custom applications from scratch and maintain existing codebases. Passionate about solving complex development challenges with strong empathy and exceptional teamwork skills. Proactive problem-solver focused on delivering efficient, scalable technological solutions.",
+      "Systems engineer and software developer with over 8 years of experience in the development and maintenance of web applications. I have worked developing APIs and integrations and managing relational databases. I have experience investigating and resolving problems in production systems, analyzing logs and fixing errors to identify the root cause and improve application stability. I am characterized by providing efficient, scalable solutions and adapting easily to different technological environments.",
 
     // Skills section
     skillsTitle: "Skills",
@@ -224,16 +224,16 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "2024 - Present",
     trikoDesc1:
-      "Develop and implement features for the TRIKO APP application through microservices built with .NET, Angular, AWS, Docker, and Bitbucket.",
+      "Develop and implement features for the TRIKO APP application through microservices built with PHP with Laravel, AWS, Docker, Linux, APIs (REST / SOAP), Bitbucket, Sentry, Zendesk.",
     trikoDesc2:
-      "Implement high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot.",
+      "Implement high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot and technical support.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "2024 - 2025",
     merqueoDesc1:
-      "Develop features for various projects using .NET, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
+      "Develop features for various projects using PHP with Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
     merqueoDesc2:
       "Integrate requirements for internal dashboards and web-front projects, optimizing operational processes and customer service.",
 
@@ -242,25 +242,25 @@ const translations = {
     samsaraCompany: "Samsara Med",
     samsaraDate: "2023 - 2024",
     samsaraDesc:
-      "Co-lead and participate in the full software development lifecycle for custom healthcare sector software using PHP with Laravel, MySQL, HTML, CSS3, jQuery, and Node.js.",
+      "Co-lead and participate in the full lifecycle of development and support of custom healthcare sector software using PHP with Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
 
     // USC
     uscTitle: "Software Developer",
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "2018 - 2023",
     uscTech:
-      ".NET, PHP, Angular, JavaScript, Docker, Node.js, Oracle and GitLab",
+      "PHP with Laravel, APIs (REST / SOAP), JavaScript, Docker, Node.js, Oracle, GitLab, Sentry, Zendesk.",
     uscDesc1:
-      "Implement improvements to the Quality Assurance Information System (SIPAC), optimizing its efficiency by 40% and facilitating academic tracking.",
+      "Implement improvements to the Quality Assurance Information System (SIPAC), optimizing its efficiency by 40% and facilitating academic tracking and technical support.",
     uscDesc2:
-      "Lead and develop the update of the University Internships and Practices Information System (SIPPU), incorporating real-time tracking and customized reports, increasing the student placement rate in internships.",
+      "Lead and develop the update of the University Internships and Practices Information System (SIPPU), incorporating real-time tracking and customized reports, increasing the student placement rate in internships and technical support.",
 
     // Education section
     professionalEducation: "Professional Education",
     complementaryEducation: "Complementary Education",
     languagesTitle: "Languages",
     english: "English",
-    intermediate: "Intermediate",
+    intermediate: "B1 (Intermediate) – Technical reading & communication.",
     spanish: "Spanish",
     native: "Native",
 
@@ -305,21 +305,21 @@ const translations = {
     trikoAppDesc:
       "Triko is the first anonymous service marketplace that connects customers with trusted local service providers. The platform operates in the United States through its mobile application for Android and iOS, allowing users to post free service requests, receive multiple offers from verified providers through a real-time auction system, and share contact information only with the preferred bidder. No subscriptions or credit card required, prioritizing transparency, privacy and security.",
     trikoAppTech:
-      ".NET, Angular, AWS, Docker, Bitbucket, Java with Spring Boot, Microservices, RESTful APIs.",
+      "PHP with Laravel, AWS, Docker, Linux, APIs (REST / SOAP), Bitbucket, Sentry, Zendesk, Java with Spring Boot, Microservices.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
       "Merqueo was a Colombian company that operated as an online supermarket, enabling users to make grocery purchases through its website and mobile application. The platform enabled product selection, delivery time scheduling, and payment method selection. The company managed its supply chain directly, storing products in its own distribution centers and making deliveries without intermediaries, offering competitive prices and optimizing delivery times. It operated in cities across Colombia, Mexico, and Brazil. The mobile application and website included an operational dashboard for internal management and a web-front for customers.",
     merqueoProjectTech:
-      ".NET, Go, Java with Spring Boot, AWS (Lambda, S3, EC2), MySQL, DynamoDB.",
+      "PHP with Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
       "Custom healthcare software that manages patient schedules, timelines, detailed medical record reports, and RIPS (Registro Individual de Prestación de Servicios) generation.",
     samsaraMobiTech:
-      "PHP with Laravel, MySQL, HTML, CSS3, jQuery, Node.js.",
+      "PHP with Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
 
     // SIPAC project
     sipacTitle: "Quality Assurance Information System (SIPAC)",

@@ -18,7 +18,7 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Ingeniero de sistemas y desarrollador de software con más de 8 años de experiencia en el desarrollo y mantenimiento de aplicaciones web. He trabajado desarrollando APIs e integraciones y gestionando bases de datos relacionales. Tengo experiencia investigando y resolviendo problemas en sistemas en producción, analizando logs y corrigiendo errores para identificar la causa raíz y mejorar la estabilidad de las aplicaciones. Me caracterizo por aportar soluciones eficientes, escalables y adaptarme fácilmente a diferentes entornos tecnológicos.",
+      "Desarrollador Backend con más de 8 años de experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web y microservicios, utilizando PHP, JavaScript y Node.js. Con experiencia en arquitecturas serverless, colas y eventos en AWS, y disposición para participar en migraciones tecnológicas hacia Node.js. Uso activo de herramientas de IA (GitHub Copilot, Cursor) para acelerar el desarrollo. Mentalidad de ownership, enfoque orientado a resultados y capacidad de colaborar en equipos ágiles 100% remotos.",
 
     // Skills section
     skillsTitle: "Habilidades",
@@ -47,39 +47,39 @@ const translations = {
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "2024 - Actual",
+    trikoDate: "Nov 2024 - Actual",
     trikoDesc1:
-      "Desarrollar e implementar funcionalidades al aplicativo TRIKO APP, por medio de microservicios desarrollados en PHP con Laravel, AWS, Docker, Linux, APIS (REST / SOAP), Bitbucket, Sentry, Zendesk.",
+      "Diseñar e implementar microservicios de alta disponibilidad para TRIKO APP usando Node.js, PHP, Laravel, Symfony, AWS (Lambda, SQS, SNS), Docker, Kubernetes y Serverless Framework — plataforma fintech.",
     trikoDesc2:
-      "Implementar integraciones bancarias de alta disponibilidad mediante APIs RESTful y microservicios utilizando Java con Spring Boot y soporte técnico.",
+      "Implementar integraciones bancarias mediante APIs RESTful y SOAP con Java Spring Boot. Gestionar colas y eventos asincrónicos con AWS SQS y CI/CD automatizado.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
-    merqueoDate: "2024 - 2025",
+    merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Desarrollar funcionalidades para diversos proyectos utilizando PHP con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
+      "Desarrollar APIs REST y servicios backend con Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB con pruebas automatizadas completas (PHPUnit, Jest).",
     merqueoDesc2:
-      "Integrar requerimientos para dashboards internos y proyectos web-front, optimizando procesos operativos y de atención al cliente.",
+      "Integrar dashboards internos en Vue.js optimizando procesos operativos y de atención al cliente.",
 
     // Samsara
     samsaraTitle: "Co-líder de desarrollo de software",
     samsaraCompany: "Samsara Med",
-    samsaraDate: "2023 - 2024",
+    samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-liderar y participar en todo el ciclo de vida del desarrollo y soporte de un software personalizado para el sector salud, utilizando PHP con Laravel, Linux, APIS (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
+      "Co-liderar el ciclo completo de desarrollo de una plataforma de salud: arquitectura, desarrollo, despliegue y soporte con Node.js, PHP, Laravel, MySQL, Web Services REST/SOAP y principios SOLID.",
 
     // USC
     uscTitle: "Desarrollador de software",
     uscCompany: "Universidad Santiago de Cali",
-    uscDate: "2018 - 2023",
+    uscDate: "Abr 2018 - Dic 2023",
     current: "Actual",
     uscTech:
-      "PHP con Laravel, APIS (REST / SOAP), JavaScript, Docker, Node.js, Oracle, GitLab, Sentry, Zendesk.",
+      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, Web Services (REST/SOAP).",
     uscDesc1:
-      "Implementar mejoras en el Sistema de Información para el Aseguramiento de la Calidad (SIPAC), optimizando su eficiencia en un 40% y facilitando el seguimiento académico y soporte técnico.",
+      "Optimizar el sistema SIPAC logrando 40% de mejora en eficiencia, facilitando el seguimiento académico y el soporte técnico.",
     uscDesc2:
-      "Liderar y desarrollar la actualización del Sistema de Información de Prácticas y Pasantías Universitarias (SIPPU), incorporando funcionalidades de seguimiento en tiempo real y reportes personalizados, incrementando la tasa de colocación de estudiantes en prácticas y soporte técnico.",
+      "Liderar el rediseño del sistema SIPPU con seguimiento en tiempo real, incrementando la tasa de colocación de estudiantes.",
 
     // Education section
     professionalEducation: "Formación Profesional",
@@ -93,11 +93,11 @@ const translations = {
     // Education items
     systemsEngineering: "Ingeniería de Sistemas",
     remington: "Corporación Universitaria Remington",
-    remingtonDate: "2021 - 2023",
+    remingtonDate: "Abr 2021 - Dic 2023",
     technologyAnalysis:
       "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
     sena: "SENA (Servicio Nacional de Aprendizaje)",
-    senaDate: "2016 - 2018",
+    senaDate: "Sep 2016 - Sep 2018",
     dataStructures: "Curso Práctico de Estructuras de Datos y Algoritmos",
     goCourse: "Curso de Programación en Go",
     awsCourse: "Introducción a AWS: Fundamentos de Computación en la Nube",
@@ -193,7 +193,7 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
-      "Systems engineer and software developer with over 8 years of experience in the development and maintenance of web applications. I have worked developing APIs and integrations and managing relational databases. I have experience investigating and resolving problems in production systems, analyzing logs and fixing errors to identify the root cause and improve application stability. I am characterized by providing efficient, scalable solutions and adapting easily to different technological environments.",
+      "Backend developer with more than 8 years of experience designing, developing, and maintaining web applications and microservices using PHP, JavaScript, and Node.js. Experience with serverless architectures, queues, and events in AWS, and willingness to participate in technology migrations toward Node.js. Active use of AI tools (GitHub Copilot, Cursor) to accelerate development. Ownership mindset, results-oriented focus, and the ability to collaborate with agile teams fully remote.",
 
     // Skills section
     skillsTitle: "Skills",
@@ -222,38 +222,38 @@ const translations = {
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "2024 - Present",
+    trikoDate: "Nov 2024 - Present",
     trikoDesc1:
-      "Develop and implement features for the TRIKO APP application through microservices built with PHP with Laravel, AWS, Docker, Linux, APIs (REST / SOAP), Bitbucket, Sentry, Zendesk.",
+      "Design and implement high-availability microservices for TRIKO APP using Node.js, PHP, Laravel, Symfony, AWS (Lambda, SQS, SNS), Docker, Kubernetes, and Serverless Framework — fintech platform.",
     trikoDesc2:
-      "Implement high-availability banking integrations through RESTful APIs and microservices using Java with Spring Boot and technical support.",
+      "Implement high-availability banking integrations through RESTful APIs and SOAP with Java Spring Boot. Manage queues and asynchronous events with AWS SQS and automated CI/CD.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
-    merqueoDate: "2024 - 2025",
+    merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Develop features for various projects using PHP with Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
+      "Develop REST APIs and backend services with Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, with complete automated testing (PHPUnit, Jest).",
     merqueoDesc2:
-      "Integrate requirements for internal dashboards and web-front projects, optimizing operational processes and customer service.",
+      "Integrate internal dashboards in Vue.js, optimizing operational workflows and customer support.",
 
     // Samsara
     samsaraTitle: "Software Development Co-leader",
     samsaraCompany: "Samsara Med",
-    samsaraDate: "2023 - 2024",
+    samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc:
-      "Co-lead and participate in the full lifecycle of development and support of custom healthcare sector software using PHP with Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
+      "Co-lead the full development lifecycle of a healthcare platform: architecture, development, deployment, and support with Node.js, PHP, Laravel, MySQL, Web Services (REST/SOAP), and SOLID principles.",
 
     // USC
     uscTitle: "Software Developer",
     uscCompany: "Universidad Santiago de Cali",
-    uscDate: "2018 - 2023",
+    uscDate: "Apr 2018 - Dec 2023",
     uscTech:
-      "PHP with Laravel, APIs (REST / SOAP), JavaScript, Docker, Node.js, Oracle, GitLab, Sentry, Zendesk.",
+      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, Web Services (REST/SOAP).",
     uscDesc1:
-      "Implement improvements to the Quality Assurance Information System (SIPAC), optimizing its efficiency by 40% and facilitating academic tracking and technical support.",
+      "Optimize SIPAC, achieving a 40% efficiency improvement while facilitating academic tracking and technical support.",
     uscDesc2:
-      "Lead and develop the update of the University Internships and Practices Information System (SIPPU), incorporating real-time tracking and customized reports, increasing the student placement rate in internships and technical support.",
+      "Lead the redesign of SIPPU with real-time tracking, increasing the student placement rate.",
 
     // Education section
     professionalEducation: "Professional Education",
@@ -267,11 +267,11 @@ const translations = {
     // Education items
     systemsEngineering: "Systems Engineering",
     remington: "Corporación Universitaria Remington",
-    remingtonDate: "2021 - 2023",
+    remingtonDate: "Apr 2021 - Dec 2023",
     technologyAnalysis:
       "Information Systems Analysis and Development Technologist",
     sena: "SENA (Servicio Nacional de Aprendizaje)",
-    senaDate: "2016 - 2018",
+    senaDate: "Sep 2016 - Sep 2018",
     dataStructures: "Practical Course on Data Structures and Algorithms",
     goCourse: "Go Programming Course",
     awsCourse: "Introduction to AWS: Fundamentals of Cloud Computing",

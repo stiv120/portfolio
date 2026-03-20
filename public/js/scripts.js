@@ -1,3 +1,16 @@
+// Keep the navbar highlight in sync when using showTab() from anywhere (e.g. "View My Work").
+function updateActiveNavTab(tabId) {
+  const menu = document.getElementById("menu");
+  if (!menu) return;
+  menu.querySelectorAll("li > a").forEach(function (link) {
+    link.classList.remove("active");
+  });
+  const tabLink = menu.querySelector('a[data-nav-tab="' + tabId + '"]');
+  if (tabLink) {
+    tabLink.classList.add("active");
+  }
+}
+
 // Function to show only the selected section
 function showTab(tabId) {
   // Hide all sections
@@ -10,6 +23,7 @@ function showTab(tabId) {
   const selectedTab = document.getElementById(tabId);
   if (selectedTab) {
     selectedTab.classList.add("active");
+    updateActiveNavTab(tabId);
     setTimeout(function () {
       selectedTab.scrollIntoView({ behavior: "smooth" });
     }, 0); // 0ms delay
@@ -26,15 +40,9 @@ tabsLinks.forEach(function (tabLink) {
   });
 });
 
-// Show the first section (about) when page loads
+// Show the first section (about) when page loads (showTab also marks the nav item active)
 document.addEventListener("DOMContentLoaded", function () {
   showTab("about");
-
-  // Add 'active' class to the first menu option
-  const firstTabLink = document.querySelector("#menu li a");
-  if (firstTabLink) {
-    firstTabLink.classList.add("active");
-  }
 });
 
 // Get menu elements and button

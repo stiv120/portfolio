@@ -5,14 +5,21 @@
   --background-color: #f4f4f9;
   --text-color: #333;
   --light-text-color: #fff;
+  --global-gradient: linear-gradient(
+    135deg,
+    rgba(0, 197, 255, 0.85) 0%,
+    rgba(17, 24, 39, 0.95) 35%,
+    rgba(124, 58, 237, 0.92) 100%
+  );
 }
 
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background: var(--global-gradient);
+  background-attachment: fixed;
+  color: var(--light-text-color);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -87,6 +94,13 @@ section .profile-pic {
   animation: fadeIn 0.8s ease-in-out;
 }
 
+/* Ensure headings remain readable on dark gradient background */
+.tab-content h1,
+.tab-content h2,
+.tab-content h3 {
+  color: var(--light-text-color) !important;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -135,4 +149,66 @@ footer {
 
 .text-left {
   text-align: left;
+}
+
+/* Hero (About Me) */
+.hero {
+  max-width: 100%;
+  margin: 0;
+  padding: 110px 0 60px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 197, 255, 0.85) 0%,
+    rgba(17, 24, 39, 0.95) 35%,
+    rgba(124, 58, 237, 0.92) 100%
+  );
+  color: var(--light-text-color);
+}
+
+.hero-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-content {
+  padding-top: 10px;
+}
+
+.hero .profile-pic {
+  width: 200px;
+  height: 220px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.35));
+}
+
+.hero h2 {
+  color: var(--light-text-color);
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.hero-cta .btn {
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+/* Projects tech chips */
+.tech-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tech-chip {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: var(--light-text-color);
 }

@@ -106,39 +106,59 @@
     </nav>
 
     <!-- Sección Sobre mí -->
-    <section id="about" class="tab-content">
-      <br />
-      <div class="text-center">
-        <h1 data-i18n="title">Javier Stiven Chávez Gallego</h1>
-        <p data-i18n="subtitle">Ingeniero de Sistemas</p>
-        <p>
-          <i class="fas fa-map-marker-alt"></i>
-          <span data-i18n="location">Santiago de Cali, Colombia</span>
-        </p>
-        <p>
-          <i class="fas fa-phone"></i>
-          <span data-i18n="phone">+57 3188640454</span>
-        </p>
-        <img
-          src="public/images/photo.jpg"
-          alt="Foto de Javier Stiven"
-          class="profile-pic"
-        />
-      </div>
-      <div class="container">
-        <h2 class="text-center" data-i18n="aboutTitle">Sobre mí</h2>
-        <div class="container">
-          <p class="text-justify" data-i18n="aboutText">
-            Ingeniero de sistemas y desarrollador de software con más de 8 años
-            de experiencia en el desarrollo y mantenimiento de aplicaciones web.
-            He trabajado desarrollando APIs e integraciones y gestionando bases
-            de datos relacionales. Tengo experiencia investigando y resolviendo
-            problemas en sistemas en producción, analizando logs y corrigiendo
-            errores para identificar la causa raíz y mejorar la estabilidad de
-            las aplicaciones. Me caracterizo por aportar soluciones eficientes,
-            escalables y adaptarme fácilmente a diferentes entornos
-            tecnológicos.
+    <section id="about" class="tab-content hero">
+      <div class="hero-inner">
+        <div class="text-center">
+          <h1 data-i18n="title">Javier Stiven Chávez Gallego</h1>
+          <p data-i18n="subtitle">Ingeniero de Sistemas</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i>
+            <span data-i18n="location">Santiago de Cali, Colombia</span>
           </p>
+          <p>
+            <i class="fas fa-phone"></i>
+            <span data-i18n="phone">+57 3188640454</span>
+          </p>
+          <img
+            src="public/images/photo.jpg"
+            alt="Foto de Javier Stiven"
+            class="profile-pic"
+          />
+        </div>
+
+        <div class="container hero-content">
+          <h2 class="text-center" data-i18n="aboutTitle">Sobre mí</h2>
+          <div class="container">
+            <p class="text-justify" data-i18n="aboutText">
+              Backend developer con más de 8 años de experiencia en el
+              diseño, desarrollo y mantenimiento de aplicaciones web y
+              microservicios.
+            </p>
+
+            <div class="hero-cta text-center mt-4">
+              <a
+                class="btn btn-primary btn-lg hero-btn me-2"
+                href="public/docs/cv.pdf"
+                download
+                data-i18n="downloadCv"
+                >Download CV</a
+              >
+              <button
+                class="btn btn-outline-light btn-lg hero-btn me-2"
+                type="button"
+                onclick="showTab('projects')"
+                data-i18n="viewMyWork"
+              >
+                View My Work
+              </button>
+              <a
+                class="btn btn-outline-light btn-lg hero-btn"
+                href="mailto:gallegostiven340@gmail.com"
+                data-i18n="contactMe"
+                >Contact Me</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -266,10 +286,6 @@
                   <div class="skill-item">
                     <i class="fab fa-vuejs"></i>
                     <p>Vue.js</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-node-js"></i>
-                    <p>Node.js</p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-cubes"></i>
@@ -693,17 +709,14 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <img
-                  src="public/images/platzi-logo.png"
-                  alt="Platzi"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                  onerror="this.style.display='none';"
-                />
+                <div class="edu-logo-badge" aria-label="Platzi">
+                  <img
+                    src="public/images/platzi-logo.svg"
+                    alt=""
+                    height="32"
+                    loading="lazy"
+                  />
+                </div>
                 <h3 class="card-title" data-i18n="goCourse">
                   Go Programming Course
                 </h3>
@@ -717,17 +730,14 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <img
-                  src="public/images/platzi-logo.png"
-                  alt="Platzi"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                  onerror="this.style.display='none';"
-                />
+                <div class="edu-logo-badge" aria-label="Platzi">
+                  <img
+                    src="public/images/platzi-logo.svg"
+                    alt=""
+                    height="32"
+                    loading="lazy"
+                  />
+                </div>
                 <h3 class="card-title" data-i18n="awsCourse">
                   Introduction to AWS: Fundamentals of Cloud Computing
                 </h3>
@@ -741,17 +751,16 @@
           <div class="col-sm-6 mb-3">
             <div class="card">
               <div class="card-body">
-                <img
-                  src="public/images/udemy-logo.png"
-                  alt="Udemy"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                  onerror="this.style.display='none';"
-                />
+                <div class="edu-logo-badge" aria-label="Udemy">
+                  <img
+                    src="public/images/udemy-logo.svg"
+                    alt=""
+                    width="120"
+                    height="34"
+                    loading="lazy"
+                    onerror="this.style.display='none';"
+                  />
+                </div>
                 <h3 class="card-title" data-i18n="laravelPackages">
                   Learn how to create reusable packages for Laravel PHP
                 </h3>
@@ -859,11 +868,15 @@
                 </p>
                 <p class="text-justify">
                   <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span data-i18n="trikoAppTech"
-                    >PHP con Laravel, AWS, Docker, Linux, APIs (REST / SOAP),
-                    Bitbucket, Sentry, Zendesk, Java con Spring Boot,
-                    Microservicios.</span
+                  <span
+                    class="tech-chips"
+                    data-i18n="trikoAppTech"
+                    data-tech-chips
                   >
+                    PHP con Laravel, AWS, Docker, Linux, APIs (REST / SOAP),
+                    Bitbucket, Sentry, Zendesk, Java con Spring Boot,
+                    Microservicios.
+                  </span>
                 </p>
               </div>
             </div>
@@ -891,10 +904,14 @@
                 </p>
                 <p class="text-justify">
                   <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span data-i18n="merqueoProjectTech"
-                    >PHP con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2),
-                    MySQL, DynamoDB, Sentry, Zendesk.</span
+                  <span
+                    class="tech-chips"
+                    data-i18n="merqueoProjectTech"
+                    data-tech-chips
                   >
+                    PHP con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2),
+                    MySQL, DynamoDB, Sentry, Zendesk.
+                  </span>
                 </p>
               </div>
             </div>
@@ -914,10 +931,14 @@
                 </p>
                 <p class="text-justify">
                   <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span data-i18n="samsaraMobiTech"
-                    >PHP con Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery,
-                    Node.js, Sentry, Zendesk.</span
+                  <span
+                    class="tech-chips"
+                    data-i18n="samsaraMobiTech"
+                    data-tech-chips
                   >
+                    PHP con Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery,
+                    Node.js, Sentry, Zendesk.
+                  </span>
                 </p>
               </div>
             </div>
@@ -940,7 +961,7 @@
                 </p>
                 <p class="text-justify">
                   <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span data-i18n="sipacTech"></span>
+                  <span class="tech-chips" data-i18n="sipacTech" data-tech-chips></span>
                 </p>
               </div>
             </div>
@@ -960,7 +981,7 @@
                 </p>
                 <p class="text-justify">
                   <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span data-i18n="appsTech"></span>
+                  <span class="tech-chips" data-i18n="appsTech" data-tech-chips></span>
                 </p>
               </div>
             </div>
@@ -987,7 +1008,11 @@
                 </p>
                 <p class="text-justify">
                   <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span data-i18n="geolocationTech"></span>
+                  <span
+                    class="tech-chips"
+                    data-i18n="geolocationTech"
+                    data-tech-chips
+                  ></span>
                 </p>
                 <p>
                   <a
@@ -1015,7 +1040,11 @@
                 </p>
                 <p class="text-justify">
                   <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span data-i18n="eventsApiTech"></span>
+                  <span
+                    class="tech-chips"
+                    data-i18n="eventsApiTech"
+                    data-tech-chips
+                  ></span>
                 </p>
                 <p>
                   <a
@@ -1055,7 +1084,7 @@
 
     <!-- Footer -->
     <footer>
-      <p>© 2025 Javier Stiven Chávez Gallego</p>
+      <p>© 2026 Javier Stiven Chávez Gallego</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

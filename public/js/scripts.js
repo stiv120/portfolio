@@ -150,6 +150,46 @@ function translatePage(lang) {
       if (langText) langText.textContent = "EN";
     }
   }
+
+  // After the DOM is translated, convert technology lists into chips.
+  renderTechChips();
+}
+
+// Render technology label lists as visual chips.
+function renderTechChips() {
+  document.querySelectorAll("[data-tech-chips]").forEach((el) => {
+    const raw = (el.textContent || "").trim();
+    if (!raw) return;
+
+    // Split by commas only when we are not inside parentheses.
+    // This keeps tokens like "AWS (Lambda, SQS, SNS)" as a single chip.
+    const parts = [];
+    let buf = "";
+    let depth = 0;
+    for (const ch of raw) {
+      if (ch === "(") depth += 1;
+      if (ch === ")") depth = Math.max(0, depth - 1);
+
+      if (ch === "," && depth === 0) {
+        const item = buf.trim().replace(/\.$/, "");
+        if (item) parts.push(item);
+        buf = "";
+        continue;
+      }
+
+      buf += ch;
+    }
+    const last = buf.trim().replace(/\.$/, "");
+    if (last) parts.push(last);
+
+    el.innerHTML = "";
+    parts.forEach((part) => {
+      const chip = document.createElement("span");
+      chip.className = "tech-chip";
+      chip.textContent = part;
+      el.appendChild(chip);
+    });
+  });
 }
 
 // Initialize language on page load

@@ -18,7 +18,12 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Desarrollador Backend con más de 8 años de experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web y microservicios, utilizando PHP, JavaScript y Node.js. Con experiencia en arquitecturas serverless, colas y eventos en AWS, y disposición para participar en migraciones tecnológicas hacia Node.js. Uso activo de herramientas de IA (GitHub Copilot, Cursor) para acelerar el desarrollo. Mentalidad de ownership, enfoque orientado a resultados y capacidad de colaborar en equipos ágiles 100% remotos.",
+      "Backend developer enfocado en microservicios y serverless: diseño APIs robustas y mantenibles con Node.js/TypeScript y PHP (Laravel/Symfony), y orquesto colas y eventos en AWS para alta disponibilidad. Trabajo con mentalidad de ownership, disfruto el code review y uso IA (Copilot/Cursor) para entregar más rápido sin sacrificar calidad. Si buscas servicios estables, escalables y medibles, hablemos.",
+
+    // Hero CTA
+    downloadCv: "Descargar CV",
+    viewMyWork: "Ver mis proyectos",
+    contactMe: "Contáctame",
 
     // Skills section
     skillsTitle: "Habilidades",
@@ -129,31 +134,31 @@ const translations = {
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Triko es el primer mercado de servicios con ofertas anónimas que conecta clientes con proveedores de servicios locales confiables. La plataforma opera en Estados Unidos a través de su aplicación móvil para Android e IOS, permitiendo publicar solicitudes de servicio gratis, recibir múltiples ofertas de proveedores verificados mediante un sistema tipo subasta en tiempo real, y compartir información de contacto solo con el postor favorito. Sin suscripciones ni necesidad de tarjeta de crédito, priorizando transparencia, privacidad y seguridad.",
+      "Triko es un marketplace de servicios anónimos. En mi rol diseñé e implementé microservicios de alta disponibilidad para TRIKO APP con Node.js, PHP (Laravel/Symfony) y AWS (Lambda, SQS, SNS), usando Docker, Kubernetes y Serverless Framework. Gestioné integraciones bancarias mediante APIs REST y SOAP para asegurar flujos confiables y asincrónicos en una plataforma fintech.",
     trikoAppTech:
-      "PHP con Laravel, AWS, Docker, Linux, APIs (REST / SOAP), Bitbucket, Sentry, Zendesk, Java con Spring Boot, Microservicios.",
+      "Node.js, PHP (Laravel, Symfony), AWS (Lambda, SQS, SNS), Docker, Kubernetes, Serverless Framework, APIs REST/SOAP, CI/CD, Sentry, JWT, YAML.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "Merqueo fue una empresa colombiana que operaba como supermercado en línea, permitiendo a los usuarios realizar compras de mercado a través de su página web y aplicación móvil. La plataforma permitía seleccionar productos, programar horarios de entrega y elegir métodos de pago. La compañía gestionaba directamente su cadena de suministro, almacenando productos en sus propios centros de distribución y realizando entregas sin intermediarios, ofreciendo precios competitivos y optimizando tiempos de entrega. Operó en ciudades de Colombia, México y Brasil. La aplicación móvil y página web incluían dashboard operativo para gestión interna y web-front para clientes.",
+      "En Merqueo desarrollé APIs REST y servicios backend con Node.js, PHP (Laravel/Symfony) y Go. Implementé integración con AWS (Lambda, S3, EC2) usando MySQL y DynamoDB, y construí pruebas automatizadas completas (PHPUnit y Jest). Además, integré dashboards internos en Vue.js optimizando la operación y la atención al cliente.",
     merqueoProjectTech:
-      "PHP con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
+      "Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, PHPUnit, Jest, Vue.js, Sentry.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
-      "Software hecho a la medida para el sector de la salud, en la cual se gestionan la agenda de cada paciente, su línea de tiempo, reportes detallados de cada historia clínica y generación de rips.",
+      "Co-lideré el ciclo completo de desarrollo y soporte de una plataforma para el sector salud. Implementé componentes backend con Node.js y PHP (Laravel), integré Web Services REST/SOAP, trabajé con MySQL y jQuery, y apliqué principios SOLID y code review para mantener calidad y estabilidad.",
     samsaraMobiTech:
-      "PHP con Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
+      "Node.js, PHP (Laravel), MySQL, REST/SOAP, jQuery, Sentry, SOLID.",
 
     // SIPAC project
     sipacTitle:
       "Sistema de Información para el Aseguramiento de la Calidad (SIPAC)",
     sipacDesc:
-      "Sistema de Información hecho para la Universidad Santiago de Cali. Incluye mejoras que optimizan la eficiencia en un 40% y facilitan el seguimiento académico. Destacan el sistema de información SIPPU para prácticas y pasantías universitarias con seguimiento en tiempo real y reportes personalizados.",
+      "En la Universidad Santiago de Cali optimicé SIPAC logrando 40% de mejora en eficiencia. Lideré el rediseño del sistema SIPPU con seguimiento en tiempo real y reportes personalizados para prácticas y pasantías universitarias.",
     sipacTech:
-      ".NET, PHP, Angular, JavaScript, Docker, Node.js, Oracle, GitLab.",
+      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, APIs REST/SOAP.",
 
     // APPS project
     appsTitle: "Aplicación de Pagos en línea (APPS)",
@@ -193,7 +198,12 @@ const translations = {
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
-      "Backend developer with more than 8 years of experience designing, developing, and maintaining web applications and microservices using PHP, JavaScript, and Node.js. Experience with serverless architectures, queues, and events in AWS, and willingness to participate in technology migrations toward Node.js. Active use of AI tools (GitHub Copilot, Cursor) to accelerate development. Ownership mindset, results-oriented focus, and the ability to collaborate with agile teams fully remote.",
+      "Backend developer focused on microservices and serverless: I design robust, maintainable APIs with Node.js/TypeScript and PHP (Laravel/Symfony), and orchestrate queues and events on AWS for high availability. I work with an ownership mindset, enjoy code review, and use AI tools (Copilot/Cursor) to deliver faster without sacrificing quality. If you need stable, scalable, measurable services, let's talk.",
+
+    // Hero CTA
+    downloadCv: "Download CV",
+    viewMyWork: "View My Work",
+    contactMe: "Contact Me",
 
     // Skills section
     skillsTitle: "Skills",
@@ -303,30 +313,30 @@ const translations = {
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Triko is the first anonymous service marketplace that connects customers with trusted local service providers. The platform operates in the United States through its mobile application for Android and iOS, allowing users to post free service requests, receive multiple offers from verified providers through a real-time auction system, and share contact information only with the preferred bidder. No subscriptions or credit card required, prioritizing transparency, privacy and security.",
+      "Triko is an anonymous services marketplace. In my role I designed and implemented high-availability microservices for TRIKO APP using Node.js, PHP (Laravel/Symfony) and AWS (Lambda, SQS, SNS), with Docker, Kubernetes, and the Serverless Framework. I also managed banking integrations through REST and SOAP APIs to ensure reliable, asynchronous payment flows in a fintech platform.",
     trikoAppTech:
-      "PHP with Laravel, AWS, Docker, Linux, APIs (REST / SOAP), Bitbucket, Sentry, Zendesk, Java with Spring Boot, Microservices.",
+      "Node.js, PHP (Laravel, Symfony), AWS (Lambda, SQS, SNS), Docker, Kubernetes, Serverless Framework, REST/SOAP APIs, CI/CD, Sentry, JWT, YAML.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "Merqueo was a Colombian company that operated as an online supermarket, enabling users to make grocery purchases through its website and mobile application. The platform enabled product selection, delivery time scheduling, and payment method selection. The company managed its supply chain directly, storing products in its own distribution centers and making deliveries without intermediaries, offering competitive prices and optimizing delivery times. It operated in cities across Colombia, Mexico, and Brazil. The mobile application and website included an operational dashboard for internal management and a web-front for customers.",
+      "At Merqueo I developed REST APIs and backend services with Node.js, PHP (Laravel/Symfony) and Go. I implemented integrations on AWS (Lambda, S3, EC2) using MySQL and DynamoDB, and built full automated testing (PHPUnit and Jest). I also integrated internal dashboards in Vue.js to optimize operations and customer support.",
     merqueoProjectTech:
-      "PHP with Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Sentry, Zendesk.",
+      "Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, PHPUnit, Jest, Vue.js, Sentry.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
-      "Custom healthcare software that manages patient schedules, timelines, detailed medical record reports, and RIPS (Registro Individual de Prestación de Servicios) generation.",
+      "I co-led the full development and support lifecycle of a healthcare platform. I implemented backend components with Node.js and PHP (Laravel), integrated Web Services REST/SOAP, worked with MySQL and jQuery, and applied SOLID principles and code review to keep quality and stability.",
     samsaraMobiTech:
-      "PHP with Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery, Node.js, Sentry, Zendesk.",
+      "Node.js, PHP (Laravel), MySQL, REST/SOAP, jQuery, Sentry, SOLID.",
 
     // SIPAC project
     sipacTitle: "Quality Assurance Information System (SIPAC)",
     sipacDesc:
-      "Information system developed for Universidad Santiago de Cali, which includes modules such as performance evaluation of teachers and administrators, certificates and work permits for the human resources department, the SIPPU information system for university internships and practices, and the general Research system (DGI).",
+      "At Universidad Santiago de Cali I optimized SIPAC, achieving a 40% improvement in efficiency. I led the redesign of SIPPU with real-time tracking and customized reports for internships and university practices.",
     sipacTech:
-      "PHP, JavaScript, Java, Spring Boot, Laravel, Oracle, ORM Eloquent, HTML, CSS3, Bootstrap, jQuery, Node.js, Express.js, Docker, Git, GitLab, Gitflow, CI/CD, JSON, PHP Unit, Jest, Scrum, Clean code, SOLID principles, Code review, UML Documentation.",
+      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, REST/SOAP APIs.",
 
     // APPS project
     appsTitle: "Online Payment Application (APPS)",

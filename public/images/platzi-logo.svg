@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Platzi icon path from Simple Icons (CC0): https://github.com/simple-icons/simple-icons
+  Wordmark added for horizontal lockup; transparent background (white from .edu-logo-badge).
+  Tight viewBox so the badge is not wider than the lockup (no empty white strip on the right).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 76 26" role="img" aria-label="Platzi">
+  <title>Platzi</title>
+  <g transform="translate(0, 0.5) scale(0.82)">
+    <path
+      fill="#98CA3F"
+      d="M10.6392 1.127L2.486 9.282a3.842 3.842 0 000 5.4361l8.1552 8.1552a3.842 3.842 0 005.4361 0l2.719-2.718-2.719-2.7181-2.718 2.718-8.1562-8.1551 8.1552-8.1552 5.437 5.4371-5.437 5.4361 2.718 2.719 5.4371-5.437a3.842 3.842 0 000-5.4372l-5.448-5.436a3.828 3.828 0 00-5.4252 0z"
+    />
+  </g>
+  <text
+    x="22"
+    y="16.5"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12.5"
+    font-weight="700"
+    fill="#0f0f0f"
+  >Platzi</text>
+</svg>

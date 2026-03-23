@@ -65,6 +65,22 @@
   transition: transform 0.3s;
 }
 
+.skill-item .skill-svg-icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+
+.skill-item--jenkins .skill-svg-icon path {
+  fill: #ffffff;
+}
+
+.skill-item:hover .skill-svg-icon {
+  transform: scale(1.1);
+}
+
 .skill-item i.fab.fa-js-square {
   color: #f7df1e;
 }
@@ -92,7 +108,8 @@
   color: #ff2d20;
 }
 .skill-item i.fab.fa-symfony {
-  color: #000000;
+  /* Visible on dark cards (brand is dark; light glyph reads better here) */
+  color: #f8fafc;
 }
 .skill-item i.fab.fa-angular {
   color: #dd0031;
@@ -122,7 +139,7 @@
   color: #ff9900;
 }
 .skill-item i.fas.fa-code-branch {
-  color: #5b5b5b;
+  color: #ffffff;
 }
 
 .skill-item i.fas.fa-vial {

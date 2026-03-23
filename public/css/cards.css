@@ -69,3 +69,54 @@
 #education .edu-logo-badge + h3 {
   margin-top: 0 !important;
 }
+
+/* Experience: same white tile for every employer logo (avoids tiny “floating” boxes on dark cards) */
+#experience .experience-logo-wrap {
+  width: 112px;
+  height: 112px;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+  background-color: #ffffff !important;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+  /* Large PNGs (e.g. Triko) must not paint outside the white tile */
+  overflow: hidden;
+}
+
+#experience .experience-logo-wrap img.experience-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  /* Flex default min-width:auto uses intrinsic image width and breaks out of the tile */
+  min-width: 0;
+  min-height: 0;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 !important;
+  display: block;
+}
+
+/* MoBi: wide logo on white — same tile; contain keeps the full mark visible */
+#experience .experience-logo-wrap--mobi {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#experience .experience-logo-wrap--mobi img.experience-logo--mobi {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 0;
+  min-height: 0;
+  object-fit: contain;
+  object-position: center;
+}

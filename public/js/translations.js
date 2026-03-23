@@ -13,7 +13,8 @@ const translations = {
 
     // About section
     title: "Javier Stiven Chávez Gallego",
-    subtitle: "Ingeniero de Sistemas | Senior .NET Developer",
+    subtitle:
+      "Ingeniero de Sistemas | Senior .NET Developer · ASP.NET Core · Microservicios · AWS · Angular",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
@@ -67,7 +68,7 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "Nov 2024 - Mar 2026",
     trikoDesc1:
-      "Desarrollar e implementar microservicios back-end para TRIKO APP con .NET, ASP.NET Core Web API, PHP, Laravel, Symfony, AWS, Docker, Kubernetes y Linux.",
+      "Desarrollar e implementar microservicios back-end para TRIKO APP con .NET, ASP.NET Core Web API, AWS, Docker, Kubernetes y Linux.",
     trikoDesc2:
       "Diseñar y mantener APIs REST y microservicios de alta disponibilidad para integraciones bancarias con Java y Spring Boot.",
     trikoDesc3:
@@ -75,10 +76,10 @@ const translations = {
 
     // Merqueo
     merqueoTitle: "Backend Developer",
-    merqueoCompany: "Merqueo",
+    merqueoCompany: "Merqueo S.A.S",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Desarrollar funcionalidades back-end escalables en múltiples proyectos con .NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
+      "Desarrollar funcionalidades back-end escalables en múltiples proyectos con .NET, ASP.NET Core Web API, Go, AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
     merqueoDesc2:
       "Integrar requerimientos para dashboards internos y proyectos web-front, mejorando flujos operativos con Vue.js.",
     merqueoDesc3:
@@ -98,9 +99,9 @@ const translations = {
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "Abr 2018 - Dic 2023",
     uscTech:
-      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax.",
+      ".NET, ASP.NET Core Web API, Docker, Oracle, Node.js, GitLab, Ajax.",
     uscDesc1:
-      "Construir y mantener sistemas de información con PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab y Ajax.",
+      "Construir y mantener sistemas de información con .NET, ASP.NET Core Web API, Docker, Oracle, Node.js, GitLab y Ajax.",
     uscDesc2:
       "Optimizar el sistema SIPAC logrando un 40% de mejora en eficiencia en seguimiento académico y soporte técnico.",
     uscDesc3:
@@ -154,16 +155,16 @@ const translations = {
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Triko es un marketplace de servicios anónimos. Contribuí con microservicios back-end para TRIKO APP usando .NET, ASP.NET Core Web API, PHP (Laravel/Symfony), AWS, Docker y Kubernetes; integraciones bancarias de alta disponibilidad con Java y Spring Boot; y despliegue con CI/CD y monitoreo con Sentry.",
+      "Triko es un marketplace de servicios anónimos. Contribuí con microservicios back-end para TRIKO APP usando .NET, ASP.NET Core Web API, AWS, Docker y Kubernetes; integraciones bancarias de alta disponibilidad con Java y Spring Boot; y despliegue con CI/CD y monitoreo con Sentry.",
     trikoAppTech:
-      ".NET, ASP.NET Core Web API, PHP (Laravel, Symfony), Java (Spring Boot), AWS, Docker, Kubernetes, REST/SOAP, CI/CD, Sentry.",
+      ".NET, ASP.NET Core Web API, Java (Spring Boot), AWS, Docker, Kubernetes, REST/SOAP, CI/CD, Sentry.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "Desarrollé funcionalidades back-end con .NET, ASP.NET Core Web API, PHP (Laravel), Go y AWS (Lambda, S3, EC2), MySQL y DynamoDB; pruebas automatizadas y documentación de APIs; e integración de dashboards y front web con Vue.js.",
+      "Desarrollé funcionalidades back-end con .NET, ASP.NET Core Web API, Go y AWS (Lambda, S3, EC2), MySQL y DynamoDB; pruebas automatizadas y documentación de APIs; e integración de dashboards y front web con Vue.js.",
     merqueoProjectTech:
-      ".NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Vue.js, PHPUnit, Jest, Sentry.",
+      ".NET, ASP.NET Core Web API, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Vue.js, PHPUnit, Jest, Sentry.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
@@ -178,7 +179,7 @@ const translations = {
     sipacDesc:
       "En la Universidad Santiago de Cali optimicé SIPAC (40% de mejora en eficiencia) y lideré el rediseño del SIPPU con seguimiento en tiempo real y reportes para prácticas y pasantías.",
     sipacTech:
-      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax, APIs REST/SOAP.",
+      ".NET, ASP.NET Core Web API, Docker, Oracle, Node.js, GitLab, Ajax, APIs REST/SOAP.",
 
     // APPS project
     appsTitle: "Aplicación de Pagos en línea (APPS)",
@@ -213,7 +214,8 @@ const translations = {
 
     // About section
     title: "Javier Stiven Chávez Gallego",
-    subtitle: "Systems Engineer | Senior .NET Developer",
+    subtitle:
+      "Systems Engineer | Senior .NET Developer · ASP.NET Core · Microservices · AWS · Angular",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "About Me",
@@ -267,7 +269,7 @@ const translations = {
     trikoCompany: "Triko",
     trikoDate: "Nov 2024 - Mar 2026",
     trikoDesc1:
-      "Develop and implement backend microservices for TRIKO APP using .NET, ASP.NET Core Web API, PHP, Laravel, Symfony, AWS, Docker, Kubernetes, and Linux.",
+      "Develop and implement backend microservices for TRIKO APP using .NET, ASP.NET Core Web API, AWS, Docker, Kubernetes, and Linux.",
     trikoDesc2:
       "Design and maintain high-availability RESTful APIs and microservices for banking integrations using Java with Spring Boot.",
     trikoDesc3:
@@ -275,10 +277,10 @@ const translations = {
 
     // Merqueo
     merqueoTitle: "Backend Developer",
-    merqueoCompany: "Merqueo",
+    merqueoCompany: "Merqueo S.A.S",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Develop scalable back-end features across multiple projects using .NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
+      "Develop scalable back-end features across multiple projects using .NET, ASP.NET Core Web API, Go, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
     merqueoDesc2:
       "Integrate requirements for internal dashboard and client-facing web-front projects, improving operational workflows with Vue.js.",
     merqueoDesc3:
@@ -298,9 +300,9 @@ const translations = {
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "Apr 2018 - Dec 2023",
     uscTech:
-      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax.",
+      ".NET, ASP.NET Core Web API, Docker, Oracle, Node.js, GitLab, Ajax.",
     uscDesc1:
-      "Built and maintained information systems using PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, and Ajax.",
+      "Built and maintained information systems using .NET, ASP.NET Core Web API, Docker, Oracle, Node.js, GitLab, and Ajax.",
     uscDesc2:
       "Optimized SIPAC achieving a 40% efficiency improvement in academic tracking and technical support.",
     uscDesc3:
@@ -354,16 +356,16 @@ const translations = {
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Triko is an anonymous services marketplace. I contributed backend microservices for TRIKO APP using .NET, ASP.NET Core Web API, PHP (Laravel/Symfony), AWS, Docker, and Kubernetes; high-availability banking integrations with Java and Spring Boot; and deployments with CI/CD and Sentry monitoring.",
+      "Triko is an anonymous services marketplace. I contributed backend microservices for TRIKO APP using .NET, ASP.NET Core Web API, AWS, Docker, and Kubernetes; high-availability banking integrations with Java and Spring Boot; and deployments with CI/CD and Sentry monitoring.",
     trikoAppTech:
-      ".NET, ASP.NET Core Web API, PHP (Laravel, Symfony), Java (Spring Boot), AWS, Docker, Kubernetes, REST/SOAP, CI/CD, Sentry.",
+      ".NET, ASP.NET Core Web API, Java (Spring Boot), AWS, Docker, Kubernetes, REST/SOAP, CI/CD, Sentry.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "I built scalable back-end features with .NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, and DynamoDB; automated testing and API documentation; and Vue.js dashboards for internal and client-facing workflows.",
+      "I built scalable back-end features with .NET, ASP.NET Core Web API, Go, AWS (Lambda, S3, EC2), MySQL, and DynamoDB; automated testing and API documentation; and Vue.js dashboards for internal and client-facing workflows.",
     merqueoProjectTech:
-      ".NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Vue.js, PHPUnit, Jest, Sentry.",
+      ".NET, ASP.NET Core Web API, Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Vue.js, PHPUnit, Jest, Sentry.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
@@ -377,7 +379,7 @@ const translations = {
     sipacDesc:
       "At Universidad Santiago de Cali I optimized SIPAC (40% efficiency gain) and led the SIPPU redesign with real-time tracking and reports for internships and practices.",
     sipacTech:
-      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax, REST/SOAP APIs.",
+      ".NET, ASP.NET Core Web API, Docker, Oracle, Node.js, GitLab, Ajax, REST/SOAP APIs.",
 
     // APPS project
     appsTitle: "Online Payment Application (APPS)",

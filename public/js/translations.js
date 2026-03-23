@@ -13,12 +13,12 @@ const translations = {
 
     // About section
     title: "Javier Stiven Chávez Gallego",
-    subtitle: "Ingeniero de Sistemas",
+    subtitle: "Ingeniero de Sistemas | Senior .NET Developer",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Backend developer enfocado en microservicios y serverless: diseño APIs robustas y mantenibles con Node.js/TypeScript y PHP (Laravel/Symfony), y orquesto colas y eventos en AWS para alta disponibilidad. Trabajo con mentalidad de ownership, disfruto el code review y uso IA (Copilot/Cursor) para entregar más rápido sin sacrificar calidad. Si buscas servicios estables, escalables y medibles, hablemos.",
+      "Ingeniero de Sistemas y Desarrollador Senior .NET con más de 8 años de experiencia diseñando, construyendo y manteniendo aplicaciones back-end escalables. Domino .NET, ASP.NET Core Web API, C# y POO, con experiencia práctica en arquitectura de microservicios, APIs RESTful, despliegues en la nube en AWS y pipelines CI/CD. Sólida base en código limpio, revisiones de código, pruebas unitarias e integración, y mentoría a desarrolladores junior. Experiencia en equipos Agile/Scrum entregando software documentado y de calidad. Inglés B1: lectura técnica y comunicación.",
 
     // Hero CTA
     downloadCv: "Descargar CV",
@@ -49,42 +49,62 @@ const translations = {
     functions: "Funciones",
     technologies: "Tecnologías",
 
+    // Incluirtec
+    incluirtecTitle: "Fullstack Developer",
+    incluirtecCompany: "Incluirtec",
+    incluirtecDate: "Mar 2026 - Actual",
+    incluirtecDesc1:
+      "Diseñar y desarrollar servicios back-end escalables con .NET y ASP.NET Core Web API: lógica de negocio, integración con bases de datos y consumo de servicios REST.",
+    incluirtecDesc2:
+      "Construir interfaces modernas con Angular, integrando componentes reutilizables y consumo de APIs REST.",
+    incluirtecDesc3:
+      "Desplegar aplicaciones en AWS utilizando Docker para contenedorización y gestión de entornos.",
+    incluirtecDesc4:
+      "Optimizar rendimiento, resolver incidencias en producción y colaborar en equipos Agile (Scrum) enfocados en calidad y entrega de valor.",
+
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Actual",
+    trikoDate: "Nov 2024 - Mar 2026",
     trikoDesc1:
-      "Diseñar e implementar microservicios de alta disponibilidad para TRIKO APP usando Node.js, PHP, Laravel, Symfony, AWS (Lambda, SQS, SNS), Docker, Kubernetes y Serverless Framework — plataforma fintech.",
+      "Desarrollar e implementar microservicios back-end para TRIKO APP con .NET, ASP.NET Core Web API, PHP, Laravel, Symfony, AWS, Docker, Kubernetes y Linux.",
     trikoDesc2:
-      "Implementar integraciones bancarias mediante APIs RESTful y SOAP con Java Spring Boot. Gestionar colas y eventos asincrónicos con AWS SQS y CI/CD automatizado.",
+      "Diseñar y mantener APIs REST y microservicios de alta disponibilidad para integraciones bancarias con Java y Spring Boot.",
+    trikoDesc3:
+      "Publicar y mantener aplicaciones en producción con pipelines CI/CD automatizados y monitoreo continuo con Sentry.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Desarrollar APIs REST y servicios backend con Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB con pruebas automatizadas completas (PHPUnit, Jest).",
+      "Desarrollar funcionalidades back-end escalables en múltiples proyectos con .NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL y DynamoDB.",
     merqueoDesc2:
-      "Integrar dashboards internos en Vue.js optimizando procesos operativos y de atención al cliente.",
+      "Integrar requerimientos para dashboards internos y proyectos web-front, mejorando flujos operativos con Vue.js.",
+    merqueoDesc3:
+      "Realizar pruebas automatizadas, documentar APIs y optimizar consultas SQL en entornos de producción.",
 
     // Samsara
     samsaraTitle: "Co-líder de desarrollo de software",
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
-    samsaraDesc:
-      "Co-liderar el ciclo completo de desarrollo de una plataforma de salud: arquitectura, desarrollo, despliegue y soporte con Node.js, PHP, Laravel, MySQL, Web Services REST/SOAP y principios SOLID.",
+    samsaraDesc1:
+      "Co-liderar el ciclo completo de desarrollo de una plataforma de salud a medida con PHP, Laravel, Symfony, APIs REST/SOAP, MySQL y jQuery.",
+    samsaraDesc2:
+      "Liderar levantamiento de requerimientos, diseño de sistema, desarrollo, pruebas, despliegue y soporte al cliente.",
 
     // USC
-    uscTitle: "Desarrollador de software",
+    uscTitle: "Desarrollador de software fullstack",
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "Abr 2018 - Dic 2023",
-    current: "Actual",
     uscTech:
-      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, Web Services (REST/SOAP).",
+      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax.",
     uscDesc1:
-      "Optimizar el sistema SIPAC logrando 40% de mejora en eficiencia, facilitando el seguimiento académico y el soporte técnico.",
+      "Construir y mantener sistemas de información con PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab y Ajax.",
     uscDesc2:
-      "Liderar el rediseño del sistema SIPPU con seguimiento en tiempo real, incrementando la tasa de colocación de estudiantes.",
+      "Optimizar el sistema SIPAC logrando un 40% de mejora en eficiencia en seguimiento académico y soporte técnico.",
+    uscDesc3:
+      "Liderar el rediseño del SIPPU con seguimiento en tiempo real y reportes personalizados, incrementando la tasa de colocación de estudiantes en prácticas.",
 
     // Education section
     professionalEducation: "Formación Profesional",
@@ -134,31 +154,31 @@ const translations = {
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Triko es un marketplace de servicios anónimos. En mi rol diseñé e implementé microservicios de alta disponibilidad para TRIKO APP con Node.js, PHP (Laravel/Symfony) y AWS (Lambda, SQS, SNS), usando Docker, Kubernetes y Serverless Framework. Gestioné integraciones bancarias mediante APIs REST y SOAP para asegurar flujos confiables y asincrónicos en una plataforma fintech.",
+      "Triko es un marketplace de servicios anónimos. Contribuí con microservicios back-end para TRIKO APP usando .NET, ASP.NET Core Web API, PHP (Laravel/Symfony), AWS, Docker y Kubernetes; integraciones bancarias de alta disponibilidad con Java y Spring Boot; y despliegue con CI/CD y monitoreo con Sentry.",
     trikoAppTech:
-      "Node.js, PHP (Laravel, Symfony), AWS (Lambda, SQS, SNS), Docker, Kubernetes, Serverless Framework, APIs REST/SOAP, CI/CD, Sentry, JWT, YAML.",
+      ".NET, ASP.NET Core Web API, PHP (Laravel, Symfony), Java (Spring Boot), AWS, Docker, Kubernetes, REST/SOAP, CI/CD, Sentry.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "En Merqueo desarrollé APIs REST y servicios backend con Node.js, PHP (Laravel/Symfony) y Go. Implementé integración con AWS (Lambda, S3, EC2) usando MySQL y DynamoDB, y construí pruebas automatizadas completas (PHPUnit y Jest). Además, integré dashboards internos en Vue.js optimizando la operación y la atención al cliente.",
+      "Desarrollé funcionalidades back-end con .NET, ASP.NET Core Web API, PHP (Laravel), Go y AWS (Lambda, S3, EC2), MySQL y DynamoDB; pruebas automatizadas y documentación de APIs; e integración de dashboards y front web con Vue.js.",
     merqueoProjectTech:
-      "Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, PHPUnit, Jest, Vue.js, Sentry.",
+      ".NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Vue.js, PHPUnit, Jest, Sentry.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
-      "Co-lideré el ciclo completo de desarrollo y soporte de una plataforma para el sector salud. Implementé componentes backend con Node.js y PHP (Laravel), integré Web Services REST/SOAP, trabajé con MySQL y jQuery, y apliqué principios SOLID y code review para mantener calidad y estabilidad.",
+      "Co-lideré el ciclo de desarrollo de una plataforma de salud con PHP, Laravel, Symfony, APIs REST/SOAP, MySQL y jQuery; levantamiento de requerimientos, despliegue y soporte al cliente.",
     samsaraMobiTech:
-      "Node.js, PHP (Laravel), MySQL, REST/SOAP, jQuery, Sentry, SOLID.",
+      "PHP (Laravel, Symfony), MySQL, REST/SOAP, jQuery, Sentry, SOLID.",
 
     // SIPAC project
     sipacTitle:
       "Sistema de Información para el Aseguramiento de la Calidad (SIPAC)",
     sipacDesc:
-      "En la Universidad Santiago de Cali optimicé SIPAC logrando 40% de mejora en eficiencia. Lideré el rediseño del sistema SIPPU con seguimiento en tiempo real y reportes personalizados para prácticas y pasantías universitarias.",
+      "En la Universidad Santiago de Cali optimicé SIPAC (40% de mejora en eficiencia) y lideré el rediseño del SIPPU con seguimiento en tiempo real y reportes para prácticas y pasantías.",
     sipacTech:
-      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, APIs REST/SOAP.",
+      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax, APIs REST/SOAP.",
 
     // APPS project
     appsTitle: "Aplicación de Pagos en línea (APPS)",
@@ -193,12 +213,12 @@ const translations = {
 
     // About section
     title: "Javier Stiven Chávez Gallego",
-    subtitle: "Systems Engineer",
+    subtitle: "Systems Engineer | Senior .NET Developer",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
-      "Backend developer focused on microservices and serverless: I design robust, maintainable APIs with Node.js/TypeScript and PHP (Laravel/Symfony), and orchestrate queues and events on AWS for high availability. I work with an ownership mindset, enjoy code review, and use AI tools (Copilot/Cursor) to deliver faster without sacrificing quality. If you need stable, scalable, measurable services, let's talk.",
+      "Systems Engineer and Senior .NET Developer with 8+ years of experience designing, building, and maintaining scalable back-end applications. Proficient in .NET, ASP.NET Core Web API, C#, and OOP, with hands-on experience in microservices architecture, RESTful APIs, cloud deployments on AWS, and CI/CD pipelines. Strong background in clean code, code reviews, unit and integration testing, and mentoring junior developers. Experience working in Agile/Scrum teams delivering high-quality, well-documented software. English B1 – technical reading and communication.",
 
     // Hero CTA
     downloadCv: "Download CV",
@@ -229,41 +249,62 @@ const translations = {
     functions: "Functions",
     technologies: "Technologies",
 
+    // Incluirtec
+    incluirtecTitle: "Fullstack Developer",
+    incluirtecCompany: "Incluirtec",
+    incluirtecDate: "Mar 2026 - Present",
+    incluirtecDesc1:
+      "Design and develop scalable back-end services using .NET and ASP.NET Core Web API, implementing business logic, database integration, and REST service consumption.",
+    incluirtecDesc2:
+      "Build modern interfaces with Angular, integrating reusable components and REST API consumption.",
+    incluirtecDesc3:
+      "Deploy applications on AWS using Docker for containerization and environment management.",
+    incluirtecDesc4:
+      "Optimize performance, resolve production incidents, and collaborate in Agile (Scrum) teams focused on quality and value delivery.",
+
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Present",
+    trikoDate: "Nov 2024 - Mar 2026",
     trikoDesc1:
-      "Design and implement high-availability microservices for TRIKO APP using Node.js, PHP, Laravel, Symfony, AWS (Lambda, SQS, SNS), Docker, Kubernetes, and Serverless Framework — fintech platform.",
+      "Develop and implement backend microservices for TRIKO APP using .NET, ASP.NET Core Web API, PHP, Laravel, Symfony, AWS, Docker, Kubernetes, and Linux.",
     trikoDesc2:
-      "Implement high-availability banking integrations through RESTful APIs and SOAP with Java Spring Boot. Manage queues and asynchronous events with AWS SQS and automated CI/CD.",
+      "Design and maintain high-availability RESTful APIs and microservices for banking integrations using Java with Spring Boot.",
+    trikoDesc3:
+      "Publish and maintain production applications with automated CI/CD pipelines and continuous monitoring with Sentry.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Develop REST APIs and backend services with Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, with complete automated testing (PHPUnit, Jest).",
+      "Develop scalable back-end features across multiple projects using .NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, and DynamoDB.",
     merqueoDesc2:
-      "Integrate internal dashboards in Vue.js, optimizing operational workflows and customer support.",
+      "Integrate requirements for internal dashboard and client-facing web-front projects, improving operational workflows with Vue.js.",
+    merqueoDesc3:
+      "Perform automated testing, document APIs, and optimize SQL queries in production environments.",
 
     // Samsara
-    samsaraTitle: "Software Development Co-leader",
+    samsaraTitle: "Software Development Co-Lead",
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
-    samsaraDesc:
-      "Co-lead the full development lifecycle of a healthcare platform: architecture, development, deployment, and support with Node.js, PHP, Laravel, MySQL, Web Services (REST/SOAP), and SOLID principles.",
+    samsaraDesc1:
+      "Co-led the full software development lifecycle of a custom healthcare platform using PHP, Laravel, Symfony, REST/SOAP APIs, MySQL, and jQuery.",
+    samsaraDesc2:
+      "Led requirements gathering, system design, development, testing, deployment, and client support.",
 
     // USC
-    uscTitle: "Software Developer",
+    uscTitle: "Fullstack Software Developer",
     uscCompany: "Universidad Santiago de Cali",
     uscDate: "Apr 2018 - Dec 2023",
     uscTech:
-      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, Web Services (REST/SOAP).",
+      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax.",
     uscDesc1:
-      "Optimize SIPAC, achieving a 40% efficiency improvement while facilitating academic tracking and technical support.",
+      "Built and maintained information systems using PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, and Ajax.",
     uscDesc2:
-      "Lead the redesign of SIPPU with real-time tracking, increasing the student placement rate.",
+      "Optimized SIPAC achieving a 40% efficiency improvement in academic tracking and technical support.",
+    uscDesc3:
+      "Led the redesign of SIPPU with real-time tracking and custom reports, increasing student internship placement rates.",
 
     // Education section
     professionalEducation: "Professional Education",
@@ -313,30 +354,30 @@ const translations = {
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Triko is an anonymous services marketplace. In my role I designed and implemented high-availability microservices for TRIKO APP using Node.js, PHP (Laravel/Symfony) and AWS (Lambda, SQS, SNS), with Docker, Kubernetes, and the Serverless Framework. I also managed banking integrations through REST and SOAP APIs to ensure reliable, asynchronous payment flows in a fintech platform.",
+      "Triko is an anonymous services marketplace. I contributed backend microservices for TRIKO APP using .NET, ASP.NET Core Web API, PHP (Laravel/Symfony), AWS, Docker, and Kubernetes; high-availability banking integrations with Java and Spring Boot; and deployments with CI/CD and Sentry monitoring.",
     trikoAppTech:
-      "Node.js, PHP (Laravel, Symfony), AWS (Lambda, SQS, SNS), Docker, Kubernetes, Serverless Framework, REST/SOAP APIs, CI/CD, Sentry, JWT, YAML.",
+      ".NET, ASP.NET Core Web API, PHP (Laravel, Symfony), Java (Spring Boot), AWS, Docker, Kubernetes, REST/SOAP, CI/CD, Sentry.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "At Merqueo I developed REST APIs and backend services with Node.js, PHP (Laravel/Symfony) and Go. I implemented integrations on AWS (Lambda, S3, EC2) using MySQL and DynamoDB, and built full automated testing (PHPUnit and Jest). I also integrated internal dashboards in Vue.js to optimize operations and customer support.",
+      "I built scalable back-end features with .NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, and DynamoDB; automated testing and API documentation; and Vue.js dashboards for internal and client-facing workflows.",
     merqueoProjectTech:
-      "Node.js, PHP (Laravel, Symfony), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, PHPUnit, Jest, Vue.js, Sentry.",
+      ".NET, ASP.NET Core Web API, PHP (Laravel), Go, AWS (Lambda, S3, EC2), MySQL, DynamoDB, Vue.js, PHPUnit, Jest, Sentry.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
     samsaraMobiDesc:
-      "I co-led the full development and support lifecycle of a healthcare platform. I implemented backend components with Node.js and PHP (Laravel), integrated Web Services REST/SOAP, worked with MySQL and jQuery, and applied SOLID principles and code review to keep quality and stability.",
+      "I co-led development of a healthcare platform using PHP, Laravel, Symfony, REST/SOAP APIs, MySQL, and jQuery; requirements, deployment, and client support.",
     samsaraMobiTech:
-      "Node.js, PHP (Laravel), MySQL, REST/SOAP, jQuery, Sentry, SOLID.",
+      "PHP (Laravel, Symfony), MySQL, REST/SOAP, jQuery, Sentry, SOLID.",
 
     // SIPAC project
     sipacTitle: "Quality Assurance Information System (SIPAC)",
     sipacDesc:
-      "At Universidad Santiago de Cali I optimized SIPAC, achieving a 40% improvement in efficiency. I led the redesign of SIPPU with real-time tracking and customized reports for internships and university practices.",
+      "At Universidad Santiago de Cali I optimized SIPAC (40% efficiency gain) and led the SIPPU redesign with real-time tracking and reports for internships and practices.",
     sipacTech:
-      "Node.js, PHP, Laravel, Symfony, Docker, Oracle, GitLab, REST/SOAP APIs.",
+      "PHP, Laravel, Symfony, Docker, Oracle, Node.js, GitLab, Ajax, REST/SOAP APIs.",
 
     // APPS project
     appsTitle: "Online Payment Application (APPS)",

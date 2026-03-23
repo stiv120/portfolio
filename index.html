@@ -130,7 +130,9 @@
       <div class="hero-inner">
         <div class="text-center">
           <h1 data-i18n="title">Javier Stiven Chávez Gallego</h1>
-          <p data-i18n="subtitle">Ingeniero de Sistemas</p>
+          <p data-i18n="subtitle">
+            Ingeniero de Sistemas | Senior .NET Developer
+          </p>
           <p>
             <i class="fas fa-map-marker-alt"></i>
             <span data-i18n="location">Santiago de Cali, Colombia</span>
@@ -150,15 +152,15 @@
           <h2 class="text-center" data-i18n="aboutTitle">Sobre mí</h2>
           <div class="container">
             <p class="text-justify" data-i18n="aboutText">
-              Backend developer con más de 8 años de experiencia en el
-              diseño, desarrollo y mantenimiento de aplicaciones web y
-              microservicios.
+              Ingeniero de Sistemas y Desarrollador Senior .NET con más de 8
+              años de experiencia diseñando, construyendo y manteniendo
+              aplicaciones back-end escalables.
             </p>
 
             <div class="hero-cta text-center mt-4">
               <a
                 class="btn btn-primary btn-lg hero-btn me-2"
-                href="public/CV%20-%20JAVIER%20STIVEN%20CHAVEZ%20GALLEGO.pdf"
+                href="CV%20-%20JAVIER%20STIVEN%20CHAVEZ%20GALLEGO.pdf"
                 download="CV-Javier-Stiven-Chavez-Gallego.pdf"
                 data-i18n="downloadCv"
                 >Download CV</a
@@ -258,6 +260,10 @@
                     <p>SQL Server</p>
                   </div>
                   <div class="skill-item">
+                    <i class="fas fa-layer-group"></i>
+                    <p>Entity Framework Core</p>
+                  </div>
+                  <div class="skill-item">
                     <i class="fas fa-leaf"></i>
                     <p>MongoDB</p>
                   </div>
@@ -300,20 +306,32 @@
                     <p>Symfony</p>
                   </div>
                   <div class="skill-item">
-                    <i class="fas fa-cloud"></i>
-                    <p>Serverless Framework</p>
+                    <i class="fab fa-angular"></i>
+                    <p>Angular</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <p>React</p>
                   </div>
                   <div class="skill-item">
                     <i class="fab fa-vuejs"></i>
                     <p>Vue.js</p>
                   </div>
                   <div class="skill-item">
+                    <img
+                      src="public/images/csharp-icon.svg"
+                      alt="ASP.NET Core"
+                      style="width: 40px; height: 40px; object-fit: contain"
+                    />
+                    <p>ASP.NET Core</p>
+                  </div>
+                  <div class="skill-item">
                     <i class="fas fa-cubes"></i>
                     <p>Kubernetes</p>
                   </div>
                   <div class="skill-item">
-                    <i class="fas fa-code"></i>
-                    <p>AWS CDK</p>
+                    <i class="fab fa-linux"></i>
+                    <p>Linux</p>
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-file-code"></i>
@@ -385,20 +403,12 @@
                     <p>Microservicios</p>
                   </div>
                   <div class="skill-item">
-                    <i class="fas fa-rss"></i>
-                    <p>AWS (SQS, SNS)</p>
-                  </div>
-                  <div class="skill-item">
                     <i class="fas fa-file-code"></i>
                     <p>YAML</p>
                   </div>
                   <div class="skill-item">
-                    <i class="fab fa-jira"></i>
-                    <p>JIRA</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-laptop-code"></i>
-                    <p>Cursor IDE</p>
+                    <i class="fas fa-wind"></i>
+                    <p>Tailwind CSS</p>
                   </div>
                 </div>
               </div>
@@ -427,7 +437,15 @@
                   </div>
                   <div class="skill-item">
                     <i class="fas fa-vial"></i>
-                    <p>Xunit</p>
+                    <p>xUnit</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-vial"></i>
+                    <p>NUnit</p>
+                  </div>
+                  <div class="skill-item">
+                    <i class="fas fa-chart-line"></i>
+                    <p>SonarQube</p>
                   </div>
                 </div>
               </div>
@@ -534,6 +552,20 @@
       <div class="container">
         <h2 data-i18n="experienceTitle">Experiencia</h2>
         <div class="card">
+          <h3 data-i18n="incluirtecTitle">Fullstack Developer</h3>
+          <p>
+            <strong data-i18n="company">Empresa:</strong>
+            <span data-i18n="incluirtecCompany">Incluirtec</span> |
+            <span data-i18n="incluirtecDate">Mar 2026 - Actual</span>
+          </p>
+          <ul class="text-justify">
+            <li data-i18n="incluirtecDesc1"></li>
+            <li data-i18n="incluirtecDesc2"></li>
+            <li data-i18n="incluirtecDesc3"></li>
+            <li data-i18n="incluirtecDesc4"></li>
+          </ul>
+        </div>
+        <div class="card">
           <img
             src="public/images/triko-logo.png"
             alt="Triko"
@@ -549,19 +581,12 @@
           <p>
             <strong data-i18n="company">Empresa:</strong>
             <span data-i18n="trikoCompany">Triko</span> |
-            <span data-i18n="trikoDate">2024 - Actual</span>
+            <span data-i18n="trikoDate">Nov 2024 - Mar 2026</span>
           </p>
           <ul class="text-justify">
-            <li data-i18n="trikoDesc1">
-              Desarrollar e implementar funcionalidades al aplicativo TRIKO APP,
-              por medio de microservicios desarrollados en PHP con Laravel, AWS,
-              Docker, Linux, APIS (REST / SOAP), Bitbucket, Sentry, Zendesk.
-            </li>
-            <li data-i18n="trikoDesc2">
-              Implementar integraciones bancarias de alta disponibilidad mediante
-              APIs RESTful y microservicios utilizando Java con Spring Boot y
-              soporte técnico.
-            </li>
+            <li data-i18n="trikoDesc1"></li>
+            <li data-i18n="trikoDesc2"></li>
+            <li data-i18n="trikoDesc3"></li>
           </ul>
         </div>
         <div class="card">
@@ -580,19 +605,12 @@
           <p>
             <strong data-i18n="company">Empresa:</strong>
             <span data-i18n="merqueoCompany">Merqueo</span> |
-            <span data-i18n="merqueoDate">2024 - 2025</span>
+            <span data-i18n="merqueoDate">Nov 2024 - Jul 2025</span>
           </p>
           <ul class="text-justify">
-            <li data-i18n="merqueoDesc1">
-              Desarrollar funcionalidades para diversos proyectos utilizando PHP
-              con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2), MySQL,
-              DynamoDB, Sentry, Zendesk.
-            </li>
-            <li data-i18n="merqueoDesc2">
-              Integrar requerimientos para dashboards internos y proyectos
-              web-front, optimizando procesos operativos y de atención al
-              cliente.
-            </li>
+            <li data-i18n="merqueoDesc1"></li>
+            <li data-i18n="merqueoDesc2"></li>
+            <li data-i18n="merqueoDesc3"></li>
           </ul>
         </div>
         <div class="card">
@@ -607,18 +625,16 @@
             "
             onerror="this.style.display='none';"
           />
-          <h3 data-i18n="samsaraTitle">Co-líder de Desarrollo de Software</h3>
+          <h3 data-i18n="samsaraTitle">Co-líder de desarrollo de software</h3>
           <p>
             <strong data-i18n="company">Empresa:</strong>
             <span data-i18n="samsaraCompany">Samsara Med</span>
-            | <span data-i18n="samsaraDate">2023 - 2024</span>
+            | <span data-i18n="samsaraDate">Jun 2023 - Nov 2024</span>
           </p>
-          <p class="text-justify" data-i18n="samsaraDesc">
-            Co-liderar y participar en todo el ciclo de vida del desarrollo y
-            soporte de un software personalizado para el sector salud, utilizando
-            PHP con Laravel, Linux, APIS (REST / SOAP), MySQL, jQuery, Node.js,
-            Sentry, Zendesk.
-          </p>
+          <ul class="text-justify">
+            <li data-i18n="samsaraDesc1"></li>
+            <li data-i18n="samsaraDesc2"></li>
+          </ul>
         </div>
         <div class="card">
           <img
@@ -632,32 +648,20 @@
             "
             onerror="this.style.display='none';"
           />
-          <h3 data-i18n="uscTitle">Desarrollador de Software</h3>
+          <h3 data-i18n="uscTitle">Desarrollador de software fullstack</h3>
           <p>
             <strong data-i18n="company">Empresa:</strong>
             <span data-i18n="uscCompany">Universidad Santiago de Cali</span> |
-            <span data-i18n="uscDate">2018 - 2023</span>
+            <span data-i18n="uscDate">Abr 2018 - Dic 2023</span>
           </p>
           <p>
             <strong data-i18n="technologies">Tecnologías:</strong>
-            <span data-i18n="uscTech"
-              >PHP con Laravel, APIS (REST / SOAP), JavaScript, Docker, Node.js,
-              Oracle, GitLab, Sentry, Zendesk.</span
-            >
+            <span data-i18n="uscTech"></span>
           </p>
           <ul class="text-justify">
-            <li data-i18n="uscDesc1">
-              Implementar mejoras en el Sistema de Información para el
-              Aseguramiento de la Calidad (SIPAC), optimizando su eficiencia en
-              un 40% y facilitando el seguimiento académico y soporte técnico.
-            </li>
-            <li data-i18n="uscDesc2">
-              Liderar y desarrollar la actualización del Sistema de Información
-              de Prácticas y Pasantías Universitarias (SIPPU), incorporando
-              funcionalidades de seguimiento en tiempo real y reportes
-              personalizados, incrementando la tasa de colocación de estudiantes
-              en prácticas y soporte técnico.
-            </li>
+            <li data-i18n="uscDesc1"></li>
+            <li data-i18n="uscDesc2"></li>
+            <li data-i18n="uscDesc3"></li>
           </ul>
         </div>
       </div>

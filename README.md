@@ -168,7 +168,7 @@ Visit the live portfolio: [https://stiv120.github.io/portfolio](https://stiv120.
 **Javier Stiven Chávez Gallego**
 
 - Systems Engineer
-- Backend Developer
+- Senior Fullstack Developer (PHP/Laravel)
 - Location: Santiago de Cali, Colombia
 
 ### Contact
@@ -190,5 +190,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Note**: This portfolio is continuously updated with new projects and experiences. Last updated: 2025
+**Note**: This portfolio is continuously updated with new projects and experiences. Last updated: 2026
 

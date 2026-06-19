@@ -109,9 +109,9 @@ Personal introduction with professional summary and contact information.
 
 #### Skills
 Categorized technical skills:
-- Programming Languages (JavaScript, PHP, Java, Go)
-- Databases (MySQL, Oracle, SQL Server, MongoDB, DynamoDB)
-- Frameworks & Tools (Laravel, Spring Boot, Symfony, Angular, Vue.js, React.js, etc.)
+- Programming Languages (C#, JavaScript, TypeScript, PHP, SQL)
+- Databases (SQL Server, MySQL, PostgreSQL, Entity Framework Core, Dapper)
+- Frameworks & Tools (.NET, ASP.NET Core, Angular, Laravel, AWS, Azure, Docker, CI/CD)
 - Unit Testing (PHP Unit, Jest, Moq)
 - Work Methodologies (Scrum, Clean Code, SOLID Principles)
 - Documentation & UML
@@ -168,7 +168,7 @@ Visit the live portfolio: [https://stiv120.github.io/portfolio](https://stiv120.
 **Javier Stiven Chávez Gallego**
 
 - Systems Engineer
-- Senior Fullstack Developer (PHP/Laravel)
+- Senior .NET / ASP.NET Core Developer
 - Location: Santiago de Cali, Colombia
 
 ### Contact

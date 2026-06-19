@@ -14,7 +14,7 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle:
-      "Ingeniero de Sistemas · .NET / ASP.NET Core · Microservicios · Cloud AWS / Azure · Inglés B1",
+      "Ingeniero de Sistemas · .NET / ASP.NET Core / Angular · Microservicios · Cloud AWS / Azure · Inglés B1",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
@@ -201,7 +201,7 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle:
-      "Systems Engineer · .NET / ASP.NET Core · Microservices · Cloud AWS / Azure · English B1",
+      "Systems Engineer · .NET / ASP.NET Core / Angular · Microservices · Cloud AWS / Azure · English B1",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "About Me",

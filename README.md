@@ -109,13 +109,15 @@ Personal introduction with professional summary and contact information.
 
 #### Skills
 Categorized technical skills:
-- Programming Languages (C#, JavaScript, TypeScript, PHP, SQL)
-- Databases (SQL Server, MySQL, PostgreSQL, Entity Framework Core, Dapper)
-- Frameworks & Tools (.NET, ASP.NET Core, Angular, Laravel, AWS, Azure, Docker, CI/CD)
-- Unit Testing (PHP Unit, Jest, Moq)
-- Work Methodologies (Scrum, Clean Code, SOLID Principles)
-- Documentation & UML
-- Design Patterns & Architecture
+- Coding Agents (Claude Code, Cursor, GitHub Copilot, executable specs, subagent delegation)
+- Agent Judgment & Quality
+- LLMs & AI Integration (structured outputs, tool use, scoped permissions)
+- Backend (Node.js, NestJS, Fastify, TypeScript, C# / .NET, PHP, Go, hexagonal, DDD, SOLID)
+- Databases (PostgreSQL, SQL Server, MySQL, Oracle, MongoDB, Redis, Drizzle ORM)
+- Cloud & Containers (Google Cloud, AWS, Azure, Docker, Kubernetes, CI/CD)
+- Testing & Quality (Vitest, Jest, xUnit, e2e, architecture tests, Stryker, SonarQube)
+- Security
+- Frontend & Team (Next.js, React, React Native, Angular, Scrum, Jira)
 
 #### Experience
 Detailed work history with:
@@ -168,7 +170,7 @@ Visit the live portfolio: [https://stiv120.github.io/portfolio](https://stiv120.
 **Javier Stiven Chávez Gallego**
 
 - Systems Engineer
-- Senior .NET / ASP.NET Core Developer
+- Senior AI-First Developer · Code Agent Orchestration · Node.js / NestJS
 - Location: Santiago de Cali, Colombia
 
 ### Contact

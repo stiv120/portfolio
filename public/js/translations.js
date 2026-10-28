@@ -14,12 +14,12 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle:
-      "Ingeniero de Sistemas · .NET / ASP.NET Core / Angular · Microservicios · Cloud AWS / Azure · Inglés B1",
+      "Developer Senior AI-First · Orquestación de Agentes de Código · Backend Node.js / NestJS · Cloud",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "Sobre mí",
     aboutText:
-      "Ingeniero de Sistemas con más de 8 años de experiencia en desarrollo de software con .NET y Angular, especializado en microservicios, arquitecturas limpias y patrones de diseño en entornos de alta disponibilidad. Cuento con 4 años de experiencia en AWS (Lambda, S3, EC2) y 3 años en Azure (IaaS, PaaS, SaaS). Sólidas habilidades en ASP.NET Core Web API, optimización de bases de datos relacionales y construcción de interfaces con Angular. Orientado a la calidad del código, buenas prácticas y entrega de soluciones escalables en equipos ágiles. Inglés B1.",
+      "Ingeniero de Sistemas con más de 8 años en producción y con agentes de código como forma normal de trabajo, no como experimento. Certificado AI-First Augmented Professional (Expert Level) por Ceiba en orquestación de agentes de IA. Desarrollo historias completas dirigiendo ciclos autónomos: escribo la spec con criterios de aceptación, delego la implementación, reviso el diff y decido qué delego y qué escribo a mano. Base sólida de backend, hexagonal, pruebas y cloud.",
 
     // Hero CTA
     downloadCv: "Descargar CV",
@@ -28,20 +28,43 @@ const translations = {
 
     // Skills section
     skillsTitle: "Habilidades",
-    languages: "Lenguajes",
     databases: "Bases de Datos",
-    frameworks: "Frameworks y Herramientas",
     unitTesting: "Pruebas y Calidad",
-    methodologies: "Metodologías de Trabajo",
-    documentation: "Documentación y UML",
-    patterns: "Patrones de Diseño y Arquitectura",
-    cleanCode: "Código limpio",
     solidPrinciples: "Principios SOLID",
-    codeReview: "Code review",
-    documentRequirements: "Documentar requerimientos",
-    designPatterns: "Patrones de diseño",
-    architecture: "Arquitectura",
     hexagonalArchitecture: "Arquitectura hexagonal",
+    skillsAgentsTitle: "Agentes de Código",
+    agentSpecs: "Specs ejecutables",
+    agentDelegation: "Delegación a subagentes",
+    agentDiffReview: "Revisión crítica de diffs",
+    agentDecisionLog: "Registro de decisiones",
+    agentWorktrees: "Worktrees por historia",
+    skillsJudgmentTitle: "Criterio y Calidad del Agente",
+    judgeInvented: "Detección de lógica inventada",
+    judgeScope: "Alcance fuera de spec",
+    judgeDuplicated: "Reglas duplicadas",
+    judgePartial: "Alcance parcial documentado",
+    skillsLlmTitle: "LLMs e Integración de IA",
+    llmApis: "APIs de modelos",
+    llmStructured: "Salidas estructuradas",
+    llmTools: "Uso de herramientas",
+    llmErrors: "Manejo de errores",
+    llmPermissions: "Permisos acotados",
+    llmValidation: "Validación del resultado",
+    skillsBackendTitle: "Backend",
+    dbMigrations: "Migraciones versionadas",
+    dbTransactions: "Transaccionalidad",
+    skillsCloudTitle: "Cloud y Contenedores",
+    testUnit: "Pruebas unitarias",
+    testE2e: "Pruebas e2e HTTP",
+    testArchitecture: "Pruebas de arquitectura",
+    testMutation: "Mutation testing (Stryker)",
+    skillsSecurityTitle: "Seguridad",
+    secServerAuth: "Autorización en servidor",
+    secRoles: "Roles y permisos granulares",
+    secLeastPrivilege: "Mínimo privilegio",
+    secSecrets: "Gestión de secretos por ambiente",
+    skillsFrontendTeamTitle: "Frontend y Equipo",
+    docsInSpanish: "Documentación en español",
 
     // Experience section
     experienceTitle: "Experiencia",
@@ -50,45 +73,48 @@ const translations = {
     functions: "Funciones",
     technologies: "Tecnologías",
 
+    // Ceiba
+    ceibaTitle: "Arquitecto Desarrollador",
+    ceibaCompany: "Ceiba — cliente Los Olivos (marketplace XPets)",
+    ceibaDate: "Jul 2025 - Actual",
+    ceibaDesc1:
+      "Desarrollo historias de punta a punta dirigiendo ciclos autónomos de agentes: spec con criterios de aceptación, delegación de la implementación, revisión del diff con un revisor de estándares independiente y decisión explícita de qué delegar y qué escribir a mano.",
+    ceibaDesc2:
+      "Módulo de catálogo en NestJS con arquitectura hexagonal y DDD: casos de uso, adaptadores PostgreSQL con Drizzle ORM, migraciones y auditoría escrita en la misma transacción que el cambio.",
+    ceibaDesc3:
+      "Más de 200 pruebas en verde entre unitarias, e2e HTTP y de arquitectura, con mutation testing al 100% en dominio y aplicación.",
+
     // Incluirtec
-    incluirtecTitle: "Desarrollador Fullstack",
+    incluirtecTitle: "Desarrollador Backend",
     incluirtecCompany: "Incluirtec",
-    incluirtecDate: "Mar 2026 - Actual",
+    incluirtecDate: "Mar 2026 - Jul 2026",
     incluirtecDesc1:
-      "Desarrollo e implementación de funcionalidades back-end con .NET y ASP.NET Core Web API en sistemas productivos de alta disponibilidad.",
-    incluirtecDesc2:
-      "Resolución de incidentes productivos, análisis de causa raíz y despliegue de correcciones con mínimo impacto en el servicio.",
-    incluirtecDesc3:
-      "Construcción de interfaces con Angular, integrando consumo de APIs REST, manejo de estados y componentes reutilizables.",
-    incluirtecDesc4:
-      "Aplicación de estándares de desarrollo, revisión de código entre pares, gestión de la configuración y despliegue en Azure.",
+      "Operación de sistemas en producción: diagnóstico de incidentes, análisis de causa raíz y despliegue de correcciones con mínimo impacto. El cliente reconoció el trabajo entregado.",
 
     // Triko
     trikoTitle: "Desarrollador Backend Senior",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Mar 2026",
+    trikoDate: "Nov 2024 - Jun 2025",
     trikoDesc1:
-      "Implementación de microservicios con .NET/ASP.NET Core bajo Clean Architecture y SOLID, integrados con sistemas bancarios y ERP de alta disponibilidad, además de desarrollo de interfaces frontend con Angular.",
+      "Microservicios en Node.js y TypeScript integrados con sistemas bancarios de alta disponibilidad, en contenedores sobre Docker y Kubernetes.",
     trikoDesc2:
-      "Desarrollo y documentación de APIs RESTful, configuración de pipelines CI/CD y validaciones en ambientes dev/QA/prod desplegados en Azure (App Services, Functions).",
-    trikoDesc3:
-      "Aplicación de patrones de diseño en el dominio bancario; participación activa en revisiones de código y buenas prácticas del equipo.",
+      "Pipelines de CI/CD, participación en code reviews y monitoreo continuo de la operación.",
 
     // Merqueo
     merqueoTitle: "Desarrollador Backend",
     merqueoCompany: "Merqueo S.A.S",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Desarrollo de funcionalidades back-end en .NET integradas con sistemas externos, desplegadas en AWS (Lambda, S3).",
+      "Servicios backend con Node.js, TypeScript, PHP y Go sobre PostgreSQL y Redis, con colas y procesamiento asíncrono de alto volumen.",
     merqueoDesc2:
-      "Optimización de consultas SQL (MySQL), pruebas automatizadas y desarrollo de interfaces frontend con Angular.",
+      "Optimización de consultas SQL en producción, caching y pruebas automatizadas.",
 
     // Samsara
     samsaraTitle: "Co-líder de desarrollo de software",
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc1:
-      "Desarrollo del ciclo completo: implementación de APIs REST/SOAP con PHP y Laravel, gestión de BD MySQL, despliegue en Azure (PaaS) y soporte post-producción.",
+      "Dueño del ciclo completo en un equipo pequeño: arquitectura, APIs, modelo de datos, estándares, mentoría y soporte postproducción.",
     samsaraDesc2:
       "Análisis de requerimientos, diseño, desarrollo, pruebas, despliegue y soporte al cliente.",
 
@@ -110,7 +136,7 @@ const translations = {
     complementaryEducation: "Formación Complementaria",
     languagesTitle: "Idiomas",
     english: "Inglés",
-    intermediate: "B1 (Intermedio) – Lectura técnica y comunicación.",
+    intermediate: "B1+ – Lectura técnica fluida.",
     spanish: "Español",
     native: "Nativo",
 
@@ -131,6 +157,13 @@ const translations = {
     dbSpecialization:
       "Especialización Tecnológica en Gestión y Seguridad de Bases de Datos (SQL Server, Oracle y MongoDB)",
     senaMonths: "2019",
+    aiFirstCert: "AI-First Certified — Augmented Professional, Expert Level",
+    aiFirstCertDesc: "Roles aumentados y colaboración cognitiva Humano-IA",
+    ceibaCert: "Ceiba",
+    aiFirstCertDate: "Sep 2026",
+    awsCert: "Introducción a AWS: Fundamentos de Cloud Computing",
+    platzi: "Platzi",
+    awsCertDate: "2025",
 
     // Projects section
     projectsTitle: "Proyectos en los que he colaborado",
@@ -138,19 +171,26 @@ const translations = {
     techLabel: "Tecnologías:",
     seeMore: "Ver más..",
 
+    // XPets project
+    xpetsTitle: "XPets — Marketplace (Los Olivos)",
+    xpetsDesc:
+      "Marketplace del cliente Los Olivos, desarrollado desde Ceiba. Módulo de catálogo en NestJS con arquitectura hexagonal y DDD: casos de uso, adaptadores PostgreSQL con Drizzle ORM, migraciones versionadas y auditoría escrita en la misma transacción que el cambio. Más de 200 pruebas en verde (unitarias, e2e HTTP y de arquitectura) con mutation testing al 100% en dominio y aplicación.",
+    xpetsTech:
+      "NestJS, TypeScript, PostgreSQL, Drizzle ORM, Hexagonal / DDD, Vitest, Stryker, Claude Code.",
+
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Marketplace de servicios con subastas en tiempo real. Contribuí con microservicios .NET/ASP.NET Core bajo Clean Architecture, integraciones bancarias y ERP de alta disponibilidad, interfaces Angular y despliegue en Azure con CI/CD.",
+      "Marketplace de servicios con subastas en tiempo real. Contribuí con microservicios Node.js y TypeScript integrados con sistemas bancarios de alta disponibilidad, en contenedores sobre Docker y Kubernetes, con pipelines de CI/CD.",
     trikoAppTech:
-      ".NET, ASP.NET Core, Angular, Azure (App Services, Functions), REST APIs, CI/CD, Clean Architecture, SOLID.",
+      "Node.js, TypeScript, Docker, Kubernetes, CI/CD, REST APIs, integración bancaria.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "Supermercado en línea con operaciones en Colombia, México y Brasil. Desarrollé funcionalidades back-end en .NET integradas con sistemas externos en AWS, optimización SQL en MySQL e interfaces Angular para dashboard operativo y web de clientes.",
+      "Supermercado en línea con operaciones en Colombia, México y Brasil. Desarrollé servicios backend con Node.js, TypeScript, PHP y Go sobre PostgreSQL y Redis, con colas y procesamiento asíncrono de alto volumen, y optimicé consultas SQL en producción.",
     merqueoProjectTech:
-      ".NET, ASP.NET Core, Angular, AWS (Lambda, S3), MySQL, pruebas automatizadas, APIs REST.",
+      "Node.js, TypeScript, PHP, Go, PostgreSQL, Redis, colas, caching, pruebas automatizadas.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",
@@ -201,12 +241,12 @@ const translations = {
     // About section
     title: "Javier Stiven Chávez Gallego",
     subtitle:
-      "Systems Engineer · .NET / ASP.NET Core / Angular · Microservices · Cloud AWS / Azure · English B1",
+      "Senior AI-First Developer · Code Agent Orchestration · Node.js / NestJS Backend · Cloud",
     location: "Santiago de Cali, Colombia",
     phone: "+57 3188640454",
     aboutTitle: "About Me",
     aboutText:
-      "Systems Engineer with 8+ years of experience in software development with .NET and Angular, specialized in microservices, clean architectures, and design patterns in high-availability environments. 4 years of experience with AWS (Lambda, S3, EC2) and 3 years with Azure (IaaS, PaaS, SaaS). Strong skills in ASP.NET Core Web API, relational database optimization, and Angular frontend development. Focused on code quality, best practices, and delivering scalable solutions in agile teams. English B1.",
+      "Systems Engineer with 8+ years in production who uses coding agents as a normal way of working, not as an experiment. Certified AI-First Augmented Professional (Expert Level) by Ceiba in AI agent orchestration. I deliver complete stories by directing autonomous cycles: I write the spec with acceptance criteria, delegate the implementation, review the diff, and decide what to delegate and what to write by hand. Solid foundation in backend, hexagonal architecture, testing, and cloud.",
 
     // Hero CTA
     downloadCv: "Download CV",
@@ -215,20 +255,43 @@ const translations = {
 
     // Skills section
     skillsTitle: "Skills",
-    languages: "Languages",
     databases: "Databases",
-    frameworks: "Frameworks and Tools",
     unitTesting: "Testing and Quality",
-    methodologies: "Work Methodologies",
-    documentation: "Documentation and UML",
-    patterns: "Design Patterns and Architecture",
-    cleanCode: "Clean code",
     solidPrinciples: "SOLID Principles",
-    codeReview: "Code review",
-    documentRequirements: "Document requirements",
-    designPatterns: "Design patterns",
-    architecture: "Architecture",
     hexagonalArchitecture: "Hexagonal architecture",
+    skillsAgentsTitle: "Coding Agents",
+    agentSpecs: "Executable specs",
+    agentDelegation: "Subagent delegation",
+    agentDiffReview: "Critical diff review",
+    agentDecisionLog: "Decision log",
+    agentWorktrees: "Worktree per story",
+    skillsJudgmentTitle: "Agent Judgment & Quality",
+    judgeInvented: "Spotting invented logic",
+    judgeScope: "Out-of-spec scope",
+    judgeDuplicated: "Duplicated rules",
+    judgePartial: "Documented partial scope",
+    skillsLlmTitle: "LLMs & AI Integration",
+    llmApis: "Model APIs",
+    llmStructured: "Structured outputs",
+    llmTools: "Tool use",
+    llmErrors: "Error handling",
+    llmPermissions: "Scoped permissions",
+    llmValidation: "Result validation",
+    skillsBackendTitle: "Backend",
+    dbMigrations: "Versioned migrations",
+    dbTransactions: "Transactionality",
+    skillsCloudTitle: "Cloud & Containers",
+    testUnit: "Unit tests",
+    testE2e: "HTTP e2e tests",
+    testArchitecture: "Architecture tests",
+    testMutation: "Mutation testing (Stryker)",
+    skillsSecurityTitle: "Security",
+    secServerAuth: "Server-side authorization",
+    secRoles: "Granular roles & permissions",
+    secLeastPrivilege: "Least privilege",
+    secSecrets: "Per-environment secrets management",
+    skillsFrontendTeamTitle: "Frontend & Team",
+    docsInSpanish: "Documentation in Spanish",
 
     // Experience section
     experienceTitle: "Experience",
@@ -237,45 +300,48 @@ const translations = {
     functions: "Functions",
     technologies: "Technologies",
 
+    // Ceiba
+    ceibaTitle: "Developer Architect",
+    ceibaCompany: "Ceiba — client Los Olivos (XPets marketplace)",
+    ceibaDate: "Jul 2025 - Present",
+    ceibaDesc1:
+      "I deliver stories end to end by directing autonomous agent cycles: spec with acceptance criteria, delegated implementation, diff review with an independent standards reviewer, and an explicit decision on what to delegate and what to write by hand.",
+    ceibaDesc2:
+      "Catalog module in NestJS with hexagonal architecture and DDD: use cases, PostgreSQL adapters with Drizzle ORM, migrations, and audit records written in the same transaction as the change.",
+    ceibaDesc3:
+      "200+ passing tests across unit, HTTP e2e, and architecture tests, with 100% mutation testing on the domain and application layers.",
+
     // Incluirtec
-    incluirtecTitle: "Fullstack Developer",
+    incluirtecTitle: "Backend Developer",
     incluirtecCompany: "Incluirtec",
-    incluirtecDate: "Mar 2026 - Present",
+    incluirtecDate: "Mar 2026 - Jul 2026",
     incluirtecDesc1:
-      "Develop and implement back-end features with .NET and ASP.NET Core Web API in high-availability production systems.",
-    incluirtecDesc2:
-      "Resolve production incidents, perform root cause analysis, and deploy fixes with minimal service impact.",
-    incluirtecDesc3:
-      "Build Angular interfaces integrating REST API consumption, state management, and reusable components.",
-    incluirtecDesc4:
-      "Apply development standards, peer code reviews, configuration management, and Azure deployments.",
+      "Production systems operation: incident diagnosis, root cause analysis, and deployment of fixes with minimal impact. The client recognized the work delivered.",
 
     // Triko
     trikoTitle: "Senior Backend Developer",
     trikoCompany: "Triko",
-    trikoDate: "Nov 2024 - Mar 2026",
+    trikoDate: "Nov 2024 - Jun 2025",
     trikoDesc1:
-      "Implemented microservices with .NET/ASP.NET Core under Clean Architecture and SOLID, integrated with high-availability banking systems and ERP, plus Angular frontend development.",
+      "Microservices in Node.js and TypeScript integrated with high-availability banking systems, running in containers on Docker and Kubernetes.",
     trikoDesc2:
-      "Developed and documented RESTful APIs, configured CI/CD pipelines, and validated dev/QA/prod environments deployed on Azure (App Services, Functions).",
-    trikoDesc3:
-      "Applied design patterns in the banking domain; active participation in code reviews and team best practices.",
+      "CI/CD pipelines, code review participation, and continuous monitoring of the operation.",
 
     // Merqueo
     merqueoTitle: "Backend Developer",
     merqueoCompany: "Merqueo S.A.S",
     merqueoDate: "Nov 2024 - Jul 2025",
     merqueoDesc1:
-      "Developed back-end features in .NET integrated with external systems, deployed on AWS (Lambda, S3).",
+      "Backend services with Node.js, TypeScript, PHP, and Go on PostgreSQL and Redis, with queues and high-volume asynchronous processing.",
     merqueoDesc2:
-      "Optimized SQL queries (MySQL), automated testing, and Angular frontend development.",
+      "SQL query optimization in production, caching, and automated testing.",
 
     // Samsara
     samsaraTitle: "Software Development Co-Lead",
     samsaraCompany: "Samsara Med",
     samsaraDate: "Jun 2023 - Nov 2024",
     samsaraDesc1:
-      "Full lifecycle development: REST/SOAP APIs with PHP and Laravel, MySQL database management, Azure (PaaS) deployment, and post-production support.",
+      "Owner of the full cycle in a small team: architecture, APIs, data model, standards, mentoring, and post-production support.",
     samsaraDesc2:
       "Requirements analysis, design, development, testing, deployment, and client support.",
 
@@ -297,7 +363,7 @@ const translations = {
     complementaryEducation: "Complementary Education",
     languagesTitle: "Languages",
     english: "English",
-    intermediate: "B1 (Intermediate) – Technical reading & communication.",
+    intermediate: "B1+ – Fluent technical reading.",
     spanish: "Spanish",
     native: "Native",
 
@@ -318,6 +384,13 @@ const translations = {
     dbSpecialization:
       "Technological Specialization in Database Management and Security (SQL Server, Oracle and MongoDB)",
     senaMonths: "2019",
+    aiFirstCert: "AI-First Certified — Augmented Professional, Expert Level",
+    aiFirstCertDesc: "Augmented roles and Human-AI cognitive collaboration",
+    ceibaCert: "Ceiba",
+    aiFirstCertDate: "Sep 2026",
+    awsCert: "Introduction to AWS: Cloud Computing Fundamentals",
+    platzi: "Platzi",
+    awsCertDate: "2025",
 
     // Projects section
     projectsTitle: "Projects I have collaborated on",
@@ -325,19 +398,26 @@ const translations = {
     techLabel: "Technologies:",
     seeMore: "See more...",
 
+    // XPets project
+    xpetsTitle: "XPets — Marketplace (Los Olivos)",
+    xpetsDesc:
+      "Marketplace for the client Los Olivos, built through Ceiba. Catalog module in NestJS with hexagonal architecture and DDD: use cases, PostgreSQL adapters with Drizzle ORM, versioned migrations, and audit records written in the same transaction as the change. 200+ passing tests (unit, HTTP e2e, and architecture) with 100% mutation testing on the domain and application layers.",
+    xpetsTech:
+      "NestJS, TypeScript, PostgreSQL, Drizzle ORM, Hexagonal / DDD, Vitest, Stryker, Claude Code.",
+
     // Triko App project
     trikoAppTitle: "TRIKO APP",
     trikoAppDesc:
-      "Services marketplace with real-time auctions. I contributed .NET/ASP.NET Core microservices under Clean Architecture, high-availability banking and ERP integrations, Angular interfaces, and Azure deployment with CI/CD.",
+      "Services marketplace with real-time auctions. I contributed Node.js and TypeScript microservices integrated with high-availability banking systems, running in containers on Docker and Kubernetes, with CI/CD pipelines.",
     trikoAppTech:
-      ".NET, ASP.NET Core, Angular, Azure (App Services, Functions), REST APIs, CI/CD, Clean Architecture, SOLID.",
+      "Node.js, TypeScript, Docker, Kubernetes, CI/CD, REST APIs, banking integration.",
 
     // Merqueo project
     merqueoProjectTitle: "Merqueo",
     merqueoProjectDesc:
-      "Online supermarket operating in Colombia, Mexico, and Brazil. I built .NET back-end features integrated with external systems on AWS, MySQL SQL optimization, and Angular interfaces for operational dashboard and client web.",
+      "Online supermarket operating in Colombia, Mexico, and Brazil. I built backend services with Node.js, TypeScript, PHP, and Go on PostgreSQL and Redis, with queues and high-volume asynchronous processing, and optimized SQL queries in production.",
     merqueoProjectTech:
-      ".NET, ASP.NET Core, Angular, AWS (Lambda, S3), MySQL, automated testing, REST APIs.",
+      "Node.js, TypeScript, PHP, Go, PostgreSQL, Redis, queues, caching, automated testing.",
 
     // Samsara MoBi project
     samsaraMobiTitle: "Samsara MoBi",

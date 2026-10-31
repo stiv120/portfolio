@@ -148,10 +148,12 @@ ceibaDesc4:
 
     // Incluirtec
     incluirtecTitle: "Desarrollador Full Stack",
-    incluirtecCompany: "Incluirtec",
+    incluirtecCompany: "Incluirtec — cliente Fundación Amanecer",
     incluirtecDate: "Mar 2026 - Jul 2026",
     incluirtecDesc1:
-      "Operación de sistemas en producción: diagnóstico de incidentes, análisis de causa raíz y despliegue de correcciones con mínimo impacto. El cliente reconoció el trabajo entregado.",
+      "IncluirTec es una AgFintech SaaS que digitaliza créditos agropecuarios para bancos, cooperativas y ONG, incluso en zonas con poca conectividad. Estuve asignado a su cliente Fundación Amanecer, que otorga microcrédito a productores y microempresarios rurales.",
+    incluirtecDesc2:
+      "Como full stack, operé y corregí la plataforma en producción: diagnóstico de incidentes, causa raíz y despliegues con mínimo impacto. Fundación Amanecer reconoció el trabajo entregado.",
 
     // Triko
     trikoTitle: "Desarrollador Backend Senior",
@@ -451,10 +453,12 @@ ceibaDesc4:
 
     // Incluirtec
     incluirtecTitle: "Full Stack Developer",
-    incluirtecCompany: "Incluirtec",
+    incluirtecCompany: "Incluirtec — client Fundación Amanecer",
     incluirtecDate: "Mar 2026 - Jul 2026",
     incluirtecDesc1:
-      "Production systems operation: incident diagnosis, root cause analysis, and deployment of fixes with minimal impact. The client recognized the work delivered.",
+      "IncluirTec is an AgFintech SaaS that digitizes agricultural loans for banks, cooperatives, and NGOs, including areas with poor connectivity. I was assigned to their client Fundación Amanecer, which provides microcredit to rural producers and micro-entrepreneurs.",
+    incluirtecDesc2:
+      "As a full stack developer I ran and fixed the platform in production: incident diagnosis, root cause analysis, and low-impact deploys. Fundación Amanecer recognized the work I delivered.",
 
     // Triko
     trikoTitle: "Senior Backend Developer",

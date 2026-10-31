@@ -1,6 +1,49 @@
 // Translations object
 const translations = {
   es: {
+    // Landing
+    navCta: "Hablemos",
+    heroEyebrow: "Disponible para nuevos retos",
+    heroTitleHtml:
+      "Construyo backend con <em>agentes de código</em> y criterio de ingeniero.",
+    heroLead:
+      "Ingeniero de Sistemas con más de 8 años en producción. Escribo la spec, delego la implementación a agentes y reviso cada diff.",
+    heroRole: "Senior AI-First Developer · NestJS · Cloud",
+    scrollLabel: "Desliza",
+    statYears: "años en producción",
+    statTests: "pruebas en verde",
+    statMutation: "mutation testing en dominio",
+    statCert: "certificación AI-First",
+    aboutKicker: "Sobre mí",
+    aboutHeadHtml:
+      "Los agentes escriben. <em>Yo respondo</em> por el resultado.",
+    wfKicker: "Mi forma de trabajar",
+    wf1Title: "Spec",
+    wf1Desc: "Criterios de aceptación claros antes de escribir una línea.",
+    wf2Title: "Delegar",
+    wf2Desc: "El agente implementa en un worktree por historia.",
+    wf3Title: "Revisar",
+    wf3Desc: "Reviso el diff junto a un revisor de estándares independiente.",
+    wf4Title: "Decidir",
+    wf4Desc: "Defino qué delego y qué escribo a mano.",
+    skillsKicker: "Stack",
+    skillsHeadHtml: "Las herramientas con las que <em>entrego</em>",
+    expKicker: "Experiencia",
+    expHeadHtml: "Dónde he <em>construido</em>",
+    projKicker: "Trabajo",
+    projHeadHtml: "Proyectos <em>destacados</em>",
+    projCollab: "Colaboraciones",
+    eduKicker: "Formación",
+    eduHeadHtml: "Siempre <em>aprendiendo</em>",
+    contactKicker: "Contacto",
+    contactHeadHtml: "¿Construimos algo <em>juntos</em>?",
+    contactLead:
+      "Estoy abierto a roles de backend y de orquestación de agentes de código. Escríbeme y conversamos.",
+    copyEmail: "Copiar correo",
+    copied: "¡Copiado!",
+    footerNote: "Hecho con cuidado en Cali, Colombia",
+    backToTop: "Volver arriba",
+
     // Navbar
     navAbout: "Sobre mí",
     navSkills: "Habilidades",
@@ -228,6 +271,48 @@ const translations = {
       "Node.js, Express.js, JavaScript, Docker, Jest, MySQL, GitHub.",
   },
   en: {
+    // Landing
+    navCta: "Let's talk",
+    heroEyebrow: "Open to new challenges",
+    heroTitleHtml:
+      "I build backend with <em>coding agents</em> and an engineer's judgment.",
+    heroLead:
+      "Systems Engineer with 8+ years in production. I write the spec, delegate the implementation to agents, and review every diff.",
+    heroRole: "Senior AI-First Developer · NestJS · Cloud",
+    scrollLabel: "Scroll",
+    statYears: "years in production",
+    statTests: "passing tests",
+    statMutation: "mutation testing on domain",
+    statCert: "AI-First certification",
+    aboutKicker: "About me",
+    aboutHeadHtml: "Agents write. <em>I answer</em> for the result.",
+    wfKicker: "How I work",
+    wf1Title: "Spec",
+    wf1Desc: "Clear acceptance criteria before a single line is written.",
+    wf2Title: "Delegate",
+    wf2Desc: "The agent implements in a worktree per story.",
+    wf3Title: "Review",
+    wf3Desc: "I review the diff alongside an independent standards reviewer.",
+    wf4Title: "Decide",
+    wf4Desc: "I decide what to delegate and what to write by hand.",
+    skillsKicker: "Stack",
+    skillsHeadHtml: "The tools I <em>ship</em> with",
+    expKicker: "Experience",
+    expHeadHtml: "Where I've <em>built</em>",
+    projKicker: "Work",
+    projHeadHtml: "Selected <em>projects</em>",
+    projCollab: "Collaborations",
+    eduKicker: "Education",
+    eduHeadHtml: "Always <em>learning</em>",
+    contactKicker: "Contact",
+    contactHeadHtml: "Shall we build something <em>together</em>?",
+    contactLead:
+      "I'm open to backend and coding-agent orchestration roles. Write to me and let's talk.",
+    copyEmail: "Copy email",
+    copied: "Copied!",
+    footerNote: "Crafted with care in Cali, Colombia",
+    backToTop: "Back to top",
+
     // Navbar
     navAbout: "About Me",
     navSkills: "Skills",

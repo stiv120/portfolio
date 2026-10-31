@@ -4,56 +4,30 @@ A modern, responsive portfolio website showcasing professional experience, skill
 
 ## 🌟 Features
 
-- **Bilingual Interface**: Full support for English and Spanish with automatic browser language detection
-- **Responsive Design**: Mobile-first approach, fully responsive across all devices
-- **Dynamic Content**: Single-page application with smooth section transitions
-- **Language Selector**: Interactive language switcher with country flags (Colombia/US)
-- **Professional Sections**:
-  - About Me
-  - Technical Skills
-  - Work Experience
-  - Education & Training
-  - Projects Portfolio
-  - Contact Information
+- **Single-page landing**: hero, stats, about, stack (bento), experience timeline, projects, education and contact in one scroll
+- **Glass UI**: `backdrop-filter` surfaces with inset highlights and a cursor-following spotlight
+- **Parallax**: scroll-linked drift on floating chips, card images and fixed background layers, plus pointer depth on the hero portrait
+- **Bilingual (ES/EN)**: browser language detection, manual toggle, preference saved in `localStorage`
+- **Responsive & accessible**: mobile menu, `prefers-reduced-motion` support, no horizontal overflow
 
 ## 🛠️ Technologies Used
 
-### Frontend
-- **HTML5**: Semantic markup
-- **CSS3**: Custom styling with CSS variables, animations, and responsive design
-- **JavaScript (ES6+)**: Vanilla JavaScript for interactivity and translations
-- **Bootstrap 5.3.3**: Grid system and responsive utilities
-- **Font Awesome 6.0**: Icons library
-- **Google Fonts**: Poppins font family
-
-### Features
-- **LocalStorage**: Language preference persistence
-- **CSS Variables**: Theme management
-- **CSS Animations**: Smooth transitions and effects
-- **Responsive Navigation**: Mobile hamburger menu
+- **HTML5 / CSS3 / vanilla JavaScript** — no framework, no build step
+- **Google Fonts**: Instrument Serif, Plus Jakarta Sans, JetBrains Mono
+- Design tokens (`--a`, `--b`, `--c`) at the top of `public/css/landing.css` re-skin the whole page
 
 ## 📁 Project Structure
 
 ```
 portfolio/
-├── index.html                 # Main HTML file
-├── README.md                  # Project documentation
+├── index.html                 # Landing markup (all sections)
+├── README.md
 └── public/
-    ├── css/
-    │   ├── principal.css      # Main styles and theme
-    │   ├── menu.css           # Navigation menu styles
-    │   ├── cards.css          # Card component styles
-    │   ├── skills.css         # Skills section styles
-    │   ├── contact.css        # Contact section styles
-    │   ├── brand-name.css     # Brand name animation
-    │   └── language-selector.css  # Language selector styles
+    ├── css/landing.css        # Tokens, glass, layout, responsive
     ├── js/
-    │   ├── scripts.js         # Main JavaScript functionality
-    │   └── translations.js    # Translation system (ES/EN)
-    └── images/
-        ├── photo.jpeg         # Profile photo
-        ├── *.png, *.jpg, *.svg  # Project images and logos
-        └── ...
+    │   ├── landing.js         # i18n, parallax, reveal, pointer effects
+    │   └── translations.js    # ES / EN strings (data-i18n / data-i18n-html)
+    └── images/                # Photo, logos, project screenshots
 ```
 
 ## 🚀 Getting Started

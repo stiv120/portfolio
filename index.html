@@ -1,1221 +1,756 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Javier Stiven Chávez Gallego</title>
-    <link rel="stylesheet" href="public/css/principal.css" />
-    <link rel="stylesheet" href="public/css/menu.css" />
-    <link rel="stylesheet" href="public/css/cards.css" />
-    <link rel="stylesheet" href="public/css/skills.css" />
-    <link rel="stylesheet" href="public/css/contact.css" />
-    <link rel="stylesheet" href="public/css/brand-name.css" />
-    <link rel="stylesheet" href="public/css/language-selector.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    <title>Stiven Chávez · Senior AI-First Developer</title>
+    <meta
+      name="description"
+      content="Javier Stiven Chávez Gallego — Ingeniero de Sistemas, Senior AI-First Developer. Backend NestJS, arquitectura hexagonal y orquestación de agentes de código."
     />
+    <meta name="theme-color" content="#06070d" />
+    <meta property="og:title" content="Stiven Chávez · Senior AI-First Developer" />
+    <meta
+      property="og:description"
+      content="Backend con agentes de código y criterio de ingeniero. NestJS · Hexagonal · Cloud."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="public/images/photo.jpg" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b9bff'/%3E%3Cstop offset='1' stop-color='%2346e3d0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='%2306070d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-style='italic' font-size='38' text-anchor='middle' fill='url(%23g)'%3ES%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="public/css/landing.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav id="navbar">
-      <button id="menu-button">
-        <i class="fas fa-bars"></i>
-      </button>
-      <span class="brand-name">Stiven Chávez</span>
-      <div class="language-selector">
-        <button class="language-selector-button" type="button">
-          <img
-            src="https://flagcdn.com/w40/us.png"
-            alt="United States"
-            id="current-flag"
-          />
-          <span id="current-lang">EN</span>
-        </button>
-        <div class="language-selector-dropdown">
-          <a href="#" class="language-option" data-lang="es">
-            <img src="https://flagcdn.com/w40/co.png" alt="Colombia" />
-            <span data-i18n="spanishLabel">Español</span>
-          </a>
-          <a href="#" class="language-option active" data-lang="en">
-            <img src="https://flagcdn.com/w40/us.png" alt="United States" />
-            <span data-i18n="englishLabel">Inglés</span>
-          </a>
-        </div>
-      </div>
-      <ul id="menu" class="menu-closed">
-        <li>
-          <a
-            href="#"
-            data-nav-tab="about"
-            onclick="showTab('about')"
-            data-i18n="navAbout"
-            >Sobre mí</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            data-nav-tab="skills"
-            onclick="showTab('skills')"
-            data-i18n="navSkills"
-            >Habilidades</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            data-nav-tab="experience"
-            onclick="showTab('experience')"
-            data-i18n="navExperience"
-            >Experiencia</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            data-nav-tab="education"
-            onclick="showTab('education')"
-            data-i18n="navEducation"
-            >Formación</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            data-nav-tab="projects"
-            onclick="showTab('projects')"
-            data-i18n="navProjects"
-            >Proyectos</a
-          >
-        </li>
-        <li>
-          <a href="#" class="submenu-toggle" data-i18n="navContact">Contacto</a>
-          <ul class="submenu text-left">
-            <li>
-              <a
-                href="https://linkedin.com/in/javierstivenchavez"
-                target="_blank"
-              >
-                <i class="fab fa-linkedin"></i> linkedin
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/stiv120" target="_blank">
-                <i class="fab fa-github"></i> GitHub
-              </a>
-            </li>
-            <li>
-              <a href="mailto:gallegostiven340@gmail.com" target="_blank">
-                <i class="fas fa-envelope"></i> Email
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Sección Sobre mí -->
-    <section id="about" class="tab-content hero">
-      <div class="hero-inner">
-        <div class="text-center">
-          <h1 data-i18n="title">Javier Stiven Chávez Gallego</h1>
-          <p data-i18n="subtitle">
-            Developer Senior AI-First · Orquestación de Agentes de Código ·
-            Backend Node.js / NestJS · Cloud
-          </p>
-          <p>
-            <i class="fas fa-map-marker-alt"></i>
-            <span data-i18n="location">Santiago de Cali, Colombia</span>
-          </p>
-          <p>
-            <i class="fas fa-phone"></i>
-            <span data-i18n="phone">+57 3188640454</span>
-          </p>
-          <img
-            src="public/images/photo.jpg"
-            alt="Foto de Javier Stiven"
-            class="profile-pic"
-          />
-        </div>
-
-        <div class="container hero-content">
-          <h2 class="text-center" data-i18n="aboutTitle">Sobre mí</h2>
-          <div class="container">
-            <p class="text-justify" data-i18n="aboutText">
-              Ingeniero de Sistemas con más de 8 años en producción y con
-              agentes de código como forma normal de trabajo, no como
-              experimento.
-            </p>
-
-            <div class="hero-cta text-center mt-4">
-              <a
-                class="btn btn-primary btn-lg hero-btn me-2"
-                href="CV%20-%20JAVIER%20STIVEN%20CHAVEZ%20GALLEGO.pdf"
-                download="CV-Javier-Stiven-Chavez-Gallego.pdf"
-                data-i18n="downloadCv"
-                >Download CV</a
-              >
-              <button
-                class="btn btn-outline-light btn-lg hero-btn me-2"
-                type="button"
-                onclick="showTab('projects')"
-                data-i18n="viewMyWork"
-              >
-                View My Work
-              </button>
-              <a
-                class="btn btn-outline-light btn-lg hero-btn"
-                href="mailto:gallegostiven340@gmail.com"
-                data-i18n="contactMe"
-                >Contact Me</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="tab-content container">
-      <br />
-      <h2 data-i18n="skillsTitle">Habilidades</h2>
-      <div class="cards-container">
-        <div class="row">
-          <!-- Agentes de Código -->
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="skillsAgentsTitle">
-                  Agentes de Código
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-terminal"></i>
-                    <p>Claude Code</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-mouse-pointer"></i>
-                    <p>Cursor</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-github"></i>
-                    <p>GitHub Copilot</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-file-alt"></i>
-                    <p data-i18n="agentSpecs">Specs ejecutables</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-robot"></i>
-                    <p data-i18n="agentDelegation">Delegación a subagentes</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-search"></i>
-                    <p data-i18n="agentDiffReview">Revisión crítica de diffs</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-tasks"></i>
-                    <p data-i18n="agentDecisionLog">Registro de decisiones</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-code-branch"></i>
-                    <p data-i18n="agentWorktrees">Worktrees por historia</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Criterio y Calidad del Agente -->
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="skillsJudgmentTitle">
-                  Criterio y Calidad del Agente
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-bug"></i>
-                    <p data-i18n="judgeInvented">
-                      Detección de lógica inventada
-                    </p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-ruler-combined"></i>
-                    <p data-i18n="judgeScope">Alcance fuera de spec</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-copy"></i>
-                    <p data-i18n="judgeDuplicated">Reglas duplicadas</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-clipboard-check"></i>
-                    <p data-i18n="judgePartial">Alcance parcial documentado</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- LLMs e Integración de IA -->
-          <div class="col-sm-12 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="skillsLlmTitle">
-                  LLMs e Integración de IA
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-brain"></i>
-                    <p data-i18n="llmApis">APIs de modelos</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-code"></i>
-                    <p data-i18n="llmStructured">Salidas estructuradas</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-wrench"></i>
-                    <p data-i18n="llmTools">Uso de herramientas</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-exclamation-triangle"></i>
-                    <p data-i18n="llmErrors">Manejo de errores</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-user-lock"></i>
-                    <p data-i18n="llmPermissions">Permisos acotados</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-check-double"></i>
-                    <p data-i18n="llmValidation">Validación del resultado</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Backend -->
-          <div class="col-sm-12 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="skillsBackendTitle">
-                  Backend
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-code"></i>
-                    <p>TypeScript</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-node-js"></i>
-                    <p>Node.js</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-cube"></i>
-                    <p>NestJS</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-bolt"></i>
-                    <p>Fastify</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-route"></i>
-                    <p>Express</p>
-                  </div>
-                  <div class="skill-item">
-                    <img
-                      src="public/images/csharp-icon.svg"
-                      alt="C#"
-                      style="width: 40px; height: 40px; object-fit: contain"
-                    />
-                    <p>C# / .NET</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-php"></i>
-                    <p>PHP</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-laravel"></i>
-                    <p>Laravel</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-symfony"></i>
-                    <p>Symfony</p>
-                  </div>
-                  <div class="skill-item">
-                    <img
-                      src="public/images/go-logo.svg"
-                      alt="Go"
-                      style="width: 40px; height: 40px; object-fit: contain"
-                    />
-                    <p>Go</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-file-code"></i>
-                    <p>REST APIs</p>
-                  </div>
-                  <div class="skill-item">
-                    <img
-                      src="public/images/hexagonal-architecture-icon.svg"
-                      alt="Hexagonal Architecture"
-                      style="width: 40px; height: 40px; object-fit: contain"
-                    />
-                    <p data-i18n="hexagonalArchitecture">
-                      Arquitectura hexagonal
-                    </p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-sitemap"></i>
-                    <p>DDD</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-balance-scale"></i>
-                    <p data-i18n="solidPrinciples">Principios SOLID</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bases de Datos -->
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="databases">Bases de Datos</h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <p>PostgreSQL</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <p>SQL Server</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <p>MySQL</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <p>Oracle</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-leaf"></i>
-                    <p>MongoDB</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <p>Redis</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-layer-group"></i>
-                    <p>Drizzle ORM</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-code-branch"></i>
-                    <p data-i18n="dbMigrations">Migraciones versionadas</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-exchange-alt"></i>
-                    <p data-i18n="dbTransactions">Transaccionalidad</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Cloud y Contenedores -->
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="skillsCloudTitle">
-                  Cloud y Contenedores
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fab fa-google"></i>
-                    <p>Google Cloud</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-aws"></i>
-                    <p>AWS (Lambda, API Gateway, S3, EC2, RDS)</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-microsoft"></i>
-                    <p>Azure</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-docker"></i>
-                    <p>Docker</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-dharmachakra"></i>
-                    <p>Kubernetes</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-linux"></i>
-                    <p>Linux</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-sync-alt"></i>
-                    <p>CI/CD (Azure Pipelines)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Pruebas y Calidad -->
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="unitTesting">
-                  Pruebas y Calidad
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-vial"></i>
-                    <p>Vitest</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-vial"></i>
-                    <p>Jest</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-vial"></i>
-                    <p>xUnit</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-vial"></i>
-                    <p data-i18n="testUnit">Pruebas unitarias</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-vial"></i>
-                    <p data-i18n="testE2e">Pruebas e2e HTTP</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-vial"></i>
-                    <p data-i18n="testArchitecture">Pruebas de arquitectura</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-dna"></i>
-                    <p data-i18n="testMutation">Mutation testing (Stryker)</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-chart-line"></i>
-                    <p>SonarQube</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Seguridad -->
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="skillsSecurityTitle">
-                  Seguridad
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-user-shield"></i>
-                    <p data-i18n="secServerAuth">Autorización en servidor</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-users-cog"></i>
-                    <p data-i18n="secRoles">Roles y permisos granulares</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-lock"></i>
-                    <p data-i18n="secLeastPrivilege">Mínimo privilegio</p>
-                  </div>
-                  <div class="skill-item">
-                    <img
-                      src="public/images/jwt-logo.svg"
-                      alt="JWT"
-                      style="width: 40px; height: 40px; object-fit: contain"
-                    />
-                    <p>JWT</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-key"></i>
-                    <p data-i18n="secSecrets">Gestión de secretos por ambiente</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Frontend y Equipo -->
-          <div class="col-sm-12 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="skillsFrontendTeamTitle">
-                  Frontend y Equipo
-                </h3>
-                <div class="skills-grid">
-                  <div class="skill-item">
-                    <i class="fas fa-code"></i>
-                    <p>Next.js</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-react"></i>
-                    <p>React</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-mobile-alt"></i>
-                    <p>React Native</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-angular"></i>
-                    <p>Angular</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-sitemap"></i>
-                    <p>Scrum</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fab fa-jira"></i>
-                    <p>Jira</p>
-                  </div>
-                  <div class="skill-item">
-                    <i class="fas fa-file-alt"></i>
-                    <p data-i18n="docsInSpanish">Documentación en español</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sección Experiencia -->
-    <section id="experience" class="tab-content">
-      <br />
-      <div class="container">
-        <h2 data-i18n="experienceTitle">Experiencia</h2>
-        <div class="card">
-          <div class="experience-logo-wrap">
-            <img
-              src="public/images/ceiba-logo.png"
-              alt="Ceiba"
-              class="experience-logo"
-              loading="lazy"
-              onerror="this.closest('.experience-logo-wrap').style.display='none';"
-            />
-          </div>
-          <h3 data-i18n="ceibaTitle">Arquitecto Desarrollador</h3>
-          <p>
-            <strong data-i18n="company">Empresa:</strong>
-            <span data-i18n="ceibaCompany"
-              >Ceiba — cliente Los Olivos (marketplace XPets)</span
-            >
-            | <span data-i18n="ceibaDate">Jul 2025 - Actual</span>
-          </p>
-          <ul class="text-justify">
-            <li data-i18n="ceibaDesc1"></li>
-            <li data-i18n="ceibaDesc2"></li>
-            <li data-i18n="ceibaDesc3"></li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="experience-logo-wrap">
-            <img
-              src="public/images/incluirtec.png"
-              alt="Incluirtec"
-              class="experience-logo"
-              loading="lazy"
-              onerror="this.closest('.experience-logo-wrap').style.display='none';"
-            />
-          </div>
-          <h3 data-i18n="incluirtecTitle">Desarrollador Fullstack</h3>
-          <p>
-            <strong data-i18n="company">Empresa:</strong>
-            <span data-i18n="incluirtecCompany">Incluirtec</span> |
-            <span data-i18n="incluirtecDate">Mar 2026 - Actual</span>
-          </p>
-          <ul class="text-justify">
-            <li data-i18n="incluirtecDesc1"></li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="experience-logo-wrap">
-            <img
-              src="public/images/triko-logo.png"
-              alt="Triko"
-              class="experience-logo"
-              loading="lazy"
-              onerror="this.closest('.experience-logo-wrap').style.display='none';"
-            />
-          </div>
-          <h3 data-i18n="trikoTitle">Desarrollador Backend Senior</h3>
-          <p>
-            <strong data-i18n="company">Empresa:</strong>
-            <span data-i18n="trikoCompany">Triko</span> |
-            <span data-i18n="trikoDate">Nov 2024 - Mar 2026</span>
-          </p>
-          <ul class="text-justify">
-            <li data-i18n="trikoDesc1"></li>
-            <li data-i18n="trikoDesc2"></li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="experience-logo-wrap">
-            <img
-              src="public/images/merqueo-logo.jpg"
-              alt="Merqueo"
-              class="experience-logo"
-              loading="lazy"
-              onerror="this.closest('.experience-logo-wrap').style.display='none';"
-            />
-          </div>
-          <h3 data-i18n="merqueoTitle">Desarrollador Backend</h3>
-          <p>
-            <strong data-i18n="company">Empresa:</strong>
-            <span data-i18n="merqueoCompany">Merqueo</span> |
-            <span data-i18n="merqueoDate">Nov 2024 - Jul 2025</span>
-          </p>
-          <ul class="text-justify">
-            <li data-i18n="merqueoDesc1"></li>
-            <li data-i18n="merqueoDesc2"></li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="experience-logo-wrap experience-logo-wrap--mobi">
-            <img
-              src="public/images/mobi.png"
-              alt="Samsara MoBi"
-              class="experience-logo experience-logo--mobi"
-              loading="lazy"
-              onerror="this.closest('.experience-logo-wrap').style.display='none';"
-            />
-          </div>
-          <h3 data-i18n="samsaraTitle">Co-líder de desarrollo de software</h3>
-          <p>
-            <strong data-i18n="company">Empresa:</strong>
-            <span data-i18n="samsaraCompany">Samsara Med</span>
-            | <span data-i18n="samsaraDate">Jun 2023 - Nov 2024</span>
-          </p>
-          <ul class="text-justify">
-            <li data-i18n="samsaraDesc1"></li>
-            <li data-i18n="samsaraDesc2"></li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="experience-logo-wrap">
-            <img
-              src="public/images/usc-logo.jpg"
-              alt="Universidad Santiago de Cali"
-              class="experience-logo"
-              loading="lazy"
-              onerror="this.closest('.experience-logo-wrap').style.display='none';"
-            />
-          </div>
-          <h3 data-i18n="uscTitle">Desarrollador de software fullstack</h3>
-          <p>
-            <strong data-i18n="company">Empresa:</strong>
-            <span data-i18n="uscCompany">Universidad Santiago de Cali</span> |
-            <span data-i18n="uscDate">Abr 2018 - Dic 2023</span>
-          </p>
-          <p>
-            <strong data-i18n="technologies">Tecnologías:</strong>
-            <span data-i18n="uscTech"></span>
-          </p>
-          <ul class="text-justify">
-            <li data-i18n="uscDesc1"></li>
-            <li data-i18n="uscDesc2"></li>
-            <li data-i18n="uscDesc3"></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sección Formación -->
-    <section id="education" class="tab-content">
-      <br />
-      <h2 data-i18n="professionalEducation">Formación Profesional</h2>
-      <div class="cards-container card-projects">
-        <div class="row">
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="public/images/remington-logo.png"
-                  alt="Remington"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                  onerror="this.style.display='none';"
-                />
-                <h3 class="card-title" data-i18n="systemsEngineering">
-                  Systems Engineering
-                </h3>
-                <p>
-                  <span data-i18n="remington"
-                    >Corporación Universitaria Remington</span
-                  >
-                  | <span data-i18n="remingtonDate">2021 - 2023</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="public/images/sena-logo.png"
-                  alt="SENA"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                />
-                <h3 class="card-title" data-i18n="technologyAnalysis">
-                  Information Systems Analysis and Development Technologist
-                </h3>
-                <p>
-                  <span data-i18n="sena"
-                    >SENA (Servicio Nacional de Aprendizaje)</span
-                  >
-                  |
-                  <span data-i18n="senaDate">2016 - 2018</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h2 data-i18n="complementaryEducation">Formación Complementaria</h2>
-      <div class="cards-container card-projects">
-        <div class="row">
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <a
-                  href="public/images/ceiba-certificado-augmented-professional.png"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <img
-                    src="public/images/ceiba-certificado-augmented-professional.png"
-                    alt="Certificado Ceiba - Augmented Professional, Expert Level"
-                    style="
-                      width: 100%;
-                      height: auto;
-                      margin-bottom: 15px;
-                      border-radius: 8px;
-                      object-fit: contain;
-                    "
-                  />
-                </a>
-                <h3 class="card-title" data-i18n="aiFirstCert">
-                  AI-First Certified — Augmented Professional, Expert Level
-                </h3>
-                <p data-i18n="aiFirstCertDesc">
-                  Roles aumentados y colaboración cognitiva Humano-IA
-                </p>
-                <p>
-                  <span data-i18n="ceibaCert">Ceiba</span> |
-                  <span data-i18n="aiFirstCertDate">2026</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="public/images/platzi-logo.svg"
-                  alt="Platzi"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                  onerror="this.style.display='none';"
-                />
-                <h3 class="card-title" data-i18n="awsCert">
-                  Introducción a AWS: Fundamentos de Cloud Computing
-                </h3>
-                <p>
-                  <span data-i18n="platzi">Platzi</span> |
-                  <span data-i18n="awsCertDate">2025</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="dotnetBootcamp">
-                  Bootcamp Backend .NET
-                </h3>
-                <p>
-                  <span data-i18n="wwcode"
-                    >WWCode Medellín y Perficient Latam</span
-                  >
-                  | <span data-i18n="bootcampDate">2023</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="public/images/scrumstudy-logo.jpg"
-                  alt="ScrumStudy"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                  onerror="this.style.display='none';"
-                />
-                <h3 class="card-title" data-i18n="scrumFundamentals">
-                  Scrum Fundamentals Certified
-                </h3>
-                <p>
-                  <span data-i18n="scrumstudy">ScrumStudy</span> |
-                  <span data-i18n="scrumDate">2020</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="public/images/sena-logo.png"
-                  alt="SENA"
-                  style="
-                    width: 100px;
-                    height: auto;
-                    margin-bottom: 15px;
-                    object-fit: contain;
-                  "
-                />
-                <h3 class="card-title" data-i18n="dbSpecialization">
-                  Technological Specialization in Database Management and
-                  Security (SQL Server, Oracle and MongoDB)
-                </h3>
-                <p>
-                  <span data-i18n="sena">SENA</span> |
-                  <span data-i18n="senaMonths">2019</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h2 data-i18n="languagesTitle">Idiomas</h2>
-      <div class="cards-container card-projects">
-        <div class="row">
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="english">Inglés</h3>
-                <p data-i18n="intermediate">B1 (Intermedio) – Lectura técnica y comunicación.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="spanish">Español</h3>
-                <p data-i18n="native">Nativo</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sección Proyectos -->
-    <section id="projects" class="tab-content container">
-      <br />
-      <h2 data-i18n="projectsTitle">Proyectos en los que he colaborado</h2>
-      <div class="cards-container card-projects">
-        <div class="row">
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title" data-i18n="xpetsTitle">
-                  XPets — Marketplace (Los Olivos)
-                </h3>
-                <p class="text-justify" data-i18n="xpetsDesc"></p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span
-                    class="tech-chips"
-                    data-i18n="xpetsTech"
-                    data-tech-chips
-                  ></span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img src="public/images/Triko-App.png" alt="Triko App" />
-                <h3 class="card-title" data-i18n="trikoAppTitle">TRIKO APP</h3>
-                <p class="text-justify" data-i18n="trikoAppDesc">
-                  Triko es el primer mercado de servicios con ofertas anónimas
-                  que conecta clientes con proveedores de servicios locales
-                  confiables. La plataforma opera en Estados Unidos a través de
-                  su aplicación móvil para Android e IOS, permitiendo publicar
-                  solicitudes de servicio gratis, recibir múltiples ofertas de
-                  proveedores verificados mediante un sistema tipo subasta en
-                  tiempo real, y compartir información de contacto solo con el
-                  postor favorito. Sin suscripciones ni necesidad de tarjeta de
-                  crédito, priorizando transparencia, privacidad y seguridad.
-                </p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span
-                    class="tech-chips"
-                    data-i18n="trikoAppTech"
-                    data-tech-chips
-                  >
-                    PHP con Laravel, AWS, Docker, Linux, APIs (REST / SOAP),
-                    Bitbucket, Sentry, Zendesk, Java con Spring Boot,
-                    Microservicios.
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img src="public/images/merqueo.jpg" alt="Merqueo" />
-                <h3 class="card-title" data-i18n="merqueoProjectTitle">
-                  Merqueo
-                </h3>
-                <p class="text-justify" data-i18n="merqueoProjectDesc">
-                  Merqueo fue una empresa colombiana que operaba como
-                  supermercado en línea, permitiendo a los usuarios realizar
-                  compras de mercado a través de su página web y aplicación
-                  móvil. La plataforma permitía seleccionar productos, programar
-                  horarios de entrega y elegir métodos de pago. La compañía
-                  gestionaba directamente su cadena de suministro, almacenando
-                  productos en sus propios centros de distribución y realizando
-                  entregas sin intermediarios, ofreciendo precios competitivos y
-                  optimizando tiempos de entrega. Operó en ciudades de Colombia,
-                  México y Brasil. La aplicación móvil y página web incluían
-                  dashboard operativo para gestión interna y web-front para
-                  clientes.
-                </p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span
-                    class="tech-chips"
-                    data-i18n="merqueoProjectTech"
-                    data-tech-chips
-                  >
-                    PHP con Laravel, Linux, Apache, Go, AWS (Lambda, S3, EC2),
-                    MySQL, DynamoDB, Sentry, Zendesk.
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img src="public/images/mobi.png" alt="Samsara mobi" />
-                <h3 class="card-title" data-i18n="samsaraMobiTitle">
-                  Samsara MoBi
-                </h3>
-                <p class="text-justify" data-i18n="samsaraMobiDesc">
-                  Software hecho a la medida para el sector de la salud, en la
-                  cual se gestionan la agenda de cada paciente, su línea de
-                  tiempo, reportes detallados de cada historia clínica y
-                  generación de rips.
-                </p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span
-                    class="tech-chips"
-                    data-i18n="samsaraMobiTech"
-                    data-tech-chips
-                  >
-                    PHP con Laravel, Linux, APIs (REST / SOAP), MySQL, jQuery,
-                    Node.js, Sentry, Zendesk.
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img src="public/images/SIPAC.png" alt="SIPAC" />
-                <h3 data-i18n="sipacTitle">
-                  Sistema de Información para el Aseguramiento de la Calidad
-                  (SIPAC)
-                </h3>
-                <p class="text-justify" data-i18n="sipacDesc">
-                  Sistema de Información hecho para la Universidad Santiago de
-                  Cali, entre la cual se destacan módulos cómo Evaluación de
-                  desempeño de docentes y administrativos, certificados y
-                  permisos laborales para el departamento de gestión humana, el
-                  sistema de información SIPPU para prácticas y pasantías
-                  universitarias y el sistema general de Investigaciones, DGI.
-                </p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span class="tech-chips" data-i18n="sipacTech" data-tech-chips></span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img src="public/images/apps.png" alt="APPS" />
-                <h3 data-i18n="appsTitle">
-                  Aplicación de Pagos en línea (APPS)
-                </h3>
-                <p class="text-justify" data-i18n="appsDesc">
-                  Aplicación de pagos en línea, en la cual se integran los
-                  métodos de pagos por medio de la plataforma place to pay, para
-                  el proceso de matrículas académicas en la Universidad Santiago
-                  de Cali.
-                </p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span class="tech-chips" data-i18n="appsTech" data-tech-chips></span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h2 data-i18n="personalProjects">Proyectos personales</h2>
-      <div class="cards-container card-projects">
-        <div class="row">
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img src="public/images/react-app.png" alt="APPS" />
-                <h3 data-i18n="geolocationTitle">
-                  App de geolocalización - React con PHP
-                </h3>
-                <p class="text-justify" data-i18n="geolocationDesc">
-                  El proyecto es una app hecha con React.js para el frontend que
-                  consume una API de OpenWheater para mostrar la humedad de las
-                  ciudades que el usuario seleccione, a su vez se muestra la
-                  ciudad seleccionada en un mapa mediante la librería leaflet,
-                  se almacena un historial de consultas en una base de datos
-                  MySQL mediante una API hecha en PHP como backend.
-                </p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span
-                    class="tech-chips"
-                    data-i18n="geolocationTech"
-                    data-tech-chips
-                  ></span>
-                </p>
-                <p>
-                  <a
-                    href="https://react-app-stiven.vercel.app/"
-                    target="_blank"
-                    data-i18n="seeMore"
-                    >Ver más..</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <img src="public/images/api-gestion-eventos.png" alt="APPS" />
-                <h3 data-i18n="eventsApiTitle">API de gestión de eventos</h3>
-                <p class="text-justify" data-i18n="eventsApiDesc">
-                  API RESTful hecha en nodejs con docker para una plataforma de
-                  gestión de eventos. Esta plataforma permitirá a los usuarios
-                  crear, promocionar y gestionar eventos de manera efectiva. Los
-                  usuarios podrán registrarse para asistir a eventos al igual
-                  que ver detalles sobre los eventos como información detallada
-                  o lugares cercanos.
-                </p>
-                <p class="text-justify">
-                  <strong data-i18n="techLabel">Tecnologías:</strong>
-                  <span
-                    class="tech-chips"
-                    data-i18n="eventsApiTech"
-                    data-tech-chips
-                  ></span>
-                </p>
-                <p>
-                  <a
-                    href="https://github.com/stiv120/gestion-eventos"
-                    target="_blank"
-                    data-i18n="seeMore"
-                    >Ver más..</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sección Contacto -->
-    <div class="contact-float">
-      <ul>
-        <li>
-          <a href="https://linkedin.com/in/javierstivenchavez" target="_blank">
-            <i class="fab fa-linkedin" style="color: #0072b1"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/stiv120" target="_blank">
-            <i class="fab fa-github" style="color: #333"></i>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:gallegostiven340@gmail.com" target="_blank">
-            <i class="fas fa-envelope" style="color: #db4437"></i>
-          </a>
-        </li>
-      </ul>
+    <!-- Living background: every layer moves at its own speed -->
+    <div class="bg" aria-hidden="true">
+      <div class="bg__grid" data-bg="0.06"></div>
+      <div class="blob blob--a" data-bg="0.18"></div>
+      <div class="blob blob--b" data-bg="-0.12"></div>
+      <div class="blob blob--c" data-bg="0.28"></div>
+      <div class="bg__grain"></div>
     </div>
 
-    <!-- Footer -->
-    <footer>
-      <p>© 2026 Javier Stiven Chávez Gallego</p>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Navbar -->
+    <header class="nav glass" id="nav">
+      <a href="#top" class="brand" aria-label="Stiven Chávez"><i></i>Stiven Chávez</a>
+
+      <nav class="nav__links" id="nav-links" aria-label="Principal">
+        <a href="#about" data-i18n="navAbout">Sobre mí</a>
+        <a href="#skills" data-i18n="navSkills">Habilidades</a>
+        <a href="#experience" data-i18n="navExperience">Experiencia</a>
+        <a href="#projects" data-i18n="navProjects">Proyectos</a>
+        <a href="#education" data-i18n="navEducation">Formación</a>
+      </nav>
+
+      <div class="nav__right">
+        <div class="lang" role="group" aria-label="Idioma / Language">
+          <button type="button" data-lang="es" aria-pressed="false">ES</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="#contact" class="btn btn--primary" data-i18n="navCta">Hablemos</a>
+        <button
+          type="button"
+          class="nav__burger"
+          id="burger"
+          aria-label="Menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="hero">
+        <div class="wrap hero__grid">
+          <div class="hero__copy">
+            <span class="pill glass reveal"
+              ><i></i><span data-i18n="heroEyebrow">Disponible para nuevos retos</span></span
+            >
+            <h1 class="h1 reveal" style="--rd: 80ms" data-i18n-html="heroTitleHtml">
+              Construyo backend con <em>agentes de código</em> y criterio de ingeniero.
+            </h1>
+            <p class="hero__role reveal" style="--rd: 160ms" data-i18n="heroRole">
+              Senior AI-First Developer · NestJS · Cloud
+            </p>
+            <p class="hero__lead reveal" style="--rd: 220ms" data-i18n="heroLead">
+              Ingeniero de Sistemas con más de 8 años en producción. Escribo la spec, delego la
+              implementación a agentes y reviso cada diff.
+            </p>
+
+            <div class="hero__cta reveal" style="--rd: 300ms">
+              <a href="#projects" class="btn btn--primary" data-magnet>
+                <span data-i18n="viewMyWork">Ver mis proyectos</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <a
+                href="CV%20-%20JAVIER%20STIVEN%20CHAVEZ%20GALLEGO.pdf"
+                download="CV-Javier-Stiven-Chavez-Gallego.pdf"
+                class="btn btn--ghost"
+                data-magnet
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 11l5 5 5-5M5 20h14" /></svg>
+                <span data-i18n="downloadCv">Descargar CV</span>
+              </a>
+            </div>
+
+            <div class="hero__meta reveal" style="--rd: 380ms">
+              <span>
+                <span data-i18n="location">Santiago de Cali, Colombia</span>
+              </span>
+              <a href="https://github.com/stiv120" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z" /></svg>
+                GitHub
+              </a>
+              <a href="https://linkedin.com/in/javierstivenchavez" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1 1.84-2.07 3.78-2.07 4.04 0 4.78 2.66 4.78 6.12V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.69V21h-4V9.75Z" /></svg>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- Portrait + floating glass chips -->
+          <div class="stage reveal" style="--rd: 200ms" id="stage">
+            <svg class="rings" viewBox="0 0 100 100" aria-hidden="true">
+              <circle class="spin" cx="50" cy="50" r="48" />
+              <circle class="r2 spin rev" cx="50" cy="50" r="42" />
+              <circle cx="50" cy="50" r="35" stroke-dasharray="1 6" />
+            </svg>
+
+            <div class="fl portrait-wrap" data-speed="-0.04" style="inset: 0">
+              <div class="fm" style="--d: 8; height: 100%">
+                <div class="portrait glass" style="position: absolute; inset: 4% 6%">
+                  <div class="portrait__img">
+                    <img src="public/images/photo.jpg" alt="Javier Stiven Chávez Gallego" width="600" height="800" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="fl fl--1" data-speed="0.12">
+              <div class="fm">
+                <div class="chip-float glass bob">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z" /><path d="m3 7 9 5 9-5M12 12v10" /></svg>
+                  NestJS · Hexagonal
+                </div>
+              </div>
+            </div>
+            <div class="fl fl--2" data-speed="-0.1">
+              <div class="fm">
+                <div class="chip-float glass bob" style="--delay: -2s">
+                  <b>200+</b> tests
+                </div>
+              </div>
+            </div>
+            <div class="fl fl--3" data-speed="0.16">
+              <div class="fm">
+                <div class="chip-float glass bob" style="--delay: -4s">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4-4-4-4M11 20h8" /></svg>
+                  Claude Code
+                </div>
+              </div>
+            </div>
+            <div class="fl fl--4" data-speed="-0.14">
+              <div class="fm">
+                <div class="chip-float glass bob" style="--delay: -1s">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.4 6.6 19.5l1.2-6L3.3 9.3l6.1-.7L12 3Z" /></svg>
+                  AI-First Certified
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true">
+          <i></i><span data-i18n="scrollLabel">Desliza</span>
+        </div>
+      </section>
+
+      <!-- ============ STATS ============ -->
+      <section class="stats">
+        <div class="wrap">
+          <div class="stats__grid glass reveal">
+            <div class="stat">
+              <div class="stat__n"><span data-count="8">8</span>+</div>
+              <div class="stat__l" data-i18n="statYears">años en producción</div>
+            </div>
+            <div class="stat">
+              <div class="stat__n"><span data-count="200">200</span>+</div>
+              <div class="stat__l" data-i18n="statTests">pruebas en verde</div>
+            </div>
+            <div class="stat">
+              <div class="stat__n"><span data-count="100">100</span>%</div>
+              <div class="stat__l" data-i18n="statMutation">mutation testing en dominio</div>
+            </div>
+            <div class="stat">
+              <div class="stat__n">Expert</div>
+              <div class="stat__l" data-i18n="statCert">certificación AI-First</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section id="about">
+        <div class="wrap about__grid">
+          <div>
+            <div class="kicker reveal" data-i18n="aboutKicker">Sobre mí</div>
+            <h2 class="h2 reveal" style="--rd: 80ms" data-i18n-html="aboutHeadHtml">
+              Los agentes escriben. <em>Yo respondo</em> por el resultado.
+            </h2>
+            <p class="about__text reveal" style="--rd: 160ms; margin-top: 28px" data-i18n="aboutText">
+              Ingeniero de Sistemas con más de 8 años en producción y con agentes de código como
+              forma normal de trabajo, no como experimento.
+            </p>
+          </div>
+
+          <div>
+            <div class="kicker reveal" data-i18n="wfKicker">Mi forma de trabajar</div>
+            <div class="flow">
+              <div class="flow__step glass reveal" style="--rd: 60ms">
+                <div class="flow__n">01</div>
+                <div>
+                  <h3 data-i18n="wf1Title">Spec</h3>
+                  <p data-i18n="wf1Desc">Criterios de aceptación claros antes de escribir una línea.</p>
+                </div>
+              </div>
+              <div class="flow__step glass reveal" style="--rd: 140ms">
+                <div class="flow__n">02</div>
+                <div>
+                  <h3 data-i18n="wf2Title">Delegar</h3>
+                  <p data-i18n="wf2Desc">El agente implementa en un worktree por historia.</p>
+                </div>
+              </div>
+              <div class="flow__step glass reveal" style="--rd: 220ms">
+                <div class="flow__n">03</div>
+                <div>
+                  <h3 data-i18n="wf3Title">Revisar</h3>
+                  <p data-i18n="wf3Desc">Reviso el diff junto a un revisor de estándares independiente.</p>
+                </div>
+              </div>
+              <div class="flow__step glass reveal" style="--rd: 300ms">
+                <div class="flow__n">04</div>
+                <div>
+                  <h3 data-i18n="wf4Title">Decidir</h3>
+                  <p data-i18n="wf4Desc">Defino qué delego y qué escribo a mano.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section id="skills">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="kicker reveal" data-i18n="skillsKicker">Stack</div>
+            <h2 class="h2 reveal" style="--rd: 80ms" data-i18n-html="skillsHeadHtml">
+              Las herramientas con las que <em>entrego</em>
+            </h2>
+          </div>
+
+          <div class="bento">
+            <article class="card glass b-lg reveal">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 4 4-4 4M12 17h7M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z" /></svg></div>
+                <h3 data-i18n="skillsAgentsTitle">Agentes de Código</h3>
+              </div>
+              <div class="chips">
+                <span class="chip chip--hot">Claude Code</span>
+                <span class="chip chip--hot">Cursor</span>
+                <span class="chip chip--hot">GitHub Copilot</span>
+                <span class="chip" data-i18n="agentSpecs">Specs ejecutables</span>
+                <span class="chip" data-i18n="agentDelegation">Delegación a subagentes</span>
+                <span class="chip" data-i18n="agentDiffReview">Revisión crítica de diffs</span>
+                <span class="chip" data-i18n="agentDecisionLog">Registro de decisiones</span>
+                <span class="chip" data-i18n="agentWorktrees">Worktrees por historia</span>
+              </div>
+            </article>
+
+            <article class="card glass b-sm reveal" style="--rd: 80ms">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4M12 3l8 3v6c0 4.5-3.2 8.2-8 9-4.8-.8-8-4.5-8-9V6l8-3Z" /></svg></div>
+                <h3 data-i18n="skillsJudgmentTitle">Criterio y Calidad del Agente</h3>
+              </div>
+              <div class="chips">
+                <span class="chip" data-i18n="judgeInvented">Detección de lógica inventada</span>
+                <span class="chip" data-i18n="judgeScope">Alcance fuera de spec</span>
+                <span class="chip" data-i18n="judgeDuplicated">Reglas duplicadas</span>
+                <span class="chip" data-i18n="judgePartial">Alcance parcial documentado</span>
+              </div>
+            </article>
+
+            <article class="card glass b-md reveal">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3a3.5 3.5 0 0 0-3.4 4.3A3.5 3.5 0 0 0 5 14a3.5 3.5 0 0 0 4.5 5A3 3 0 0 0 12 21V3a3 3 0 0 0-2.5 0ZM14.5 3A3.5 3.5 0 0 1 18 7.3 3.5 3.5 0 0 1 19 14a3.5 3.5 0 0 1-4.5 5A3 3 0 0 1 12 21" /></svg></div>
+                <h3 data-i18n="skillsLlmTitle">LLMs e Integración de IA</h3>
+              </div>
+              <div class="chips">
+                <span class="chip" data-i18n="llmApis">APIs de modelos</span>
+                <span class="chip" data-i18n="llmStructured">Salidas estructuradas</span>
+                <span class="chip" data-i18n="llmTools">Uso de herramientas</span>
+                <span class="chip" data-i18n="llmErrors">Manejo de errores</span>
+                <span class="chip" data-i18n="llmPermissions">Permisos acotados</span>
+                <span class="chip" data-i18n="llmValidation">Validación del resultado</span>
+              </div>
+            </article>
+
+            <article class="card glass b-md reveal" style="--rd: 80ms">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="2" /><rect x="3" y="14" width="18" height="6" rx="2" /><path d="M7 7h.01M7 17h.01" /></svg></div>
+                <h3 data-i18n="skillsBackendTitle">Backend</h3>
+              </div>
+              <div class="chips">
+                <span class="chip chip--hot">TypeScript</span>
+                <span class="chip chip--hot">Node.js</span>
+                <span class="chip chip--hot">NestJS</span>
+                <span class="chip">Fastify</span>
+                <span class="chip">Express</span>
+                <span class="chip">C# / .NET</span>
+                <span class="chip">PHP</span>
+                <span class="chip">Laravel</span>
+                <span class="chip">Symfony</span>
+                <span class="chip">Go</span>
+                <span class="chip">REST APIs</span>
+                <span class="chip" data-i18n="hexagonalArchitecture">Arquitectura hexagonal</span>
+                <span class="chip">DDD</span>
+                <span class="chip" data-i18n="solidPrinciples">Principios SOLID</span>
+              </div>
+            </article>
+
+            <article class="card glass b-sm reveal">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3" /><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" /></svg></div>
+                <h3 data-i18n="databases">Bases de Datos</h3>
+              </div>
+              <div class="chips">
+                <span class="chip chip--hot">PostgreSQL</span>
+                <span class="chip">SQL Server</span>
+                <span class="chip">MySQL</span>
+                <span class="chip">Oracle</span>
+                <span class="chip">MongoDB</span>
+                <span class="chip">Redis</span>
+                <span class="chip">Drizzle ORM</span>
+                <span class="chip" data-i18n="dbMigrations">Migraciones versionadas</span>
+                <span class="chip" data-i18n="dbTransactions">Transaccionalidad</span>
+              </div>
+            </article>
+
+            <article class="card glass b-sm reveal" style="--rd: 80ms">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19.5 10 4 4 0 0 1 18 18H7Z" /></svg></div>
+                <h3 data-i18n="skillsCloudTitle">Cloud y Contenedores</h3>
+              </div>
+              <div class="chips">
+                <span class="chip">Google Cloud</span>
+                <span class="chip">AWS</span>
+                <span class="chip">Azure</span>
+                <span class="chip chip--hot">Docker</span>
+                <span class="chip">Kubernetes</span>
+                <span class="chip">Linux</span>
+                <span class="chip">CI/CD</span>
+              </div>
+            </article>
+
+            <article class="card glass b-sm reveal" style="--rd: 160ms">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2.2h12.4a1.5 1.5 0 0 0 1.3-2.2L14 9V3" /></svg></div>
+                <h3 data-i18n="unitTesting">Pruebas y Calidad</h3>
+              </div>
+              <div class="chips">
+                <span class="chip">Vitest</span>
+                <span class="chip">Jest</span>
+                <span class="chip">xUnit</span>
+                <span class="chip" data-i18n="testUnit">Pruebas unitarias</span>
+                <span class="chip" data-i18n="testE2e">Pruebas e2e HTTP</span>
+                <span class="chip" data-i18n="testArchitecture">Pruebas de arquitectura</span>
+                <span class="chip chip--hot" data-i18n="testMutation">Mutation testing (Stryker)</span>
+                <span class="chip">SonarQube</span>
+              </div>
+            </article>
+
+            <article class="card glass b-md reveal">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2" /><path d="M8 11V7a4 4 0 1 1 8 0v4" /></svg></div>
+                <h3 data-i18n="skillsSecurityTitle">Seguridad</h3>
+              </div>
+              <div class="chips">
+                <span class="chip" data-i18n="secServerAuth">Autorización en servidor</span>
+                <span class="chip" data-i18n="secRoles">Roles y permisos granulares</span>
+                <span class="chip" data-i18n="secLeastPrivilege">Mínimo privilegio</span>
+                <span class="chip">JWT</span>
+                <span class="chip" data-i18n="secSecrets">Gestión de secretos por ambiente</span>
+              </div>
+            </article>
+
+            <article class="card glass b-md reveal" style="--rd: 80ms">
+              <div class="card__head">
+                <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2" /><path d="M8 21h8M12 17v4" /></svg></div>
+                <h3 data-i18n="skillsFrontendTeamTitle">Frontend y Equipo</h3>
+              </div>
+              <div class="chips">
+                <span class="chip">Next.js</span>
+                <span class="chip">React</span>
+                <span class="chip">React Native</span>
+                <span class="chip">Angular</span>
+                <span class="chip">Scrum</span>
+                <span class="chip">Jira</span>
+                <span class="chip" data-i18n="docsInSpanish">Documentación en español</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section id="experience">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="kicker reveal" data-i18n="expKicker">Experiencia</div>
+            <h2 class="h2 reveal" style="--rd: 80ms" data-i18n-html="expHeadHtml">
+              Dónde he <em>construido</em>
+            </h2>
+          </div>
+
+          <div class="timeline" id="timeline">
+            <div class="timeline__rail"><i></i></div>
+
+            <article class="job reveal">
+              <div class="job__logo"><img src="public/images/ceiba-logo.png" alt="Ceiba" loading="lazy" /></div>
+              <div class="card glass">
+                <h3 data-i18n="ceibaTitle">Arquitecto Desarrollador</h3>
+                <div class="job__meta">
+                  <span data-i18n="ceibaCompany">Ceiba — cliente Los Olivos (marketplace XPets)</span>
+                  <span class="job__date" data-i18n="ceibaDate">Jul 2025 - Actual</span>
+                </div>
+                <ul>
+                  <li data-i18n="ceibaDesc1"></li>
+                  <li data-i18n="ceibaDesc2"></li>
+                  <li data-i18n="ceibaDesc3"></li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job reveal">
+              <div class="job__logo"><img src="public/images/incluirtec.png" alt="Incluirtec" loading="lazy" /></div>
+              <div class="card glass">
+                <h3 data-i18n="incluirtecTitle">Desarrollador Backend</h3>
+                <div class="job__meta">
+                  <span data-i18n="incluirtecCompany">Incluirtec</span>
+                  <span class="job__date" data-i18n="incluirtecDate">Mar 2026 - Jul 2026</span>
+                </div>
+                <ul>
+                  <li data-i18n="incluirtecDesc1"></li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job reveal">
+              <div class="job__logo"><img src="public/images/triko-logo.png" alt="Triko" loading="lazy" /></div>
+              <div class="card glass">
+                <h3 data-i18n="trikoTitle">Desarrollador Backend Senior</h3>
+                <div class="job__meta">
+                  <span data-i18n="trikoCompany">Triko</span>
+                  <span class="job__date" data-i18n="trikoDate">Nov 2024 - Jun 2025</span>
+                </div>
+                <ul>
+                  <li data-i18n="trikoDesc1"></li>
+                  <li data-i18n="trikoDesc2"></li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job reveal">
+              <div class="job__logo"><img src="public/images/merqueo-logo.jpg" alt="Merqueo" loading="lazy" /></div>
+              <div class="card glass">
+                <h3 data-i18n="merqueoTitle">Desarrollador Backend</h3>
+                <div class="job__meta">
+                  <span data-i18n="merqueoCompany">Merqueo S.A.S</span>
+                  <span class="job__date" data-i18n="merqueoDate">Nov 2024 - Jul 2025</span>
+                </div>
+                <ul>
+                  <li data-i18n="merqueoDesc1"></li>
+                  <li data-i18n="merqueoDesc2"></li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job reveal">
+              <div class="job__logo"><img src="public/images/mobi.png" alt="Samsara MoBi" loading="lazy" /></div>
+              <div class="card glass">
+                <h3 data-i18n="samsaraTitle">Co-líder de desarrollo de software</h3>
+                <div class="job__meta">
+                  <span data-i18n="samsaraCompany">Samsara Med</span>
+                  <span class="job__date" data-i18n="samsaraDate">Jun 2023 - Nov 2024</span>
+                </div>
+                <ul>
+                  <li data-i18n="samsaraDesc1"></li>
+                  <li data-i18n="samsaraDesc2"></li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job reveal">
+              <div class="job__logo"><img src="public/images/usc-logo.jpg" alt="Universidad Santiago de Cali" loading="lazy" /></div>
+              <div class="card glass">
+                <h3 data-i18n="uscTitle">Desarrollador de software fullstack</h3>
+                <div class="job__meta">
+                  <span data-i18n="uscCompany">Universidad Santiago de Cali</span>
+                  <span class="job__date" data-i18n="uscDate">Abr 2018 - Dic 2023</span>
+                </div>
+                <div class="tech-chips" style="margin-top: 16px" data-i18n="uscTech" data-tech-chips></div>
+                <ul>
+                  <li data-i18n="uscDesc1"></li>
+                  <li data-i18n="uscDesc2"></li>
+                  <li data-i18n="uscDesc3"></li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="kicker reveal" data-i18n="projKicker">Trabajo</div>
+            <h2 class="h2 reveal" style="--rd: 80ms" data-i18n-html="projHeadHtml">
+              Proyectos <em>destacados</em>
+            </h2>
+          </div>
+
+          <div class="projects">
+            <article class="proj proj--wide card glass reveal">
+              <div class="proj__media proj__media--mark" data-tilt-media>
+                <span class="proj__mark" data-speed="-0.05">XPets</span>
+              </div>
+              <div class="proj__body">
+                <h3 data-i18n="xpetsTitle">XPets — Marketplace (Los Olivos)</h3>
+                <p data-i18n="xpetsDesc"></p>
+                <div class="tech-chips" data-i18n="xpetsTech" data-tech-chips></div>
+              </div>
+            </article>
+
+            <article class="proj card glass reveal">
+              <div class="proj__media"><img src="public/images/Triko-App.png" alt="Triko App" loading="lazy" /></div>
+              <div class="proj__body">
+                <h3 data-i18n="trikoAppTitle">TRIKO APP</h3>
+                <p data-i18n="trikoAppDesc"></p>
+                <div class="tech-chips" data-i18n="trikoAppTech" data-tech-chips></div>
+              </div>
+            </article>
+
+            <article class="proj card glass reveal" style="--rd: 100ms">
+              <div class="proj__media"><img src="public/images/merqueo.jpg" alt="Merqueo" loading="lazy" /></div>
+              <div class="proj__body">
+                <h3 data-i18n="merqueoProjectTitle">Merqueo</h3>
+                <p data-i18n="merqueoProjectDesc"></p>
+                <div class="tech-chips" data-i18n="merqueoProjectTech" data-tech-chips></div>
+              </div>
+            </article>
+
+            <article class="proj card glass reveal">
+              <div class="proj__media proj__media--contain"><img src="public/images/mobi.png" alt="Samsara MoBi" loading="lazy" /></div>
+              <div class="proj__body">
+                <h3 data-i18n="samsaraMobiTitle">Samsara MoBi</h3>
+                <p data-i18n="samsaraMobiDesc"></p>
+                <div class="tech-chips" data-i18n="samsaraMobiTech" data-tech-chips></div>
+              </div>
+            </article>
+
+            <article class="proj card glass reveal" style="--rd: 100ms">
+              <div class="proj__media"><img src="public/images/SIPAC.png" alt="SIPAC" loading="lazy" /></div>
+              <div class="proj__body">
+                <h3 data-i18n="sipacTitle">SIPAC</h3>
+                <p data-i18n="sipacDesc"></p>
+                <div class="tech-chips" data-i18n="sipacTech" data-tech-chips></div>
+              </div>
+            </article>
+
+            <article class="proj card glass reveal">
+              <div class="proj__media"><img src="public/images/apps.png" alt="APPS" loading="lazy" /></div>
+              <div class="proj__body">
+                <h3 data-i18n="appsTitle">Aplicación de Pagos en línea (APPS)</h3>
+                <p data-i18n="appsDesc"></p>
+                <div class="tech-chips" data-i18n="appsTech" data-tech-chips></div>
+              </div>
+            </article>
+
+            <article class="proj card glass reveal" style="--rd: 100ms">
+              <div class="proj__media"><img src="public/images/react-app.png" alt="Geolocalización" loading="lazy" /></div>
+              <div class="proj__body">
+                <h3 data-i18n="geolocationTitle">App de geolocalización - React con PHP</h3>
+                <p data-i18n="geolocationDesc"></p>
+                <div class="tech-chips" data-i18n="geolocationTech" data-tech-chips></div>
+                <a class="proj__link" href="https://react-app-stiven.vercel.app/" target="_blank" rel="noopener">
+                  <span data-i18n="seeMore">Ver más..</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="proj proj--wide card glass reveal">
+              <div class="proj__media"><img src="public/images/api-gestion-eventos.png" alt="API de gestión de eventos" loading="lazy" /></div>
+              <div class="proj__body">
+                <h3 data-i18n="eventsApiTitle">API de gestión de eventos</h3>
+                <p data-i18n="eventsApiDesc"></p>
+                <div class="tech-chips" data-i18n="eventsApiTech" data-tech-chips></div>
+                <a class="proj__link" href="https://github.com/stiv120/gestion-eventos" target="_blank" rel="noopener">
+                  <span data-i18n="seeMore">Ver más..</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EDUCATION ============ -->
+      <section id="education">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="kicker reveal" data-i18n="eduKicker">Formación</div>
+            <h2 class="h2 reveal" style="--rd: 80ms" data-i18n-html="eduHeadHtml">
+              Siempre <em>aprendiendo</em>
+            </h2>
+          </div>
+
+          <div class="edu">
+            <article class="cert glass reveal">
+              <a
+                href="public/images/ceiba-certificado-augmented-professional.png"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="public/images/ceiba-certificado-augmented-professional.png"
+                  alt="Certificado Ceiba - Augmented Professional, Expert Level"
+                  loading="lazy"
+                />
+              </a>
+              <div class="cert__body">
+                <span class="cert__tag">Ceiba · <span data-i18n="aiFirstCertDate">Sep 2026</span></span>
+                <h3 data-i18n="aiFirstCert">AI-First Certified — Augmented Professional, Expert Level</h3>
+                <p data-i18n="aiFirstCertDesc">Roles aumentados y colaboración cognitiva Humano-IA</p>
+              </div>
+            </article>
+
+            <div>
+              <div class="edu__list">
+                <div class="edu__item glass reveal">
+                  <div class="edu__logo"><img src="public/images/remington-logo.png" alt="Remington" loading="lazy" /></div>
+                  <div>
+                    <h3 data-i18n="systemsEngineering">Ingeniería de Sistemas</h3>
+                    <p><span data-i18n="remington">Corporación Universitaria Remington</span> · <span data-i18n="remingtonDate">Abr 2021 - Dic 2023</span></p>
+                  </div>
+                </div>
+                <div class="edu__item glass reveal" style="--rd: 60ms">
+                  <div class="edu__logo"><img src="public/images/sena-logo.png" alt="SENA" loading="lazy" /></div>
+                  <div>
+                    <h3 data-i18n="technologyAnalysis">Tecnólogo en Análisis y Desarrollo de Sistemas de Información</h3>
+                    <p><span data-i18n="sena">SENA</span> · <span data-i18n="senaDate">Sep 2016 - Sep 2018</span></p>
+                  </div>
+                </div>
+                <div class="edu__item glass reveal" style="--rd: 120ms">
+                  <div class="edu__logo"><img src="public/images/platzi-logo.svg" alt="Platzi" loading="lazy" /></div>
+                  <div>
+                    <h3 data-i18n="awsCert">Introducción a AWS: Fundamentos de Cloud Computing</h3>
+                    <p><span data-i18n="platzi">Platzi</span> · <span data-i18n="awsCertDate">2025</span></p>
+                  </div>
+                </div>
+                <div class="edu__item glass reveal" style="--rd: 180ms">
+                  <div class="edu__logo edu__logo--txt">.NET</div>
+                  <div>
+                    <h3 data-i18n="dotnetBootcamp">Bootcamp Backend .NET</h3>
+                    <p><span data-i18n="wwcode">WWCode Medellín y Perficient Latam</span> · <span data-i18n="bootcampDate">2023</span></p>
+                  </div>
+                </div>
+                <div class="edu__item glass reveal" style="--rd: 240ms">
+                  <div class="edu__logo"><img src="public/images/scrumstudy-logo.jpg" alt="ScrumStudy" loading="lazy" /></div>
+                  <div>
+                    <h3 data-i18n="scrumFundamentals">Scrum Fundamentals Certified</h3>
+                    <p><span data-i18n="scrumstudy">ScrumStudy</span> · <span data-i18n="scrumDate">2020</span></p>
+                  </div>
+                </div>
+                <div class="edu__item glass reveal" style="--rd: 300ms">
+                  <div class="edu__logo"><img src="public/images/sena-logo.png" alt="SENA" loading="lazy" /></div>
+                  <div>
+                    <h3 data-i18n="dbSpecialization">Especialización Tecnológica en Gestión y Seguridad de Bases de Datos</h3>
+                    <p><span data-i18n="sena">SENA</span> · <span data-i18n="senaMonths">2019</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="langs reveal">
+                <span class="chip"><b data-i18n="english">Inglés</b><span data-i18n="intermediate">B1+</span></span>
+                <span class="chip"><b data-i18n="spanish">Español</b><span data-i18n="native">Nativo</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="contact">
+        <div class="wrap">
+          <div class="contact__card glass reveal">
+            <span class="orb orb--1" data-speed="0.12"></span>
+            <span class="orb orb--2" data-speed="-0.12"></span>
+            <div class="kicker" data-i18n="contactKicker">Contacto</div>
+            <h2 class="h2" data-i18n-html="contactHeadHtml">¿Construimos algo <em>juntos</em>?</h2>
+            <p class="contact__lead" data-i18n="contactLead">
+              Estoy abierto a roles de backend y de orquestación de agentes de código. Escríbeme y
+              conversamos.
+            </p>
+
+            <div class="mail glass">
+              <span>gallegostiven340@gmail.com</span>
+              <button type="button" class="btn btn--primary" id="copy-mail" data-i18n="copyEmail">
+                Copiar correo
+              </button>
+            </div>
+
+            <div class="contact__links">
+              <a href="mailto:gallegostiven340@gmail.com" class="btn btn--ghost" data-magnet>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
+                Email
+              </a>
+              <a href="https://linkedin.com/in/javierstivenchavez" target="_blank" rel="noopener" class="btn btn--ghost" data-magnet>
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1 1.84-2.07 3.78-2.07 4.04 0 4.78 2.66 4.78 6.12V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.69V21h-4V9.75Z" /></svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/stiv120" target="_blank" rel="noopener" class="btn btn--ghost" data-magnet>
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z" /></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <span>© 2026 Javier Stiven Chávez Gallego · <span data-i18n="footerNote">Hecho con cuidado en Cali, Colombia</span></span>
+            <a href="#top" data-i18n="backToTop">Volver arriba</a>
+          </footer>
+        </div>
+      </section>
+    </main>
+
     <script src="public/js/translations.js"></script>
-    <script src="public/js/scripts.js"></script>
+    <script src="public/js/landing.js"></script>
   </body>
 </html>

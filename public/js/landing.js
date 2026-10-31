@@ -481,7 +481,7 @@
 
       function resetFields() {
         fields.forEach(function (field) {
-          var text = field.querySelector(".stage__text");
+          var text = field.querySelector(".demo__text");
           if (text) text.textContent = "";
           field.classList.remove("is-active", "is-done");
         });
@@ -491,7 +491,7 @@
 
       function fillAll() {
         fields.forEach(function (field) {
-          var text = field.querySelector(".stage__text");
+          var text = field.querySelector(".demo__text");
           var value = field.getAttribute("data-value") || "";
           if (text) text.textContent = field.hasAttribute("data-mask") ? "•".repeat(value.length) : value;
           field.classList.add("is-done");
@@ -506,7 +506,7 @@
         fields.forEach(function (field) {
           var value = field.getAttribute("data-value") || "";
           var mask = field.hasAttribute("data-mask");
-          var text = field.querySelector(".stage__text");
+          var text = field.querySelector(".demo__text");
           var start = delay;
 
           later(function () {

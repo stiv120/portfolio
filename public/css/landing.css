@@ -314,6 +314,18 @@ em,
   flex: none;
 }
 
+.btn--wa {
+  color: #25d366;
+  border-color: rgba(37, 211, 102, 0.45);
+  background: linear-gradient(140deg, rgba(37, 211, 102, 0.18), rgba(37, 211, 102, 0.06));
+}
+
+.btn--wa:hover {
+  color: #6ce58f;
+  border-color: rgba(37, 211, 102, 0.7);
+  background: linear-gradient(140deg, rgba(37, 211, 102, 0.28), rgba(37, 211, 102, 0.1));
+}
+
 /* ---------- Navbar ---------- */
 
 .nav {

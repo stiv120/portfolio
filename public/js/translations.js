@@ -25,7 +25,7 @@ const translations = {
       "Software a la medida, con el front y el back. <em>Senior AI-First</em>.",
     heroLead:
       "Ingeniero de Sistemas con más de 8 años en producción, de la base de datos a la interfaz. Escribo la spec, delego la implementación a agentes y reviso cada diff.",
-    heroRole: "Senior AI-First · Full Stack · NestJS · Next.js · Cloud",
+    heroRole: "Senior AI-First · Node.js · Java · C# · PHP · Go",
     scrollLabel: "Desliza",
     statYears: "años en producción",
     statTests: "pruebas en verde",
@@ -329,7 +329,7 @@ ceibaDesc4:
       "Custom software, front and back. <em>Senior AI-First</em>.",
     heroLead:
       "Systems Engineer with 8+ years in production, from the database to the interface. I write the spec, delegate the implementation to agents, and review every diff.",
-    heroRole: "Senior AI-First · Full Stack · NestJS · Next.js · Cloud",
+    heroRole: "Senior AI-First · Node.js · Java · C# · PHP · Go",
     scrollLabel: "Scroll",
     statYears: "years in production",
     statTests: "passing tests",

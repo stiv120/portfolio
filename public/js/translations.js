@@ -147,7 +147,7 @@ ceibaDesc4:
       "En Los Olivos también construyo el frontend web con React y Next.js y la app móvil con React Native y Expo.",
 
     // Incluirtec
-    incluirtecTitle: "Desarrollador Backend",
+    incluirtecTitle: "Desarrollador Full Stack",
     incluirtecCompany: "Incluirtec",
     incluirtecDate: "Mar 2026 - Jul 2026",
     incluirtecDesc1:
@@ -450,7 +450,7 @@ ceibaDesc4:
       "At Los Olivos I also build the web frontend with React and Next.js and the mobile app with React Native and Expo.",
 
     // Incluirtec
-    incluirtecTitle: "Backend Developer",
+    incluirtecTitle: "Full Stack Developer",
     incluirtecCompany: "Incluirtec",
     incluirtecDate: "Mar 2026 - Jul 2026",
     incluirtecDesc1:

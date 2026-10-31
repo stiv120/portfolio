@@ -5,10 +5,10 @@ const translations = {
     navCta: "Hablemos",
     heroEyebrow: "Disponible para nuevos retos",
     heroTitleHtml:
-      "Construyo backend con <em>agentes de código</em> y criterio de ingeniero.",
+      "Construyo software <em>full stack</em> con agentes de código y criterio de ingeniero.",
     heroLead:
-      "Ingeniero de Sistemas con más de 8 años en producción. Escribo la spec, delego la implementación a agentes y reviso cada diff.",
-    heroRole: "Senior AI-First Developer · NestJS · Cloud",
+      "Ingeniero de Sistemas con más de 8 años en producción, de la base de datos a la interfaz. Escribo la spec, delego la implementación a agentes y reviso cada diff.",
+    heroRole: "Full Stack AI-First Developer · NestJS · Next.js · Cloud",
     scrollLabel: "Desliza",
     statYears: "años en producción",
     statTests: "pruebas en verde",
@@ -38,7 +38,7 @@ const translations = {
     contactKicker: "Contacto",
     contactHeadHtml: "¿Construimos algo <em>juntos</em>?",
     contactLead:
-      "Estoy abierto a roles de backend y de orquestación de agentes de código. Escríbeme y conversamos.",
+      "Estoy abierto a roles full stack y de orquestación de agentes de código. Escríbeme y conversamos.",
     copyEmail: "Copiar correo",
     copied: "¡Copiado!",
     footerNote: "Hecho con cuidado en Cali, Colombia",
@@ -106,7 +106,7 @@ const translations = {
     secRoles: "Roles y permisos granulares",
     secLeastPrivilege: "Mínimo privilegio",
     secSecrets: "Gestión de secretos por ambiente",
-    skillsFrontendTeamTitle: "Frontend y Equipo",
+    skillsFrontendTeamTitle: "Frontend, Mobile y Equipo",
     docsInSpanish: "Documentación en español",
 
     // Experience section
@@ -126,6 +126,8 @@ const translations = {
       "Módulo de catálogo en NestJS con arquitectura hexagonal y DDD: casos de uso, adaptadores PostgreSQL con Drizzle ORM, migraciones y auditoría escrita en la misma transacción que el cambio.",
     ceibaDesc3:
       "Más de 200 pruebas en verde entre unitarias, e2e HTTP y de arquitectura, con mutation testing al 100% en dominio y aplicación.",
+ceibaDesc4:
+      "En Los Olivos también construyo el frontend web con React y Next.js y la app móvil con React Native y Expo.",
 
     // Incluirtec
     incluirtecTitle: "Desarrollador Backend",
@@ -217,9 +219,9 @@ const translations = {
     // XPets project
     xpetsTitle: "XPets — Marketplace (Los Olivos)",
     xpetsDesc:
-      "Marketplace del cliente Los Olivos, desarrollado desde Ceiba. Módulo de catálogo en NestJS con arquitectura hexagonal y DDD: casos de uso, adaptadores PostgreSQL con Drizzle ORM, migraciones versionadas y auditoría escrita en la misma transacción que el cambio. Más de 200 pruebas en verde (unitarias, e2e HTTP y de arquitectura) con mutation testing al 100% en dominio y aplicación.",
+      "Marketplace del cliente Los Olivos, desarrollado desde Ceiba. Módulo de catálogo en NestJS con arquitectura hexagonal y DDD: casos de uso, adaptadores PostgreSQL con Drizzle ORM, migraciones versionadas y auditoría escrita en la misma transacción que el cambio. Más de 200 pruebas en verde (unitarias, e2e HTTP y de arquitectura) con mutation testing al 100% en dominio y aplicación. Frontend web con React y Next.js y app móvil con React Native y Expo.",
     xpetsTech:
-      "NestJS, TypeScript, PostgreSQL, Drizzle ORM, Hexagonal / DDD, Vitest, Stryker, Claude Code.",
+      "NestJS, TypeScript, React, Next.js, React Native, Expo, PostgreSQL, Drizzle ORM, Hexagonal / DDD, Vitest, Stryker, Claude Code.",
 
     // Triko App project
     trikoAppTitle: "TRIKO APP",
@@ -275,10 +277,10 @@ const translations = {
     navCta: "Let's talk",
     heroEyebrow: "Open to new challenges",
     heroTitleHtml:
-      "I build backend with <em>coding agents</em> and an engineer's judgment.",
+      "I build <em>full stack</em> software with coding agents and an engineer's judgment.",
     heroLead:
-      "Systems Engineer with 8+ years in production. I write the spec, delegate the implementation to agents, and review every diff.",
-    heroRole: "Senior AI-First Developer · NestJS · Cloud",
+      "Systems Engineer with 8+ years in production, from the database to the interface. I write the spec, delegate the implementation to agents, and review every diff.",
+    heroRole: "Full Stack AI-First Developer · NestJS · Next.js · Cloud",
     scrollLabel: "Scroll",
     statYears: "years in production",
     statTests: "passing tests",
@@ -307,7 +309,7 @@ const translations = {
     contactKicker: "Contact",
     contactHeadHtml: "Shall we build something <em>together</em>?",
     contactLead:
-      "I'm open to backend and coding-agent orchestration roles. Write to me and let's talk.",
+      "I'm open to full stack and coding-agent orchestration roles. Write to me and let's talk.",
     copyEmail: "Copy email",
     copied: "Copied!",
     footerNote: "Crafted with care in Cali, Colombia",
@@ -375,7 +377,7 @@ const translations = {
     secRoles: "Granular roles & permissions",
     secLeastPrivilege: "Least privilege",
     secSecrets: "Per-environment secrets management",
-    skillsFrontendTeamTitle: "Frontend & Team",
+    skillsFrontendTeamTitle: "Frontend, Mobile & Team",
     docsInSpanish: "Documentation in Spanish",
 
     // Experience section
@@ -395,6 +397,8 @@ const translations = {
       "Catalog module in NestJS with hexagonal architecture and DDD: use cases, PostgreSQL adapters with Drizzle ORM, migrations, and audit records written in the same transaction as the change.",
     ceibaDesc3:
       "200+ passing tests across unit, HTTP e2e, and architecture tests, with 100% mutation testing on the domain and application layers.",
+ceibaDesc4:
+      "At Los Olivos I also build the web frontend with React and Next.js and the mobile app with React Native and Expo.",
 
     // Incluirtec
     incluirtecTitle: "Backend Developer",
@@ -486,9 +490,9 @@ const translations = {
     // XPets project
     xpetsTitle: "XPets — Marketplace (Los Olivos)",
     xpetsDesc:
-      "Marketplace for the client Los Olivos, built through Ceiba. Catalog module in NestJS with hexagonal architecture and DDD: use cases, PostgreSQL adapters with Drizzle ORM, versioned migrations, and audit records written in the same transaction as the change. 200+ passing tests (unit, HTTP e2e, and architecture) with 100% mutation testing on the domain and application layers.",
+      "Marketplace for the client Los Olivos, built through Ceiba. Catalog module in NestJS with hexagonal architecture and DDD: use cases, PostgreSQL adapters with Drizzle ORM, versioned migrations, and audit records written in the same transaction as the change. 200+ passing tests (unit, HTTP e2e, and architecture) with 100% mutation testing on the domain and application layers. Web frontend with React and Next.js and a mobile app with React Native and Expo.",
     xpetsTech:
-      "NestJS, TypeScript, PostgreSQL, Drizzle ORM, Hexagonal / DDD, Vitest, Stryker, Claude Code.",
+      "NestJS, TypeScript, React, Next.js, React Native, Expo, PostgreSQL, Drizzle ORM, Hexagonal / DDD, Vitest, Stryker, Claude Code.",
 
     // Triko App project
     trikoAppTitle: "TRIKO APP",

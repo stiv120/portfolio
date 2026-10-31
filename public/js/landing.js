@@ -170,7 +170,7 @@
   var bgLayers = [];
 
   // Card images get a built-in parallax inside their overflow-hidden frame.
-  document.querySelectorAll(".proj__media:not(.proj__media--contain) img").forEach(function (img) {
+  document.querySelectorAll(".proj__media:not(.proj__media--contain) > img").forEach(function (img) {
     img.dataset.speed = "0.09";
     img.dataset.clampRatio = "0.13";
   });
@@ -454,8 +454,133 @@
   }
 
   /* ------------------------------------------------------------------
+     Project form / login demos — a looping "gif" of someone typing
+     ------------------------------------------------------------------ */
+  function startTypingDemos() {
+    document.querySelectorAll("[data-typing]").forEach(function (demo) {
+      var fields = Array.prototype.slice.call(demo.querySelectorAll("[data-value]"));
+      var submit = demo.querySelector("[data-submit]");
+      var result = demo.querySelector("[data-result]");
+      var timers = [];
+      var gen = 0;
+      var running = false;
+
+      function later(fn, ms, token) {
+        timers.push(
+          setTimeout(function () {
+            if (token !== gen) return;
+            fn();
+          }, ms)
+        );
+      }
+
+      function wipe() {
+        timers.forEach(clearTimeout);
+        timers = [];
+      }
+
+      function resetFields() {
+        fields.forEach(function (field) {
+          var text = field.querySelector(".stage__text");
+          if (text) text.textContent = "";
+          field.classList.remove("is-active", "is-done");
+        });
+        if (submit) submit.classList.remove("is-pressed");
+        if (result) result.classList.remove("is-in");
+      }
+
+      function fillAll() {
+        fields.forEach(function (field) {
+          var text = field.querySelector(".stage__text");
+          var value = field.getAttribute("data-value") || "";
+          if (text) text.textContent = field.hasAttribute("data-mask") ? "•".repeat(value.length) : value;
+          field.classList.add("is-done");
+        });
+        if (result) result.classList.add("is-in");
+      }
+
+      function play(token) {
+        resetFields();
+        var delay = 640;
+
+        fields.forEach(function (field) {
+          var value = field.getAttribute("data-value") || "";
+          var mask = field.hasAttribute("data-mask");
+          var text = field.querySelector(".stage__text");
+          var start = delay;
+
+          later(function () {
+            fields.forEach(function (other) {
+              other.classList.remove("is-active");
+            });
+            field.classList.add("is-active");
+          }, start, token);
+
+          for (var i = 1; i <= value.length; i++) {
+            (function (n) {
+              later(function () {
+                if (text) text.textContent = mask ? "•".repeat(n) : value.slice(0, n);
+              }, start + n * 72, token);
+            })(i);
+          }
+
+          delay = start + value.length * 72 + 380;
+          later(function () {
+            field.classList.remove("is-active");
+            field.classList.add("is-done");
+          }, delay, token);
+        });
+
+        later(function () {
+          if (submit) submit.classList.add("is-pressed");
+        }, delay + 220, token);
+
+        later(function () {
+          if (result) result.classList.add("is-in");
+        }, delay + 520, token);
+
+        later(function () {
+          play(token);
+        }, delay + (result ? 2200 : 1500), token);
+      }
+
+      if (reduceMotion) {
+        fillAll();
+        return;
+      }
+
+      if (!("IntersectionObserver" in window)) {
+        running = true;
+        play(++gen);
+        return;
+      }
+
+      var io = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              if (running) return;
+              running = true;
+              wipe();
+              play(++gen);
+            } else {
+              running = false;
+              gen++;
+              wipe();
+              resetFields();
+            }
+          });
+        },
+        { threshold: 0.45 }
+      );
+      io.observe(demo);
+    });
+  }
+
+  /* ------------------------------------------------------------------
      Boot
      ------------------------------------------------------------------ */
   applyLang(initialLang());
+  startTypingDemos();
   measureParallax();
 })();

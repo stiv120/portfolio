@@ -33,6 +33,7 @@
     </script>
   </head>
   <body>
+    <div class="progress" id="progress" aria-hidden="true"></div>
     <!-- Living background: every layer moves at its own speed -->
     <div class="bg" aria-hidden="true">
       <div class="bg__grid" data-bg="0.06"></div>
@@ -248,6 +249,116 @@
                   <h3 data-i18n="wf4Title">Decidir</h3>
                   <p data-i18n="wf4Desc">Defino qué delego y qué escribo a mano.</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ BUILD (scroll-scrubbed assembly) ============ -->
+      <section class="arch" id="build" aria-labelledby="arch-title">
+        <div class="arch__pin">
+          <div class="wrap arch__grid">
+            <div class="arch__copy">
+              <div class="kicker" data-i18n="archKicker">Cómo construyo</div>
+              <h2 class="h2" id="arch-title" data-i18n-html="archHeadHtml">Un sistema, <em>pieza por pieza</em></h2>
+              <ol class="arch__steps">
+              <li class="arch__step" data-step="0">
+                <span class="arch__n">01</span>
+                <div><h3 data-i18n="arch1Title">Dominio</h3><p data-i18n="arch1Desc">Empiezo por el núcleo: reglas de negocio puras, sin framework de por medio.</p></div>
+              </li>
+              <li class="arch__step" data-step="1">
+                <span class="arch__n">02</span>
+                <div><h3 data-i18n="arch2Title">Casos de uso</h3><p data-i18n="arch2Desc">Cada historia llega con su spec y criterios de aceptación, y se vuelve un caso de uso.</p></div>
+              </li>
+              <li class="arch__step" data-step="2">
+                <span class="arch__n">03</span>
+                <div><h3 data-i18n="arch3Title">Adaptadores</h3><p data-i18n="arch3Desc">API en NestJS, web con React y Next.js, móvil con React Native y Expo, y PostgreSQL con Drizzle.</p></div>
+              </li>
+              <li class="arch__step" data-step="3">
+                <span class="arch__n">04</span>
+                <div><h3 data-i18n="arch4Title">Pruebas</h3><p data-i18n="arch4Desc">Más de 200 pruebas y mutation testing al 100% en dominio y aplicación cierran la armadura.</p></div>
+              </li>
+              </ol>
+              <div class="arch__bar" aria-hidden="true"><i></i></div>
+            </div>
+            <div class="arch__stage">
+              <div class="arch__tilt">
+                <svg class="arch__svg" id="arch-svg" viewBox="20 20 660 660" role="img" aria-label="Arquitectura hexagonal armándose pieza por pieza">
+  <defs>
+    <linearGradient id="gAB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b9bff"/><stop offset="1" stop-color="#46e3d0"/></linearGradient>
+    <linearGradient id="gGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+    <linearGradient id="gCore" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c3ccff"/><stop offset="1" stop-color="#46e3d0"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g class="a-piece" data-win="0,0.12" data-spin="1" data-from="0,0,0,0.6">
+    <circle cx="350" cy="350" r="330" fill="none" stroke="rgba(255,255,255,.14)" stroke-dasharray="2 10"/>
+    <circle cx="350" cy="350" r="296" fill="none" stroke="rgba(70,227,208,.28)" stroke-dasharray="70 300"/>
+  </g>
+  <g class="a-piece" data-win="0.38,0.46" data-draw="1">
+    <line x1="350.0" y1="246.1" x2="350.0" y2="134.8" pathLength="1" stroke="url(#gAB)" stroke-width="2" stroke-dasharray="1" stroke-linecap="round"/>
+    <circle cx="350.0" cy="246.1" r="4.5" fill="#46e3d0"/>
+  </g>
+  <g class="a-piece" data-win="0.44,0.52" data-draw="1">
+    <line x1="440.0" y1="298.0" x2="536.4" y2="242.4" pathLength="1" stroke="url(#gAB)" stroke-width="2" stroke-dasharray="1" stroke-linecap="round"/>
+    <circle cx="440.0" cy="298.0" r="4.5" fill="#46e3d0"/>
+  </g>
+  <g class="a-piece" data-win="0.50,0.58" data-draw="1">
+    <line x1="440.0" y1="402.0" x2="536.4" y2="457.6" pathLength="1" stroke="url(#gAB)" stroke-width="2" stroke-dasharray="1" stroke-linecap="round"/>
+    <circle cx="440.0" cy="402.0" r="4.5" fill="#46e3d0"/>
+  </g>
+  <g class="a-piece" data-win="0.56,0.64" data-draw="1">
+    <line x1="350.0" y1="453.9" x2="350.0" y2="565.2" pathLength="1" stroke="url(#gAB)" stroke-width="2" stroke-dasharray="1" stroke-linecap="round"/>
+    <circle cx="350.0" cy="453.9" r="4.5" fill="#46e3d0"/>
+  </g>
+  <g class="a-piece" data-win="0.62,0.70" data-draw="1">
+    <line x1="260.0" y1="402.0" x2="163.6" y2="457.6" pathLength="1" stroke="url(#gAB)" stroke-width="2" stroke-dasharray="1" stroke-linecap="round"/>
+    <circle cx="260.0" cy="402.0" r="4.5" fill="#46e3d0"/>
+  </g>
+  <g class="a-piece" data-win="0.68,0.76" data-draw="1">
+    <line x1="260.0" y1="298.0" x2="163.6" y2="242.4" pathLength="1" stroke="url(#gAB)" stroke-width="2" stroke-dasharray="1" stroke-linecap="round"/>
+    <circle cx="260.0" cy="298.0" r="4.5" fill="#46e3d0"/>
+  </g>
+  <g class="a-piece" data-win="0.2,0.4" data-from="0,0,-70,1.8">
+    <polygon points="470.0,350.0 410.0,453.9 290.0,453.9 230.0,350.0 290.0,246.1 410.0,246.1" fill="rgba(139,155,255,.10)" stroke="url(#gAB)" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="454.0,350.0 402.0,440.1 298.0,440.1 246.0,350.0 298.0,259.9 402.0,259.9" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1" stroke-dasharray="3 7"/>
+    <text x="350" y="268" text-anchor="middle" class="a-mono" data-i18n="archApp">Casos de uso</text>
+  </g>
+  <g class="a-piece a-core" data-win="0.02,0.2" data-from="0,0,180,0.1">
+    <polygon points="412.0,350.0 381.0,403.7 319.0,403.7 288.0,350.0 319.0,296.3 381.0,296.3" fill="url(#gCore)" stroke="rgba(255,255,255,.7)" stroke-width="1.5" stroke-linejoin="round" filter="url(#glow)"/>
+    <text x="350" y="355" text-anchor="middle" class="a-core-t" data-i18n="archCore">Dominio</text>
+  </g>
+  <g class="a-piece a-tile" data-win="0.42,0.54" data-from="0,-300,40,0.6">
+    <polygon points="404.0,88.0 377.0,134.8 323.0,134.8 296.0,88.0 323.0,41.2 377.0,41.2" fill="url(#gGlass)" stroke="rgba(255,255,255,.4)" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="350.0" y="86.0" text-anchor="middle" class="a-tt">NestJS</text>
+    <text x="350.0" y="101.0" text-anchor="middle" class="a-ts">API · HTTP</text>
+  </g>
+  <g class="a-piece a-tile" data-win="0.48,0.60" data-from="260,-150,-40,0.6">
+    <polygon points="630.9,219.0 603.9,265.8 549.9,265.8 522.9,219.0 549.9,172.2 603.9,172.2" fill="url(#gGlass)" stroke="rgba(255,255,255,.4)" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="576.9" y="217.0" text-anchor="middle" class="a-tt">Next.js</text>
+    <text x="576.9" y="232.0" text-anchor="middle" class="a-ts">React · Web</text>
+  </g>
+  <g class="a-piece a-tile" data-win="0.54,0.66" data-from="260,150,40,0.6">
+    <polygon points="630.9,481.0 603.9,527.8 549.9,527.8 522.9,481.0 549.9,434.2 603.9,434.2" fill="url(#gGlass)" stroke="rgba(255,255,255,.4)" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="576.9" y="479.0" text-anchor="middle" class="a-tt">React Native</text>
+    <text x="576.9" y="494.0" text-anchor="middle" class="a-ts">Expo · Mobile</text>
+  </g>
+  <g class="a-piece a-tile" data-win="0.60,0.72" data-from="0,300,-40,0.6">
+    <polygon points="404.0,612.0 377.0,658.8 323.0,658.8 296.0,612.0 323.0,565.2 377.0,565.2" fill="url(#gGlass)" stroke="rgba(255,255,255,.4)" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="350.0" y="610.0" text-anchor="middle" class="a-tt">PostgreSQL</text>
+    <text x="350.0" y="625.0" text-anchor="middle" class="a-ts">Drizzle ORM</text>
+  </g>
+  <g class="a-piece a-tile" data-win="0.66,0.78" data-from="-260,150,40,0.6">
+    <polygon points="177.1,481.0 150.1,527.8 96.1,527.8 69.1,481.0 96.1,434.2 150.1,434.2" fill="url(#gGlass)" stroke="rgba(255,255,255,.4)" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="123.1" y="479.0" text-anchor="middle" class="a-tt" data-i18n="archAuditT">Auditoría</text>
+    <text x="123.1" y="494.0" text-anchor="middle" class="a-ts" data-i18n="archAuditS">atómica</text>
+  </g>
+  <g class="a-piece a-tile" data-win="0.72,0.84" data-from="-260,-150,-40,0.6">
+    <polygon points="177.1,219.0 150.1,265.8 96.1,265.8 69.1,219.0 96.1,172.2 150.1,172.2" fill="url(#gGlass)" stroke="rgba(255,255,255,.4)" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="123.1" y="217.0" text-anchor="middle" class="a-tt" data-i18n="archTestsT">Pruebas</text>
+    <text x="123.1" y="232.0" text-anchor="middle" class="a-ts">200+ · Stryker</text>
+  </g>
+</svg>
               </div>
             </div>
           </div>

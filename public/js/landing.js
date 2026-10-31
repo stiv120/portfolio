@@ -200,6 +200,76 @@
     return vh;
   }
 
+  /* ------------------------------------------------------------------
+     "How I build": pinned section, hexagonal architecture assembles
+     piece by piece as you scroll (progress-scrubbed, no library)
+     ------------------------------------------------------------------ */
+  var arch = document.getElementById("build");
+  var archPieces = [];
+  var archSteps = [];
+  var archLast = -1;
+  var ARCH_STEP_AT = [0, 0.2, 0.42, 0.8];
+
+  if (arch) {
+    archSteps = Array.prototype.slice.call(arch.querySelectorAll(".arch__step"));
+    archPieces = Array.prototype.map.call(arch.querySelectorAll(".a-piece"), function (el) {
+      var w = el.dataset.win.split(",").map(parseFloat);
+      return {
+        el: el,
+        s: w[0],
+        e: w[1],
+        from: el.dataset.from ? el.dataset.from.split(",").map(parseFloat) : null,
+        spin: !!el.dataset.spin,
+        line: el.dataset.draw ? el.querySelector("line") : null,
+      };
+    });
+  }
+
+  function easeOut(t) {
+    return 1 - Math.pow(1 - t, 3);
+  }
+
+  function renderArch() {
+    if (!arch) return;
+    var r = arch.getBoundingClientRect();
+    var total = Math.max(1, r.height - window.innerHeight);
+    var p = reduceMotion ? 1 : clamp(-r.top / total, 0, 1);
+    if (p === archLast) return;
+    archLast = p;
+
+    arch.style.setProperty("--ap", p.toFixed(4));
+    arch.classList.toggle("is-done", p > 0.95);
+
+    for (var i = 0; i < archPieces.length; i++) {
+      var piece = archPieces[i];
+      var t = easeOut(clamp((p - piece.s) / (piece.e - piece.s), 0, 1));
+      var k = 1 - t;
+      var f = piece.from;
+      var tf = "";
+      if (f) {
+        tf =
+          "translate(" + (f[0] * k).toFixed(1) + "px," + (f[1] * k).toFixed(1) + "px) rotate(" +
+          (f[2] * k).toFixed(1) + "deg) scale(" + (f[3] + (1 - f[3]) * t).toFixed(3) + ")";
+      }
+      if (piece.spin) tf += " rotate(" + (p * 140).toFixed(1) + "deg)";
+      piece.el.style.transform = tf;
+      if (piece.line) {
+        piece.line.style.strokeDashoffset = k.toFixed(3);
+        piece.el.style.opacity = clamp(t * 4, 0, 1).toFixed(2);
+      } else {
+        piece.el.style.opacity = t.toFixed(2);
+      }
+    }
+
+    var active = 0;
+    for (var j = 0; j < ARCH_STEP_AT.length; j++) {
+      if (p >= ARCH_STEP_AT[j]) active = j;
+    }
+    archSteps.forEach(function (el, idx) {
+      el.classList.toggle("is-active", idx === active);
+    });
+  }
+
   var ticking = false;
 
   function renderScroll() {
@@ -232,6 +302,10 @@
     }
 
     updateTimeline();
+    renderArch();
+
+    var bar = document.getElementById("progress");
+    if (bar) bar.style.setProperty("--sp", p.toFixed(4));
   }
 
   function onScroll() {

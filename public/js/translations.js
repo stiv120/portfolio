@@ -1,6 +1,23 @@
 // Translations object
 const translations = {
   es: {
+    // Build section
+    archKicker: "Cómo construyo",
+    archHeadHtml: "Un sistema, <em>pieza por pieza</em>",
+    archCore: "Dominio",
+    archApp: "Casos de uso",
+    archAuditT: "Auditoría",
+    archAuditS: "atómica",
+    archTestsT: "Pruebas",
+    arch1Title: "Dominio",
+    arch1Desc: "Empiezo por el núcleo: reglas de negocio puras, sin framework de por medio.",
+    arch2Title: "Casos de uso",
+    arch2Desc: "Cada historia llega con su spec y criterios de aceptación, y se vuelve un caso de uso.",
+    arch3Title: "Adaptadores",
+    arch3Desc: "API en NestJS, web con React y Next.js, móvil con React Native y Expo, y PostgreSQL con Drizzle.",
+    arch4Title: "Pruebas",
+    arch4Desc: "Más de 200 pruebas y mutation testing al 100% en dominio y aplicación cierran la armadura.",
+
     // Landing
     navCta: "Hablemos",
     heroEyebrow: "Disponible para nuevos retos",
@@ -273,6 +290,23 @@ ceibaDesc4:
       "Node.js, Express.js, JavaScript, Docker, Jest, MySQL, GitHub.",
   },
   en: {
+    // Build section
+    archKicker: "How I build",
+    archHeadHtml: "A system, <em>piece by piece</em>",
+    archCore: "Domain",
+    archApp: "Use cases",
+    archAuditT: "Audit",
+    archAuditS: "atomic",
+    archTestsT: "Tests",
+    arch1Title: "Domain",
+    arch1Desc: "I start at the core: pure business rules, no framework in the way.",
+    arch2Title: "Use cases",
+    arch2Desc: "Every story arrives with its spec and acceptance criteria, and becomes a use case.",
+    arch3Title: "Adapters",
+    arch3Desc: "API in NestJS, web with React and Next.js, mobile with React Native and Expo, and PostgreSQL with Drizzle.",
+    arch4Title: "Tests",
+    arch4Desc: "200+ tests and 100% mutation testing on domain and application close the armor.",
+
     // Landing
     navCta: "Let's talk",
     heroEyebrow: "Open to new challenges",
